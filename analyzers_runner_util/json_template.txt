@@ -1,0 +1,534 @@
+{
+  "analyzers_all": ["cppcheck", "frama-c", "splint", "infer", "flawfinder", "rats"],
+  "tests": [
+    {
+      "name": "Buffer Overflow (CWE 120)",
+      "path": "tests/sa-tests-db/basic_set/c/3-buffer-overflow",
+      "cwe": 120,
+      "analyzers": {
+
+        "cppcheck": {
+          "accepted_errors": [
+            "arrayIndexOutOfBounds",
+            "bufferAccessOutOfBounds",
+            "outOfBounds"
+          ],
+          "accepted_cwe": [120, 787, 788]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "out of bounds",
+            "invalid memory access"
+          ],
+          "accepted_cwe": [120, 787, 788]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "Likely buffer overflow",
+            "Out of bounds array access",
+            "out-of-bounds"
+          ],
+          "accepted_cwe": [120, 787, 788]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "BUFFER_OVERRUN_L1",
+            "BUFFER_OVERRUN_L2",
+            "Out of bounds write"
+          ],
+          "accepted_cwe": [120, 787, 788]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "buffer overflow",
+            "potential overflows",
+            "buffer overflows",
+            "CWE-120",
+            "buffer overflow"
+          ],
+          "accepted_cwe": [120]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "buffer overflow",
+            "memset",
+            "High risk: memset"
+          ],
+          "accepted_cwe": [120]
+        }
+      }
+    },
+    {
+      "name": "Tainted (CWE 1284)",
+      "path": "tests/sa-tests-db/basic_set/c/1-tainted",
+      "cwe": 1284,
+      "analyzers": {
+
+        "cppcheck": {
+          "accepted_errors": [
+            "unvalidated input",
+            "unvalidated tainted",
+            "unvalidated value",
+            "untrusted data",
+            "tainted data in allocation",
+            "size argument is tainted",
+            "tainted size",
+            "tainted value used here",
+            "Division by tainted", 
+            "unbounded memory allocation"
+          ],
+          "accepted_cwe": [1284, 20, 190, 1255]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "value from untrusted source",
+            "argument may be invalid",
+            "allocation size may be unbounded",
+            "invalid size",
+            "untrusted value reaches",
+            "value from 'scanf' flows to",
+            "insufficient validation",
+            "size argument might be unchecked"
+          ],
+          "accepted_cwe": [1284, 20, 190, 1255]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "derived from tainted",
+            "tainted input",
+            "value not validated",
+            "improper input checking",
+            "unvalidated parameter",
+            "possibly untrusted"
+          ],
+          "accepted_cwe": [1284, 20, 190, 1255]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "TAINT_ERROR",
+            "TaintFlow",
+            "UNTRUSTED_INPUT",
+            "unvalidated input",
+            "parameter is tainted",
+            "tainted value may reach",
+            "tainted value reaches",
+            "tainted argument",
+            "untrusted data passed to malloc",
+            "allocation with untrusted input",
+            "size is influenced by user-controlled input"
+          ],
+          "accepted_cwe": [1284, 20, 190, 1255]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "uncontrolled value",
+            "possibly unbounded",
+            "unbounded allocation",
+            "improper input validation",
+            "CWE-20",
+            "CWE-1284",
+            "user-controlled value"
+          ],
+          "accepted_cwe": [1284, 20, 190, 1255]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "unbounded",
+            "user-controlled input",
+            "validation failure",
+            "improper input",
+            "dangerous use of untrusted data",
+            "malloc with user input"
+          ],
+          "accepted_cwe": [1284, 20, 190, 1255]
+        }
+      }
+    },
+    {
+      "name": "Integer Overflow (CWE 190)",
+      "path": "tests/sa-tests-db/basic_set/c/2-integer-overflow",
+      "cwe": 190,
+      "analyzers": {
+
+        "cppcheck": {
+          "accepted_errors": [
+            "integer overflow",
+            "signed integer overflow",
+            "untrusted value could cause integer overflow",
+            "overflow in expression",
+            "dangerous shift",
+            "shifting negative value",
+            "shifting signed value is undefined"
+          ],
+          "accepted_cwe": [190, 191, 681]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "integer overflow",
+            "value overflow",
+            "arithmetic overflow",
+            "signed overflow",
+            "wraparound",
+            "operand overflow",
+            "possible overflow"
+          ],
+          "accepted_cwe": [190, 191, 681]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "arithmetical overflow",
+            "integer overflow",
+            "numeric overflow",
+            "suspicious arithmetic",
+            "value might wrap",
+            "overflow in computation"
+          ],
+          "accepted_cwe": [190, 191, 681]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "INTEGER_OVERFLOW",
+            "UNARY_MINUS_OVERFLOW",
+            "ARITHMETIC_OVERFLOW",
+            "Possible integer overflow",
+            "signed overflow",
+            "overflow during addition",
+            "overflow during multiplication"
+          ],
+          "accepted_cwe": [190, 191, 681]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "integer overflow",
+            "CWE-190",
+            "arithmetic overflow",
+            "potential overflow",
+            "value may wrap"
+          ],
+          "accepted_cwe": [190]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "integer overflow",
+            "integer wraparound",
+            "dangerous arithmetic",
+            "numeric overflow"
+          ],
+          "accepted_cwe": [190]
+        }
+      }
+    },
+    {
+      "name": "NULL Dereference (CWE 476)",
+      "path": "tests/sa-tests-db/basic_set/c/lang1-null-deref",
+      "cwe": 476,
+      "analyzers": {
+
+        "cppcheck": {
+          "accepted_errors": [
+            "nullPointer",
+            "possible null pointer",
+            "dereference null"
+          ],
+          "accepted_cwe": [476, 690, 824]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "dereferencing a null pointer",
+            "null pointer",
+            "invalid memory access"
+          ],
+          "accepted_cwe": [476, 690, 824]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "Possible null dereference",
+            "Null pointer dereferenced",
+            "null pointer"
+          ],
+          "accepted_cwe": [476]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "NULL_DEREFERENCE",
+            "NULLPTR_DEREFERENCE",
+            "null dereference"
+          ],
+          "accepted_cwe": [476]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "null pointer dereference",
+            "CWE-476"
+          ],
+          "accepted_cwe": [476]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "null dereference",
+            "CWE-476"
+          ],
+          "accepted_cwe": [476]
+        }
+      }
+    },
+    {
+      "name": "Divide by Zero (CWE 369)",
+      "path": "tests/sa-tests-db/basic_set/c/lang2-div-by-zero",
+      "cwe": 369,
+      "analyzers": {
+
+        "cppcheck": {
+          "accepted_errors": [
+            "division by zero",
+            "divide by zero",
+            "modulo of zero"
+          ],
+          "accepted_cwe": [369]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "division by zero",
+            "assert",
+            "undefined value",
+            "possible division by zero"
+          ],
+          "accepted_cwe": [369]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "Possible divide by zero",
+            "division by zero",
+            "zero denominator"
+          ],
+          "accepted_cwe": [369]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "DIVIDE_BY_ZERO",
+            "division by zero"
+          ],
+          "accepted_cwe": [369]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "divide by zero",
+            "CWE-369"
+          ],
+          "accepted_cwe": [369]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "division by zero",
+            "CWE-369"
+          ],
+          "accepted_cwe": [369]
+        }
+      }
+    },
+    {
+      "name": "Invalid Free / Memory Management (CWE 763)",
+      "path": "tests/sa-tests-db/basic_set/c/lang3-mem-mgmt",
+      "cwe": 763,
+      "analyzers": {
+        
+        "cppcheck": {
+          "accepted_errors": [
+            "deallocating memory not allocated",
+            "mismatching allocation",
+            "invalid free",
+            "pointer arithmetic on allocation"
+          ],
+          "accepted_cwe": [763, 761, 415, 416]
+        },
+        
+        "frama-c": {
+          "accepted_errors": [
+            "invalid free",
+            "pointer is outside allocated block",
+            "invalid memory access"
+          ],
+          "accepted_cwe": [763, 761, 415, 416]
+        },
+        
+        "splint": {
+          "accepted_errors": [
+            "Possibly freeing non-allocated storage",
+            "Invalid free",
+            "freeing memory outside region"
+          ],
+          "accepted_cwe": [763]
+        },
+        
+        "infer": {
+          "accepted_errors": [
+            "INVALID_FREE",
+            "MEMORY_LEAK",
+            "pointer not allocated",
+            "freeing pointer not at base address"
+          ],
+          "accepted_cwe": [763, 415, 416]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "invalid free",
+            "CWE-763"
+          ],
+          "accepted_cwe": [763]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "free called on invalid pointer",
+            "high risk: free",
+            "CWE-763"
+          ],
+          "accepted_cwe": [763]
+        }
+      }
+    },
+    {
+      "name": "Format String Vulnerability (CWE 134)",
+      "path": "tests/sa-tests-db/basic_set/c/lang4-format-args",
+      "cwe": 134,
+      "analyzers": {
+        
+        "cppcheck": {
+          "accepted_errors": [
+            "uncontrolled format string",
+            "format string",
+            "wrong type in format"
+          ],
+          "accepted_cwe": [134, 685]
+        },
+        
+        "frama-c": {
+          "accepted_errors": [
+            "format string",
+            "invalid format specifier",
+            "dangerous format"
+          ],
+          "accepted_cwe": [134]
+        },
+        
+        "splint": {
+          "accepted_errors": [
+            "Format string vulnerability",
+            "invalid format arg",
+            "dangerous format"
+          ],
+          "accepted_cwe": [134]
+        },
+        
+        "infer": {
+          "accepted_errors": [
+            "FORMAT_STRING",
+            "printf format issue"
+          ],
+          "accepted_cwe": [134]
+        },
+        
+        "flawfinder": {
+          "accepted_errors": [
+            "format string",
+            "CWE-134"
+          ],
+          "accepted_cwe": [134]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "format string",
+            "printf",
+            "CWE-134"
+          ],
+          "accepted_cwe": [134]
+        }
+      }
+    },
+    {
+      "name": "Uninitialized Memory Use (CWE 908)",
+      "path": "tests/sa-tests-db/basic_set/c/lang5-uninit",
+      "cwe": 908,
+      "analyzers": {
+        
+        "cppcheck": {
+          "accepted_errors": [
+            "uninitialized variable",
+            "uninit",
+            "using uninitialized value"
+          ],
+          "accepted_cwe": [908, 457]
+        },
+        
+        "frama-c": {
+          "accepted_errors": [
+            "uninitialized value",
+            "reading uninitialized memory",
+            "undefined value"
+          ],
+          "accepted_cwe": [908, 457]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "Variable may be used before definition",
+            "Possibly undefined",
+            "uninitialized"
+          ],
+          "accepted_cwe": [908]
+        },
+        
+        "infer": {
+          "accepted_errors": [
+            "UNINITIALIZED_VALUE",
+            "READ_UNINITIALIZED_VALUE"
+          ],
+          "accepted_cwe": [908, 457]
+        },
+        
+        "flawfinder": {
+          "accepted_errors": [
+            "uninitialized",
+            "CWE-908"
+          ],
+          "accepted_cwe": [908]
+        },
+        
+        "rats": {
+          "accepted_errors": [
+            "uninitialized",
+            "CWE-908"
+          ],
+          "accepted_cwe": [908]
+        }
+      }
+    }
+  ]
+}

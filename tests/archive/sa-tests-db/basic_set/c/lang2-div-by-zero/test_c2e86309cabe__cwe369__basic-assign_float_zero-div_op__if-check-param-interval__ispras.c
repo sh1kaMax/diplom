@@ -1,0 +1,23 @@
+// Авторы теста: ИСП РАН
+// CWE: 369
+// Название: Divide by zero
+// Модельный вариант: basic-assign_float_zero-div_op.json
+//
+// Нулевое float значение присваивается явно.
+// Деление осуществляется непосредственно (с помощью операции деления).
+//
+// Поточный вариант: if-check-param-interval.c
+// Достижимый путь от источника до стока с проверкой составного условия,
+// результат которого зависит от параметра функции.
+
+#include <stdlib.h>
+
+void func(int param) {
+  float divident = 44.98, divisor = 14.55, result;
+
+  divisor = 0.0;
+
+  if (param > 44 && param < 67) {
+    result = divident / divisor; // FLAW
+  }
+}

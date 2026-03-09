@@ -1,0 +1,72 @@
+[["test_66740a61edaa__cwe732__basic__if-check-inverted__ispras.c"]]
+lines = [ 31 ]
+rule = "CWE-732"
+tags = [ "flow", "if", ]
+
+[["test_00087f501d27__cwe732__basic__linear-filtered-flipped__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-732"
+tags = [ "flow", ]
+
+[["test_0d7159096613__cwe732__basic__linear-filtered-inverted__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-732"
+tags = [ "flow", ]
+
+[["test_f4f8250ec3f5__cwe732__basic__linear__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-732"
+tags = [ "flow", ]
+
+[["test_c72c0399d160__cwe732__basic__ternary__ispras.c"]]
+lines = [ 33 ]
+rule = "CWE-732"
+tags = [ "flow", "ternary", ]
+
+[["test_413aececd546__cwe732__basic__linear-inverted__ispras.c"]]
+rule = "CWE-732"
+tags = [ "flow", ]
+
+[["bad-md5-used__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-328"
+tags = [  ]
+
+[["bad-sha1-used-1__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-328"
+tags = [  ]
+
+[["good-sha256-used__ispras.c"]]
+rule = "CWE-328"
+tags = [  ]
+
+[["bad-md5-used-1__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-328"
+tags = [  ]
+
+[["bad-sha1-used__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-328"
+tags = [  ]
+
+[["good-rand-iv__ispras.c"]]
+rule = "CWE-329"
+tags = [  ]
+
+[["bad-const-iv-2__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-329"
+tags = [  ]
+
+[["bad-const-iv-3__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-329"
+tags = [  ]
+
+[["bad-const-iv-1__ispras.c"]]
+lines = [ 20 ]
+rule = "CWE-329"
+tags = [  ]
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.7"/>
+    <errors>
+        <error id="checkLibraryNoReturn" severity="information" msg="--check-library: Function critical_sink() should have &lt;noreturn&gt; configuration" verbose="--check-library: Function critical_sink() should have &lt;noreturn&gt; configuration" file0="test_0a3b5ef7bb54__cwe1284__tainted_func_input-critical_sink__if-check-param__ispras.c">
+            <location file="test_0a3b5ef7bb54__cwe1284__tainted_func_input-critical_sink__if-check-param__ispras.c" line="35" column="28"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;func&apos; is never used." verbose="The function &apos;func&apos; is never used." cwe="561">
+            <location file="test_0a3b5ef7bb54__cwe1284__tainted_func_input-critical_sink__if-check-param__ispras.c" line="29" column="0"/>
+            <symbol>func</symbol>
+        </error>
+    </errors>
+</results>

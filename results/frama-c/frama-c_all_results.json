@@ -1,0 +1,53 @@
+{
+    "analyzer": "frama-c",
+    "tests_result": {
+        "Buffer Overflow (CWE 120)": {
+            "correct_positive_tests": 821,
+            "all_positive_tests": 1717,
+            "count_negative_tests": 1687,
+            "all_negative_tests": 1859
+        },
+        "Tainted (CWE 1284)": {
+            "correct_positive_tests": 0,
+            "all_positive_tests": 915,
+            "count_negative_tests": 676,
+            "all_negative_tests": 676
+        },
+        "Integer Overflow (CWE 190)": {
+            "correct_positive_tests": 551,
+            "all_positive_tests": 833,
+            "count_negative_tests": 677,
+            "all_negative_tests": 778
+        },
+        "NULL Dereference (CWE 476)": {
+            "correct_positive_tests": 410,
+            "all_positive_tests": 615,
+            "count_negative_tests": 700,
+            "all_negative_tests": 785
+        },
+        "Divide by Zero (CWE 369)": {
+            "correct_positive_tests": 810,
+            "all_positive_tests": 992,
+            "count_negative_tests": 1321,
+            "all_negative_tests": 1541
+        },
+        "Invalid Free or Memory Management (CWE 763)": {
+            "correct_positive_tests": 120,
+            "all_positive_tests": 660,
+            "count_negative_tests": 474,
+            "all_negative_tests": 580
+        },
+        "Format String Vulnerability (CWE 134)": {
+            "correct_positive_tests": 0,
+            "all_positive_tests": 100,
+            "count_negative_tests": 96,
+            "all_negative_tests": 96
+        },
+        "Uninitialized Memory Use (CWE 908)": {
+            "correct_positive_tests": 372,
+            "all_positive_tests": 392,
+            "count_negative_tests": 696,
+            "all_negative_tests": 728
+        }
+    }
+}

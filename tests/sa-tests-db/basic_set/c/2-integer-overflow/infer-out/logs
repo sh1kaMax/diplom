@@ -1,0 +1,117 @@
+[54570][      debug] Loading models took 37.157ms
+[54572][      debug] Sqlite write daemon: starting up
+[54572][      debug] Sqlite write daemon: set up complete, waiting for connections
+[54570][environment] CWD = /home/shika/diplom/tests/sa-tests-db/basic_set/c/2-integer-overflow
+[54570][environment] No .inferconfig file found
+[54570][environment] Project root = /home/shika/diplom/tests/sa-tests-db/basic_set/c/2-integer-overflow
+[54570][environment] INFER_ARGS =   
+[54570][environment] command line arguments:   infer -- gcc -Wall -Wextra
+[54570][environment]                           -I/home/shika/diplom/analazers_runner_util/include
+[54570][environment]                           -c
+[54570][environment]                           test_0af8a8f88ec2__cwe190__const-add-uint64__linear__ispras_positive.c
+[54570][environment] Available memory at startup: 4856 MB
+[54570][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[54570][environment] Scheduler: file
+[54570][environment] Cores used: 6
+[54570][environment] Infer version v1.1.0
+[54570][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[54570][environment] 
+[54570][   progress] Capturing in make/cc mode...
+[54570][      debug] 
+[54570][      debug] *** Beginning capture of file /home/shika/diplom/tests/sa-tests-db/basic_set/c/2-integer-overflow/test_0af8a8f88ec2__cwe190__const-add-uint64__linear__ispras_positive.c ***
+[54570][      debug] Loading the following linters files: /opt/infer-1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[54570][      debug] Elapsed: 28.976ms.
+[54570][      debug] GC stats for capture:
+[54570][      debug]   minor_words: 1.86578e+06
+[54570][      debug]   promoted_words: 276801
+[54570][      debug]   major_words: 292449
+[54570][      debug]   minor_collections: 3
+[54570][      debug]   major_collections: 0
+[54570][      debug]   compactions: 0
+[54570][      debug]   top_heap_words: 1006592
+[54570][      debug]   
+[54570][environment] Parallel jobs: 6
+[54570][   progress] Found 1 source file to analyze in /home/shika/diplom/tests/sa-tests-db/basic_set/c/2-integer-overflow/infer-out
+[54577][   progress] test_0af8a8f88ec2__cwe190__const-add-uint64__linear__ispras_positive.c starting
+[54577][   progress] test_0af8a8f88ec2__cwe190__const-add-uint64__linear__ispras_positive.c DONE
+[54570][      debug] Backend stats:
+[54570][      debug]   summary_file_try_load= 3
+[54570][      debug]   summary_read_from_disk= 0
+[54570][      debug]   summary_cache_hits= 27 (90%)
+[54570][      debug]   summary_cache_misses= 3
+[54570][      debug]   ondemand_procs_analyzed= 1
+[54570][      debug]   ondemand_local_cache_hits= 10 (83%)
+[54570][      debug]   ondemand_local_cache_misses= 2
+[54570][      debug]   proc_locker_lock_time_user= 0.00000000
+[54570][      debug]   proc_locker_lock_time_sys= 0.00000000
+[54570][      debug]   proc_locker_lock_time_wall= 0.00000000
+[54570][      debug]   proc_locker_unlock_time_user= 0.00000000
+[54570][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[54570][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[54570][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[54570][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[54570][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[54570][      debug]   restart_scheduler_total_time_user= 0.00000000
+[54570][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[54570][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[54570][      debug]   
+[54570][      debug] GC stats for backend_stats.gc_stats_add.:
+[54570][      debug]   minor_words: 730292
+[54570][      debug]   promoted_words: 21943
+[54570][      debug]   major_words: 26292
+[54570][      debug]   minor_collections: 1
+[54570][      debug]   major_collections: 0
+[54570][      debug]   compactions: 0
+[54570][      debug]   top_heap_words: 6039552
+[54570][      debug]   
+[54570][      debug] GC stats for backend_stats.gc_stats_max.:
+[54570][      debug]   minor_words: 730022
+[54570][      debug]   promoted_words: 21943
+[54570][      debug]   major_words: 26292
+[54570][      debug]   minor_collections: 1
+[54570][      debug]   major_collections: 0
+[54570][      debug]   compactions: 0
+[54570][      debug]   top_heap_words: 1006592
+[54570][      debug]   
+[54570][      debug] Average over 6 processes
+[54570][      debug] GC stats for backend_stats.gc_stats_average.:
+[54570][      debug]   minor_words: 121715
+[54570][      debug]   promoted_words: 3657.17
+[54570][      debug]   major_words: 4382
+[54570][      debug]   minor_collections: 0
+[54570][      debug]   major_collections: 0
+[54570][      debug]   compactions: 0
+[54570][      debug]   top_heap_words: 1006592
+[54570][      debug]   
+[54570][      debug] Analysis phase finished in 26.678ms
+[54570][      debug] backend_stats.scheduler_process_analysis_time_user= 0.01076800
+[54570][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.00707100
+[54570][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.02667840
+[54570][      debug] GC stats for analysis_scheduler:
+[54570][      debug]   minor_words: 125433
+[54570][      debug]   promoted_words: 18532
+[54570][      debug]   major_words: 27238
+[54570][      debug]   minor_collections: 1
+[54570][      debug]   major_collections: 2
+[54570][      debug]   compactions: 1
+[54570][      debug]   top_heap_words: 1006592
+[54570][      debug]   
+[54570][      debug] GC stats for report:
+[54570][      debug]   minor_words: 2294
+[54570][      debug]   promoted_words: 0
+[54570][      debug]   major_words: 0
+[54570][      debug]   minor_collections: 0
+[54570][      debug]   major_collections: 0
+[54570][      debug]   compactions: 0
+[54570][      debug]   top_heap_words: 1006592
+[54570][      debug]   
+[54570][      debug] GC stats for main_process_full:
+[54570][      debug]   minor_words: 3.6687e+06
+[54570][      debug]   promoted_words: 462967
+[54570][      debug]   major_words: 1.01336e+06
+[54570][      debug]   minor_collections: 14
+[54570][      debug]   major_collections: 5
+[54570][      debug]   compactions: 2
+[54570][      debug]   top_heap_words: 1006592
+[54570][      debug]   
+[54572][      debug] Sqlite write daemon: terminating

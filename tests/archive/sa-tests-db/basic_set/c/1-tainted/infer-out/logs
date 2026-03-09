@@ -1,0 +1,115 @@
+[31622][      debug] Loading models took 39.866ms
+[31623][      debug] Sqlite write daemon: starting up
+[31623][      debug] Sqlite write daemon: set up complete, waiting for connections
+[31622][environment] CWD = /home/shika/diplom/tests/sa-tests-db/basic_set/c/1-tainted
+[31622][environment] No .inferconfig file found
+[31622][environment] Project root = /home/shika/diplom/tests/sa-tests-db/basic_set/c/1-tainted
+[31622][environment] INFER_ARGS =   @/tmp/args.tmp.d6abe4
+[31622][environment] command line arguments:   infer run -- gcc -c
+[31622][environment]                           test_0a3b5ef7bb54__cwe1284__tainted_func_input-critical_sink__if-check-param__ispras.c
+[31622][environment] Available memory at startup: 5416 MB
+[31622][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[31622][environment] Scheduler: file
+[31622][environment] Cores used: 6
+[31622][environment] Infer version v1.0.0
+[31622][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[31622][environment] 
+[31622][   progress] Capturing in make/cc mode...
+[31622][      debug] 
+[31622][      debug] *** Beginning capture of file /home/shika/diplom/tests/sa-tests-db/basic_set/c/1-tainted/test_0a3b5ef7bb54__cwe1284__tainted_func_input-critical_sink__if-check-param__ispras.c ***
+[31622][      debug] Loading the following linters files: /home/shika/infer/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[31622][      debug] Elapsed: 30.509ms.
+[31622][      debug] GC stats for capture:
+[31622][      debug]   minor_words: 1.77104e+06
+[31622][      debug]   promoted_words: 116844
+[31622][      debug]   major_words: 129052
+[31622][      debug]   minor_collections: 3
+[31622][      debug]   major_collections: 0
+[31622][      debug]   compactions: 0
+[31622][      debug]   top_heap_words: 1006592
+[31622][      debug]   
+[31622][environment] Parallel jobs: 6
+[31622][   progress] Found 1 source file to analyze in /home/shika/diplom/tests/sa-tests-db/basic_set/c/1-tainted/infer-out
+[31628][   progress] test_0a3b5ef7bb54__cwe1284__tainted_func_input-critical_sink__if-check-param__ispras.c starting
+[31628][   progress] test_0a3b5ef7bb54__cwe1284__tainted_func_input-critical_sink__if-check-param__ispras.c DONE
+[31622][      debug] Backend stats:
+[31622][      debug]   summary_file_try_load= 16
+[31622][      debug]   summary_read_from_disk= 0
+[31622][      debug]   summary_cache_hits= 39 (70%)
+[31622][      debug]   summary_cache_misses= 16
+[31622][      debug]   ondemand_procs_analyzed= 3
+[31622][      debug]   ondemand_local_cache_hits= 17 (77%)
+[31622][      debug]   ondemand_local_cache_misses= 5
+[31622][      debug]   proc_locker_lock_time_user= 0.00000000
+[31622][      debug]   proc_locker_lock_time_sys= 0.00000000
+[31622][      debug]   proc_locker_lock_time_wall= 0.00000000
+[31622][      debug]   proc_locker_unlock_time_user= 0.00000000
+[31622][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[31622][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[31622][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[31622][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[31622][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[31622][      debug]   restart_scheduler_total_time_user= 0.00000000
+[31622][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[31622][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[31622][      debug]   
+[31622][      debug] GC stats for backend_stats.gc_stats_add.:
+[31622][      debug]   minor_words: 831649
+[31622][      debug]   promoted_words: 20901
+[31622][      debug]   major_words: 26317
+[31622][      debug]   minor_collections: 1
+[31622][      debug]   major_collections: 0
+[31622][      debug]   compactions: 0
+[31622][      debug]   top_heap_words: 6039552
+[31622][      debug]   
+[31622][      debug] GC stats for backend_stats.gc_stats_max.:
+[31622][      debug]   minor_words: 831274
+[31622][      debug]   promoted_words: 20901
+[31622][      debug]   major_words: 26317
+[31622][      debug]   minor_collections: 1
+[31622][      debug]   major_collections: 0
+[31622][      debug]   compactions: 0
+[31622][      debug]   top_heap_words: 1006592
+[31622][      debug]   
+[31622][      debug] Average over 6 processes
+[31622][      debug] GC stats for backend_stats.gc_stats_average.:
+[31622][      debug]   minor_words: 138608
+[31622][      debug]   promoted_words: 3483.5
+[31622][      debug]   major_words: 4386.17
+[31622][      debug]   minor_collections: 0
+[31622][      debug]   major_collections: 0
+[31622][      debug]   compactions: 0
+[31622][      debug]   top_heap_words: 1006592
+[31622][      debug]   
+[31622][      debug] Analysis phase finished in 31.016ms
+[31622][      debug] backend_stats.scheduler_process_analysis_time_user= 0.00335500
+[31622][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01473100
+[31622][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.03101629
+[31622][      debug] GC stats for analysis_scheduler:
+[31622][      debug]   minor_words: 237170
+[31622][      debug]   promoted_words: 18108
+[31622][      debug]   major_words: 26814
+[31622][      debug]   minor_collections: 1
+[31622][      debug]   major_collections: 2
+[31622][      debug]   compactions: 1
+[31622][      debug]   top_heap_words: 1006592
+[31622][      debug]   
+[31622][      debug] GC stats for report:
+[31622][      debug]   minor_words: 10380
+[31622][      debug]   promoted_words: 0
+[31622][      debug]   major_words: 1288
+[31622][      debug]   minor_collections: 0
+[31622][      debug]   major_collections: 0
+[31622][      debug]   compactions: 0
+[31622][      debug]   top_heap_words: 1006592
+[31622][      debug]   
+[31622][      debug] GC stats for main_process_full:
+[31622][      debug]   minor_words: 3.53913e+06
+[31622][      debug]   promoted_words: 436557
+[31622][      debug]   major_words: 966965
+[31622][      debug]   minor_collections: 14
+[31622][      debug]   major_collections: 5
+[31622][      debug]   compactions: 2
+[31622][      debug]   top_heap_words: 1006592
+[31622][      debug]   
+[31623][      debug] Sqlite write daemon: terminating

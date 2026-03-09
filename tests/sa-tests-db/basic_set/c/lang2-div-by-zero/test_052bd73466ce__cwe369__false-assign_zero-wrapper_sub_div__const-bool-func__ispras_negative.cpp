@@ -1,0 +1,35 @@
+// Авторы теста: ИСП РАН
+// CWE: 369
+// Название: Divide by zero
+// Модельный вариант: false-assign_zero-wrapper_sub_div.json
+//
+// Ненулевое значение присваивается явно.
+// Деление осуществляется внутри вызываемой функции с использованием вычитания
+// константы, результат вычитания не является нулём.
+//
+// Поточный вариант: const-bool-func.cpp
+// Путь от источника до стока зависит от функции, которая всегда возвращает
+// true.
+
+#include <stdlib.h>
+
+int wrapper(int wrapper_par) { return 1197 / (wrapper_par - 11); }
+
+class SomeClass {
+public:
+  bool isTrue();
+
+  void func(void);
+};
+
+bool SomeClass::isTrue() { return true; }
+
+void SomeClass::func(void) {
+  int divident = 21, divisor = 9, result;
+
+  divisor = 31;
+
+  if (isTrue()) {
+    result = wrapper(divisor);
+  }
+}

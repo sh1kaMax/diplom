@@ -1,0 +1,39 @@
+// Авторы теста: ИСП РАН
+// CWE: 1284
+// Название: Improper validation of specified quantity in input
+// Модельный вариант: only_upper_check-tainted_input-malloc.json
+//
+// Количество получено от пользователя.
+// Отсутствует проверка выхода количества за левую границу интервала допустимых
+// значений. Количество передаётся в стандартную функцию malloc.
+//
+// Поточный вариант: switch-flipped-no-break.c
+// Выполнимый путь от источника до стока с проверкой условия в операторе выбора
+// switch; сток расположен в выполняемой ветке оператора выбора.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void func(void) {
+  int *pointer = NULL, quantity = 12;
+
+  int var;
+
+  scanf("%d", &quantity);
+  if (quantity > 12) {
+    exit(0);
+    ;
+  }
+
+  var = 0;
+
+  switch (var) {
+  case 1:
+    exit(0);
+  case 0:
+    pointer = (int *)malloc(quantity * sizeof(int)); // FLAW
+    break;
+  }
+
+  free(pointer);
+}

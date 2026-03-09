@@ -1,0 +1,66 @@
+// Авторы теста: ИСП РАН
+// CWE: 476
+// Название: NULL Pointer Dereference
+// Модельный вариант: assign_null-cond-wrapper-deref.json
+//
+// Нулевое значение присваивается явно.
+// Разыменование указателя осуществляется с помощью вызова функции, которая
+// разыменовывает свой указатель, если второй параметр больше нуля.
+//
+// Поточный вариант: virtual-call-0.cpp
+// Путь от источника до стока зависит от возвращаемого значения метода,
+// вызванного косвенно как метод базового класса
+
+#include <stdlib.h>
+
+void wrapper(int *ptr, int flag_par) {
+  if (flag_par > 0)
+    *ptr = 1;
+}
+
+class Base {
+public:
+  Base() {}
+  virtual ~Base() {}
+
+  virtual int cond(int par1) = 0;
+};
+
+class Derived : public Base {
+public:
+  Derived() {}
+  ~Derived() {}
+
+  int cond(int par1) {
+    if (par1 > 69)
+      return 20;
+
+    return 10;
+  }
+};
+
+class DerivedSecond : public Base {
+public:
+  DerivedSecond() {}
+  ~DerivedSecond() {}
+
+  int cond(int par1) { return 100; }
+};
+
+void func(void) {
+  int *pointer, other, dummy;
+  pointer = &dummy;
+
+  int local_var = 2;
+  Base *obj = new Derived();
+
+  pointer = NULL;
+
+  if (obj->cond(local_var) > 10) {
+    exit(0);
+  }
+
+  wrapper(pointer, 82); // FLAW
+
+  delete obj;
+}

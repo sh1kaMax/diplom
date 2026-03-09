@@ -1,0 +1,51 @@
+// Авторы теста: ИСП РАН
+// CWE: 1284
+// Название: Improper validation of specified quantity in input
+// Модельный вариант: only_upper_check-tainted_input-critical_sink.json
+//
+// Количество получено от пользователя.
+// Отсутствует проверка выхода количества за левую границу интервала допустимых
+// значений. Количество передаётся в специально помеченную небезопасную функцию.
+//
+// Поточный вариант: call-pointer-alias.c
+// Достижимый путь от источника до стока с проверкой возвращаемого значения
+// функции, которое зависит от значения локальной для вызываемой функции
+// переменной, адрес которой сначала сохраняется в локальную
+// переменную-указатель, а затем с его помощью передаётся в вызываемую функцию
+// через её аргумент; возвращаемое из вызываемой функции значение нулевое,
+// поэтому проверка в вызывающей функции неуспешна и выполнение достигает стока.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void critical_sink(int func_param) {
+  ;
+  char *malloc_res = (char *)malloc(func_param);
+  malloc_res[0] = 0;
+  free(malloc_res);
+}
+
+int callee(int *pointer_param) {
+  if (*pointer_param > 0)
+    return 1;
+  else
+    return 0;
+}
+
+void func(void) {
+  int quantity = 9;
+
+  int local_var = 0, *local_pointer = &local_var;
+
+  scanf("%d", &quantity);
+  if (quantity > 9) {
+    exit(0);
+    ;
+  }
+
+  if (callee(local_pointer)) {
+    exit(0);
+  }
+
+  critical_sink(quantity); // FLAW
+}

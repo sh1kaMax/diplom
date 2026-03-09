@@ -1,0 +1,75 @@
+{
+  "sources": [
+    {
+      "procedure": "scanf",
+      "index": 1,
+      "kind": "user_input"
+    },
+    {
+      "procedure": "gets",
+      "kind": "user_input"
+    },
+    {
+      "procedure": "fgets",
+      "kind": "user_input"
+    },
+    {
+      "procedure": "read",
+      "kind": "user_input"
+    },
+    {
+      "procedure": "recv",
+      "kind": "user_input"
+    },
+    {
+      "procedure": "getenv",
+      "kind": "environment"
+    },
+    {
+      "procedure": "atoi",
+      "kind": "converted_input"
+    }
+  ],
+
+  "sinks": [
+    {
+      "procedure": "malloc",
+      "kind": "memory_allocation"
+    },
+    {
+      "procedure": "calloc",
+      "kind": "memory_allocation"
+    },
+    {
+      "procedure": "realloc",
+      "kind": "memory_allocation"
+    },
+    {
+      "procedure": "memcpy",
+      "kind": "buffer_copy"
+    },
+    {
+      "procedure": "strcpy",
+      "kind": "buffer_copy"
+    },
+    {
+      "procedure": "strncpy",
+      "kind": "buffer_copy"
+    },
+    {
+      "procedure": "critical_sink",
+      "kind": "unsafe_custom_sink"
+    }
+  ],
+
+  "propagators": [
+    {
+      "procedure": "get_source",
+      "kind": "identity"
+    },
+    {
+      "procedure": "atoi",
+      "kind": "identity"
+    }
+  ]
+}

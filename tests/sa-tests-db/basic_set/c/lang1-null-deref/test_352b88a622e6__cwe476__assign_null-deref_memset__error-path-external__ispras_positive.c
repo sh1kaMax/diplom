@@ -1,0 +1,37 @@
+// Авторы теста: ИСП РАН
+// CWE: 476
+// Название: NULL Pointer Dereference
+// Модельный вариант: assign_null-deref_memset.json
+//
+// Нулевое значение присваивается явно.
+// Разыменование указателя в вызове стандартной функции memset.
+//
+// Поточный вариант: error-path-external.c
+// Достижимый путь от источника до стока с проверкой результата вызова
+// неизвестной внешней функции между ними, переход по метке со стоком в случае
+// истинности проверки.
+
+#include <stdlib.h>
+#include <string.h>
+
+int external_func(void);
+
+void use_mem_to_keep_memset(int *);
+
+void func(void) {
+  int *pointer, other, dummy;
+  pointer = &dummy;
+
+  pointer = NULL;
+
+  if (external_func())
+    goto error_label;
+
+  pointer = &other;
+
+  exit(0);
+
+error_label:
+  memset(pointer, 0, sizeof(int)); // FLAW
+  use_mem_to_keep_memset(pointer);
+}
