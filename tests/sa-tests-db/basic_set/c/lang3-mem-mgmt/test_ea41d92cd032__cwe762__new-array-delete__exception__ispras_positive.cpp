@@ -1,0 +1,27 @@
+// Авторы теста: ИСП РАН
+// CWE: 762
+// Название: Mismatched Memory
+// Модельный вариант: new-array-delete.json
+//
+// Память выделяется с помощью оператора new
+// Память освобождается с помощью оператора delete[].
+//
+// Поточный вариант: exception.cpp
+// Тест с try-catch, где источник находится в try-части, а приёмник в catch. В
+// теле try кидается исключение.
+
+#include <stdlib.h>
+
+class ExceptionClass {};
+
+void func(void) {
+  int *pointer = NULL;
+  int freed_flag = 0;
+
+  try {
+    pointer = new int(29);
+    throw ExceptionClass();
+  } catch (const ExceptionClass &excpt) {
+    delete[] pointer; // FLAW
+  }
+}

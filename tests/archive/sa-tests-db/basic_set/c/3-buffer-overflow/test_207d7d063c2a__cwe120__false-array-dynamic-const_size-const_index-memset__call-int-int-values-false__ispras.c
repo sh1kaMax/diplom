@@ -1,0 +1,49 @@
+// Авторы теста: ИСП РАН
+// CWE: 120
+// Название: Buffer Overflow
+// Модельный вариант: false-array-dynamic-const_size-const_index-memset.json
+//
+// Чтение за правой границей буфера.
+// Буфер выделен в динамической памяти.
+// Буфер является обычным массивом.
+// Размер буфера является константой.
+// Доступ к буферу осуществляется через вызов стандартной функции заполнения
+// блока памяти memset. Индекс является константой.
+//
+// Поточный вариант: call-int-int-values-false.c
+// Недостижимый путь от источника до стока с проверкой возвращаемого значения
+// функции c двумя параметрами, в функцию передаётся по значению локальная
+// переменная и константа, проверка в вызывающей функции успешна и выполнение
+// завершается
+
+#include <stdlib.h>
+#include <string.h>
+
+int result = 0;
+void use_mem_to_keep_memset(int *);
+
+int callee(int par1, int par2) {
+  if (par1 < par2)
+    return 1;
+
+  return -1;
+}
+
+void func(void) {
+  int *buffer = (int *)malloc(27 * sizeof(int));
+  unsigned int index = 0;
+
+  int local_var = 58;
+
+  index = 27 + 1;
+
+  if (callee(local_var, 142) > 0) {
+    exit(0);
+  }
+
+  memset(buffer, 0, index * sizeof(int));
+  use_mem_to_keep_memset(buffer);
+
+  free(buffer);
+  return;
+}

@@ -1,0 +1,44 @@
+// Авторы теста: ИСП РАН
+// CWE: 369
+// Название: Divide by zero
+// Модельный вариант: basic-sub_zero-div_op.json
+//
+// Нулевое значение получается как результат вычитания.
+// Деление осуществляется непосредственно (с помощью операции деления).
+//
+// Поточный вариант: diamond-vector.cpp
+// Путь от источника до стока проходит через 2 условных выражения, зависящих от
+// содержимого slt vector.
+
+#include <vector>
+
+#include <stdlib.h>
+
+class SomeClass {
+public:
+  void func(void);
+};
+
+void SomeClass::func(void) {
+  int divident = 15, divisor = 5, result;
+  int var_a = 139;
+  int var_b = 139;
+
+  std::vector<int> vec(80, 0);
+
+  int local_var1 = 17;
+  int local_var2 = 55;
+  int index1 = 57;
+  int index2 = 78;
+
+  vec[index1] = local_var1;
+  vec[index2] = local_var2;
+
+  if (local_var1 == vec[index1]) {
+    divisor = var_a - var_b;
+  }
+
+  if (local_var1 == vec[78]) {
+    result = divident / divisor;
+  }
+}

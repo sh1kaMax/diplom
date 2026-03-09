@@ -1,0 +1,35 @@
+// Авторы теста: ИСП РАН
+// CWE: 476
+// Название: NULL Pointer Dereference
+// Модельный вариант: assign_ret_null-deref_op.json
+//
+// Нулевое значение присваивается с помощью вызова функции, которая всегда
+// возвращает ноль. Разыменование указателя осуществляется непосредственно (с
+// помощью операции разыменования).
+//
+// Поточный вариант: switch.c
+// Выполнимый путь от источника до стока с проверкой условия в операторе выбора
+// switch; сток расположен в выполняемой ветке оператора выбора.
+
+#include <stdlib.h>
+
+int *null_func(int null_func_arg) { return NULL; }
+
+void func(void) {
+  int *pointer, other, dummy;
+  pointer = &dummy;
+
+  int var;
+
+  pointer = null_func(17);
+
+  var = 0;
+
+  switch (var) {
+  case 0:
+    *pointer = 0; // FLAW
+    break;
+  case 1:
+    exit(0);
+  }
+}

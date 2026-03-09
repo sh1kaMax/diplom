@@ -1,0 +1,13 @@
+#0
+test_ded8f4a0fef7__cwe120__basic-array-static-const_size-tainted_index-memset__linear-filtered-inverted__ispras_positive.c:32: error: Dead Store
+  The value written to &index (type unsigned int) is never used.
+  30.   use_mem_to_keep_memset(buffer);
+  31. 
+  32.   index = 36;
+        ^
+  33. 
+  34.   return;
+
+Found 1 issue
+  Issue Type(ISSUED_TYPE_ID): #
+      Dead Store(DEAD_STORE): 1

@@ -1,0 +1,13 @@
+#0
+test_0a3b5ef7bb54__cwe1284__tainted_func_input-critical_sink__if-check-param__ispras.c:12: error: Null Dereference
+  pointer `p` last assigned on line 11 could be null and is dereferenced at line 12, column 5.
+  10. void critical_sink(int size) {
+  11.     char *p = malloc(size);
+  12.     p[0] = 0;
+          ^
+  13. }
+  14. 
+
+Found 1 issue
+          Issue Type(ISSUED_TYPE_ID): #
+  Null Dereference(NULL_DEREFERENCE): 1

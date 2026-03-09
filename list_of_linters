@@ -1,0 +1,100 @@
+bearer - нельзя C
+semgrep - скачал и платный (trial)
+pvs-studio-analyzer (trial)
+pvs-studio-analyzer trace -- make -j$(nproc)
+pvs-studio-analyzer analyze -o PVSReport.log
+codescene скачано но платный (trial):  sudo docker run -d -p 3003:3003 --name codescene codescene/codescene
+sigrid - платный trial
+SonarQube - платный
+Coverity - ограничения есть на бесплатной
+CodeSonar - платный
+Klocwork - платный
+Parasoft - платный
+Fortify - платный
+Checkmarx - платный
+
+
+frama-c - готов:
+frama-c -eva -cpp-command "gcc -E -I/path/to/includes -DINT_MAX=2147483647" source.c
+
+splint - готов:
+splint -I/path/to/includes -DINT_MAX=2147483647 source.c
+
+infer - готов:
+infer run -- gcc -c path/to/source.c \
+-I /path/to/includes \
+-DINT_MAX=2147483647
+
+
+clang-tidy - готов:
+clang-tidy source.c -- -I/path/to/includes -DINT_MAX=2147483647
+
+Clang Static Analyzer (scan-build) - готов:
+scan-build --use-analyzer=clang --keep-cc \
+-I /path/to/includes \
+-DINT_MAX=2147483647 \
+make
+
+cppcheck - готов:
+cppcheck --enable=all --inconclusive --force \
+-I /path/to/includes \
+-DINT_MAX=2147483647 \
+-DSIZE_MAX=18446744073709551615 \
+path/to/source
+
+Flawfinder - готов:
+flawfinder --columns --minlevel=1 source.c
+
+sparse - готов:
+sparse -I/path/to/includes -DINT_MAX=2147483647 source.c
+
+RATS - готов:
+rats -w 3 -c source.c
+
+
+CodeChecker - для того, чтобы запускать анализаторы и выдавать ответ в одном стиле
+
+OCLint
+
+
+autosar - объединие которые делают документы (правила)
+misra - контора по стандарту кодированию
+cert - стандарт
+
+https://ib-bank.ru/bisjournal/post/2388 статья
+
+
+grafana - для визуала
+github/gitlab action какие доступны статические анализаторы внутри себя
+
+
+
+Для CWE-1284 за успешное обнаружение принимались исключительно предупреждения, 
+связанные с потоком tainted-данных к параметрам аллокации. Предупреждения, 
+отражающие лишь косвенные последствия (например, разыменование NULL), классифицировались как частичное прохождение.
+
+
+
+frama-c -eva -warn-signed-overflow -warn-unsigned-overflow -cpp-extra-args="-I/home/shika/diplom/tests/C/testcasesupport -include alloca.h -DINCLUDEMAIN -DOMITGOOD" -main main CWE124_Buffer_Underwrite__char_alloca_cpy_01.c
+frama-c -eva -warn-signed-overflow -warn-unsigned-overflow -cpp-extra-args="-I/home/shika/diplom/tests/C/testcasesupport -include alloca.h -DINCLUDEMAIN -DOMITBAD" -main main CWE124_Buffer_Underwrite__char_alloca_cpy_01.c
+
+
+
+
+
+chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://books.ifmo.ru/file/pdf/1900.pdf
+
+Написать план/структуру диплома, набрать тезисы, (глава/подглава/мысль и так далее)
+В каждой подглаве набрать по пару маленьких предложений чтобы собрался +-
+
+Объем стараться примерно 60 страниц
+К конце апреля примерно все должно быть готово
+
+1 глава - рассказ про саму тему проекта, про статический анализ (РБПО - Разработка Безопасного Программного Обеспечения/ГОСТ), статистика -> ФСТЭК
+Стат анализ (был ФСТЭК -> решил продолжить)
+
+2 глава - результаты ФСТЭКА, как/чем дополнил, где что брал
+
+3 глава - моя программа, архитектура, что как сделал
+
+4 глава - результаты, сравнение со ФСТЭКом, графики, таблицы и так далее

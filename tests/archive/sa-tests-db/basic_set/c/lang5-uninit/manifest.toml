@@ -1,0 +1,4692 @@
+[["test_5f42e8eb189e__cwe457__read-and-arithm__call-array__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_ec710dee6781__cwe457__read-and-arithm__call-global__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_c16400e2863a__cwe457__read-and-arithm__call-int-int-values__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_8f1ecdcf7a19__cwe457__read-and-arithm__call-int-value__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_6950c14e29f3__cwe457__read-and-arithm__call-list__ispras.c"]]
+lines = [ 47 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_39bd009c1698__cwe457__read-and-arithm__call-pointer-alias__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_0bf5c35e5813__cwe457__read-and-arithm__call-pointer__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_5080711cf064__cwe457__read-and-arithm__call-pstruct__ispras.c"]]
+lines = [ 46 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_5b11f6cca2b4__cwe457__read-and-arithm__call-struct__ispras.c"]]
+lines = [ 43 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_76467b0575ad__cwe457__read-and-arithm__call-with-assign-if__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_fb99cc2eb6fb__cwe457__read-and-arithm__call-with-assign__ispras.c"]]
+lines = [ 31 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_513d565af782__cwe457__read-and-arithm__call-with-no-assign-if__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_76c454c06ee9__cwe457__read-and-arithm__error-path-check-flag__ispras.c"]]
+lines = [ 34 ]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_618dfb451a5a__cwe457__read-and-arithm__error-path-check__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_085ca909a580__cwe457__read-and-arithm__error-path-external__ispras.c"]]
+lines = [ 31 ]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_e024820a1458__cwe457__read-and-arithm__if-check-inverted-filtered__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_ed76bbf0d07f__cwe457__read-and-arithm__if-check-inverted__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_e6f2f834d7a2__cwe457__read-and-arithm__if-else-check-inverted-filtered__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_7c70590968fc__cwe457__read-and-arithm__if-else-check-inverted__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_2eba3a389bdc__cwe457__read-and-arithm__linear-filtered-inverted__ispras.c"]]
+lines = [ 19 ]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_4d19af9a60c9__cwe457__read-and-arithm__linear__ispras.c"]]
+lines = [ 19 ]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_00e9ab634d54__cwe457__read-and-arithm__loop-dowhile__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_9ee2e39edccc__cwe457__read-and-arithm__loop-for__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_2c477ab917cf__cwe457__read-and-arithm__loop-while__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_ab230983d56d__cwe457__read-and-arithm__pcall-int-value__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_e0f814b208fd__cwe457__read-and-arithm__switch-default-inverted__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_2e0b7e44d53a__cwe457__read-and-arithm__switch-flipped-no-break__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_3e780b89b668__cwe457__read-and-arithm__switch__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_7cc5f2254ccb__cwe457__read-and-arithm__ternary__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_04f86d163a6a__cwe457__read-and-arithm__if-check-param-interval__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_dd71c9fc04df__cwe457__read-and-arithm__if-check-param__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_30e04af07f48__cwe457__read-and-arithm__error-path-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_6202f711f1c7__cwe457__read-and-arithm__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_105cba25d7af__cwe457__read-and-arithm__error-path-external-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_1bb5a64e3c73__cwe457__read-and-arithm__if-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_f9a370b2a8a9__cwe457__read-and-arithm__if-else-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_baf076707cda__cwe457__read-and-arithm__linear-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_f4f887228f88__cwe457__read-and-arithm__call-array-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_c41468526774__cwe457__read-and-arithm__call-global-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_67e41d1df8ee__cwe457__read-and-arithm__call-int-int-values-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_2809977922aa__cwe457__read-and-arithm__call-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_2e04568a62ac__cwe457__read-and-arithm__call-list-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_d15df33ffc50__cwe457__read-and-arithm__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_3e4f419820d0__cwe457__read-and-arithm__call-pointer-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_b0b200c7ce41__cwe457__read-and-arithm__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_dfb6ae22f2f2__cwe457__read-and-arithm__call-pstruct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_2bf8d7a7223f__cwe457__read-and-arithm__call-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_1696a7cbd6d0__cwe457__read-and-arithm__call-with-assign-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_4dfd3f00f107__cwe457__read-and-arithm__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_47347c03e293__cwe457__read-and-arithm__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_ee2d7baf43ac__cwe457__read-and-arithm__if-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_56d4ed477359__cwe457__read-and-arithm__if-else-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_f3241f252dad__cwe457__read-and-arithm__pcall-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_94f628c8d123__cwe457__read-and-arithm__switch-default-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_daebd99668b5__cwe457__read-and-arithm__switch-default__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_8c9c3f9e9cfb__cwe457__read-and-arithm__switch-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_30d31107a89b__cwe457__read-and-arithm__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_0ca6b0d2c09d__cwe457__read-and-arithm__switch-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_b60a2c100164__cwe457__read-and-arithm__if-check-param-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_90eb982ee896__cwe457__read-and-arithm__ternary-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_442fd1a6e699__cwe457__read-and-call__call-array__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_e33f810bf444__cwe457__read-and-call__call-global__ispras.c"]]
+lines = [ 40 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_6d17bdf75ca4__cwe457__read-and-call__call-int-int-values__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_da87632bfe14__cwe457__read-and-call__call-int-value__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_a7b91e08ce26__cwe457__read-and-call__call-list__ispras.c"]]
+lines = [ 49 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_24375f5c593b__cwe457__read-and-call__call-pointer-alias__ispras.c"]]
+lines = [ 39 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_0f2fb5ad4bbc__cwe457__read-and-call__call-pointer__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_25a64f476e11__cwe457__read-and-call__call-pstruct__ispras.c"]]
+lines = [ 48 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_5ecccf7dc2d6__cwe457__read-and-call__call-struct__ispras.c"]]
+lines = [ 45 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_f2270504ad3c__cwe457__read-and-call__call-with-assign-if__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_3ed660f9d257__cwe457__read-and-call__call-with-assign__ispras.c"]]
+lines = [ 33 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_cd4821965710__cwe457__read-and-call__call-with-no-assign-if__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_ff0b7c43aedd__cwe457__read-and-call__error-path-check-flag__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_19d72a81e1c5__cwe457__read-and-call__error-path-check__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_3e150d3f044c__cwe457__read-and-call__error-path-external__ispras.c"]]
+lines = [ 33 ]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_a49bb46fe8ef__cwe457__read-and-call__if-check-inverted-filtered__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_fc68d1669679__cwe457__read-and-call__if-check-inverted__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_1c5cfea164f4__cwe457__read-and-call__if-else-check-inverted-filtered__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_79f70f0e08d5__cwe457__read-and-call__if-else-check-inverted__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_fff22b709d47__cwe457__read-and-call__linear-filtered-inverted__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_4512a7bd839b__cwe457__read-and-call__linear__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_063c1d015c92__cwe457__read-and-call__loop-dowhile__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_91a077e3dccd__cwe457__read-and-call__loop-for__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_d786882e78d6__cwe457__read-and-call__loop-while__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_da768f5b9ebd__cwe457__read-and-call__pcall-int-value__ispras.c"]]
+lines = [ 40 ]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_1158c5ab9914__cwe457__read-and-call__switch-default-inverted__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_8183b82da535__cwe457__read-and-call__switch-flipped-no-break__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_1074424fc675__cwe457__read-and-call__switch__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_8ec10a19031b__cwe457__read-and-call__ternary__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_3038ab180033__cwe457__read-and-call__if-check-param-interval__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_79d299b18d5c__cwe457__read-and-call__if-check-param__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_dd80ddbdd16f__cwe457__read-and-call__error-path-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_a08657756fb6__cwe457__read-and-call__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_82b480a75db9__cwe457__read-and-call__error-path-external-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_2b0934726ed7__cwe457__read-and-call__if-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_d871a03edb59__cwe457__read-and-call__if-else-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_097ff178070f__cwe457__read-and-call__linear-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_d5de2ba625a5__cwe457__read-and-call__call-array-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_45fd714e85a3__cwe457__read-and-call__call-global-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_63000870c719__cwe457__read-and-call__call-int-int-values-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_a099fb375f1a__cwe457__read-and-call__call-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_96b46dadd301__cwe457__read-and-call__call-list-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_fa4015b7fbf3__cwe457__read-and-call__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_fc5e0e308278__cwe457__read-and-call__call-pointer-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_2f4fa9d51f5c__cwe457__read-and-call__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_56ea6e3e4bc2__cwe457__read-and-call__call-pstruct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_197923740dab__cwe457__read-and-call__call-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_542951a16974__cwe457__read-and-call__call-with-assign-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_a79a4f96cef3__cwe457__read-and-call__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_3613c80bdca3__cwe457__read-and-call__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_b75a0a2689c7__cwe457__read-and-call__if-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_c9ae7524bae7__cwe457__read-and-call__if-else-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_baae13e4dc9f__cwe457__read-and-call__pcall-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_cc429f1763c8__cwe457__read-and-call__switch-default-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_a52f55e62061__cwe457__read-and-call__switch-default__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_f536f1a540ba__cwe457__read-and-call__switch-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_6fd1e54234c2__cwe457__read-and-call__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_12b465c93227__cwe457__read-and-call__switch-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_85e564f963a6__cwe457__read-and-call__if-check-param-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_ef759e217f78__cwe457__read-and-call__ternary-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_52e55fd62f58__cwe457__read-and-compare__call-array__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_f606147306f0__cwe457__read-and-compare__call-global__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_c0d1416c5f0f__cwe457__read-and-compare__call-int-int-values__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_dd67c8286cb9__cwe457__read-and-compare__call-int-value__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_b9549961a84c__cwe457__read-and-compare__call-list__ispras.c"]]
+lines = [ 47 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_b2310bf7404b__cwe457__read-and-compare__call-pointer-alias__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_afb9f41b74eb__cwe457__read-and-compare__call-pointer__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_d27d87317b00__cwe457__read-and-compare__call-pstruct__ispras.c"]]
+lines = [ 46 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_a56b362dba38__cwe457__read-and-compare__call-struct__ispras.c"]]
+lines = [ 43 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_35b4d96cb83e__cwe457__read-and-compare__call-with-assign-if__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_a203d4941726__cwe457__read-and-compare__call-with-assign__ispras.c"]]
+lines = [ 31 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_95e8d969d135__cwe457__read-and-compare__call-with-no-assign-if__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_141c468a251e__cwe457__read-and-compare__error-path-check-flag__ispras.c"]]
+lines = [ 34 ]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_7feffcc822a5__cwe457__read-and-compare__error-path-check__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_2906f4ecfd17__cwe457__read-and-compare__error-path-external__ispras.c"]]
+lines = [ 31 ]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_884128688c44__cwe457__read-and-compare__if-check-inverted-filtered__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_b4a8943f23d3__cwe457__read-and-compare__if-check-inverted__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_9df52c41d325__cwe457__read-and-compare__if-else-check-inverted-filtered__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_f657c72bd146__cwe457__read-and-compare__if-else-check-inverted__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_d0651ed6fac2__cwe457__read-and-compare__linear-filtered-inverted__ispras.c"]]
+lines = [ 19 ]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_d97575ecf9e0__cwe457__read-and-compare__linear__ispras.c"]]
+lines = [ 19 ]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_285a78f6f69c__cwe457__read-and-compare__loop-dowhile__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_9614168905a4__cwe457__read-and-compare__loop-for__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_ef927dba2a43__cwe457__read-and-compare__loop-while__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_9400b19a4ca0__cwe457__read-and-compare__pcall-int-value__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_a850db61ca4c__cwe457__read-and-compare__switch-default-inverted__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_6e51bee17fc9__cwe457__read-and-compare__switch-flipped-no-break__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_b47a981003cb__cwe457__read-and-compare__switch__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_84f86536570c__cwe457__read-and-compare__ternary__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_224091c63125__cwe457__read-and-compare__if-check-param-interval__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_f7f1a2f128e8__cwe457__read-and-compare__if-check-param__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_ac67b96734a7__cwe457__read-and-compare__error-path-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_b759c2f60087__cwe457__read-and-compare__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_c847361b3a3b__cwe457__read-and-compare__error-path-external-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_872b6b538ad9__cwe457__read-and-compare__if-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_b6ba2b37f3c7__cwe457__read-and-compare__if-else-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_ad99797ba194__cwe457__read-and-compare__linear-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_09303407123a__cwe457__read-and-compare__call-array-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_034acbca1966__cwe457__read-and-compare__call-global-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_85a06455c2b4__cwe457__read-and-compare__call-int-int-values-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_f2ddcffdf231__cwe457__read-and-compare__call-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_35a9922efaed__cwe457__read-and-compare__call-list-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_e4dc1df6ed6a__cwe457__read-and-compare__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_a33d7eb3068a__cwe457__read-and-compare__call-pointer-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_ac2645d23306__cwe457__read-and-compare__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_6f3c17cad875__cwe457__read-and-compare__call-pstruct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_dfbdf5f53ab4__cwe457__read-and-compare__call-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_4c7712dc5092__cwe457__read-and-compare__call-with-assign-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_52797c2d7b8a__cwe457__read-and-compare__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_3cc0c7325582__cwe457__read-and-compare__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_ec22ea13b5de__cwe457__read-and-compare__if-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_fbf46d2b3d59__cwe457__read-and-compare__if-else-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_0412a9bfd6a8__cwe457__read-and-compare__pcall-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_4d50a0b61a4a__cwe457__read-and-compare__switch-default-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_94c870f42d48__cwe457__read-and-compare__switch-default__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_860697dd75f3__cwe457__read-and-compare__switch-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_77cc2459f04d__cwe457__read-and-compare__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_8b54bd6934c3__cwe457__read-and-compare__switch-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_b1a4ca34dbd7__cwe457__read-and-compare__if-check-param-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_e0fd4c922907__cwe457__read-and-compare__ternary-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_598c485d1664__cwe457__read-fake__call-array__ispras.c"]]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_4a40f6edd24d__cwe457__read-fake__call-global__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_b757ebe4e586__cwe457__read-fake__call-int-int-values__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_57ed634498e6__cwe457__read-fake__call-int-value__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_dc3254294253__cwe457__read-fake__call-list__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_3e91d0d2226b__cwe457__read-fake__call-pointer-alias__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_1d789af0bda2__cwe457__read-fake__call-pointer__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_1724b584a6c9__cwe457__read-fake__call-pstruct__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_d3bdc5e3d0bb__cwe457__read-fake__call-struct__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_f1a77e46bad4__cwe457__read-fake__call-with-assign-if__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_57708d743564__cwe457__read-fake__call-with-assign__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_da5c0ecfeafa__cwe457__read-fake__call-with-no-assign-if__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_37079257f647__cwe457__read-fake__error-path-check-flag__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_d6b1fda5d2df__cwe457__read-fake__error-path-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_c84c5b6ea028__cwe457__read-fake__error-path-external__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_52a061d84e2a__cwe457__read-fake__if-check-inverted-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_bf07c05c3880__cwe457__read-fake__if-check-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_d183f68d4a25__cwe457__read-fake__if-else-check-inverted-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_648213f8108a__cwe457__read-fake__if-else-check-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_1f4be000f1c8__cwe457__read-fake__linear-filtered-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_a275478f6319__cwe457__read-fake__linear__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_f78144a3c86c__cwe457__read-fake__loop-dowhile__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_b74a24d8a008__cwe457__read-fake__loop-for__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_8b548421cac5__cwe457__read-fake__loop-while__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_d62679138364__cwe457__read-fake__pcall-int-value__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_2455c39f61af__cwe457__read-fake__switch-default-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_4fc77be14dea__cwe457__read-fake__switch-flipped-no-break__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_bfa9d03c1088__cwe457__read-fake__switch__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_352ae935c3ae__cwe457__read-fake__ternary__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_4504bd89c24f__cwe457__read-fake__if-check-param-interval__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_a42fb5704c42__cwe457__read-fake__if-check-param__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_595ee64ded85__cwe457__read-fake__error-path-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_c04762d24877__cwe457__read-fake__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_663c9fbc4984__cwe457__read-fake__error-path-external-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_91ae66b33c10__cwe457__read-fake__if-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_bca5ad39a195__cwe457__read-fake__if-else-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_a5223238f9e3__cwe457__read-fake__linear-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_449a7af1479a__cwe457__read-fake__call-array-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_2b2cbdf54222__cwe457__read-fake__call-global-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_57f9076fec2f__cwe457__read-fake__call-int-int-values-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_97f364b05290__cwe457__read-fake__call-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_7c3122b82ecd__cwe457__read-fake__call-list-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_bf06bc58cae9__cwe457__read-fake__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_03e6401b5768__cwe457__read-fake__call-pointer-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_7d043a2b20bf__cwe457__read-fake__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_301a99f24a67__cwe457__read-fake__call-pstruct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_d0d47637f3dd__cwe457__read-fake__call-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_e9888f749cda__cwe457__read-fake__call-with-assign-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_a0149466d7ea__cwe457__read-fake__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_0a2c4bbfd7dd__cwe457__read-fake__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_a49cda522178__cwe457__read-fake__if-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_d9dedb988b7d__cwe457__read-fake__if-else-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_9a86e0301e33__cwe457__read-fake__pcall-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_447055b884f5__cwe457__read-fake__switch-default-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_73bfa7f593d2__cwe457__read-fake__switch-default__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_e597a3469e45__cwe457__read-fake__switch-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_01e039a0c670__cwe457__read-fake__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_26cf0fc124fe__cwe457__read-fake__switch-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_91cc9a8e4013__cwe457__read-fake__if-check-param-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_384f838ace27__cwe457__read-fake__ternary-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_213b350d6db8__cwe457__read-global__call-array__ispras.c"]]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_5fddcbc91934__cwe457__read-global__call-global__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_96ee56b67c61__cwe457__read-global__call-int-int-values__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_2fedd351f602__cwe457__read-global__call-int-value__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_66255cf922cb__cwe457__read-global__call-list__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_7b5bcee893f9__cwe457__read-global__call-pointer-alias__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_9b1616a6ba64__cwe457__read-global__call-pointer__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_a57b13e160e3__cwe457__read-global__call-pstruct__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_d028728b40d9__cwe457__read-global__call-struct__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_85305b3f6264__cwe457__read-global__call-with-assign-if__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_d5a35b186325__cwe457__read-global__call-with-assign__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_e84dd1e8971b__cwe457__read-global__call-with-no-assign-if__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_390ef8022dc3__cwe457__read-global__error-path-check-flag__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_d671a608267c__cwe457__read-global__error-path-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_387373baa4c2__cwe457__read-global__error-path-external__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_b2883bcf8138__cwe457__read-global__if-check-inverted-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_a34ce8f6b2b4__cwe457__read-global__if-check-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_59c7de923092__cwe457__read-global__if-else-check-inverted-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_c02d783ba7bf__cwe457__read-global__if-else-check-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_f68567571950__cwe457__read-global__linear-filtered-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_a988e3492d6c__cwe457__read-global__linear__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_87ceab7f0ccd__cwe457__read-global__loop-dowhile__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_312e9b6e925c__cwe457__read-global__loop-for__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_2f013ac8d562__cwe457__read-global__loop-while__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_c5af726e4f8a__cwe457__read-global__pcall-int-value__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_de8c5c743100__cwe457__read-global__switch-default-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_d21ec46c77ad__cwe457__read-global__switch-flipped-no-break__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_6f19456d0ae6__cwe457__read-global__switch__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_438b9c6d7f08__cwe457__read-global__ternary__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_5606603b30d3__cwe457__read-global__if-check-param-interval__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_89addac2a229__cwe457__read-global__if-check-param__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_9f4b2f632cb4__cwe457__read-global__error-path-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_39635299094c__cwe457__read-global__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_1705fe570343__cwe457__read-global__error-path-external-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_e1b97dce5708__cwe457__read-global__if-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_5897a3c3b172__cwe457__read-global__if-else-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_6bb698620182__cwe457__read-global__linear-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_2b1e4e604453__cwe457__read-global__call-array-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_adb16a5efbdf__cwe457__read-global__call-global-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_aeae3fb94000__cwe457__read-global__call-int-int-values-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_859f59aad674__cwe457__read-global__call-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_30da1153b4ce__cwe457__read-global__call-list-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_90c109a4f0ab__cwe457__read-global__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_ba25c6a27b3b__cwe457__read-global__call-pointer-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_af9cf3e92a38__cwe457__read-global__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_cfffa22e70cc__cwe457__read-global__call-pstruct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_432274ace556__cwe457__read-global__call-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_87a81b867a03__cwe457__read-global__call-with-assign-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_0440412e9243__cwe457__read-global__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_fcdb61b0b867__cwe457__read-global__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_b0822742f511__cwe457__read-global__if-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_aa95791cc322__cwe457__read-global__if-else-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_72cd28aed1e6__cwe457__read-global__pcall-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_bb1538618867__cwe457__read-global__switch-default-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_fb37eecaa84f__cwe457__read-global__switch-default__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_55feb085a609__cwe457__read-global__switch-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_fba3eb4df103__cwe457__read-global__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_cc5a29cd94e8__cwe457__read-global__switch-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_f3b36d587538__cwe457__read-global__if-check-param-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_cf35fdffe63e__cwe457__read-global__ternary-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_477acc69c586__cwe457__read-static__call-array__ispras.c"]]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_c8d4f3d125f8__cwe457__read-static__call-global__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_fbcb78d1b9f9__cwe457__read-static__call-int-int-values__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_46e8c70b2820__cwe457__read-static__call-int-value__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_211b055cc377__cwe457__read-static__call-list__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_66a3ae4c9f79__cwe457__read-static__call-pointer-alias__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_ff65a4f94451__cwe457__read-static__call-pointer__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_29c4ae94b75c__cwe457__read-static__call-pstruct__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_0277f20c422c__cwe457__read-static__call-struct__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_7860ce378585__cwe457__read-static__call-with-assign-if__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_5a9c89323705__cwe457__read-static__call-with-assign__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_a2738b66a0c7__cwe457__read-static__call-with-no-assign-if__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_40e521669c82__cwe457__read-static__error-path-check-flag__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_b6b0481cf3c8__cwe457__read-static__error-path-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_caf0e2f1db65__cwe457__read-static__error-path-external__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_01f41f2bde1c__cwe457__read-static__if-check-inverted-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_ac7c0797ab49__cwe457__read-static__if-check-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_359d13085ed3__cwe457__read-static__if-else-check-inverted-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_5c35bcca61eb__cwe457__read-static__if-else-check-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_6eee08ca36da__cwe457__read-static__linear-filtered-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_60cdcc86dfcd__cwe457__read-static__linear__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_8ac26f51c84c__cwe457__read-static__loop-dowhile__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_452e3eaa9820__cwe457__read-static__loop-for__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_40c3a82ebd8e__cwe457__read-static__loop-while__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_54cfbfaaf50c__cwe457__read-static__pcall-int-value__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_9d9b24c2981b__cwe457__read-static__switch-default-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_1d48ff4d8dfa__cwe457__read-static__switch-flipped-no-break__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_a64cf6b09d61__cwe457__read-static__switch__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_ace469fb0f2f__cwe457__read-static__ternary__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_7ac30a0ac08e__cwe457__read-static__if-check-param-interval__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_e888252a16ac__cwe457__read-static__if-check-param__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_856706c318a3__cwe457__read-static__error-path-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_ef75f56f056a__cwe457__read-static__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_bd02981413aa__cwe457__read-static__error-path-external-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_28bc65c8c8c0__cwe457__read-static__if-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_126fd012c4c5__cwe457__read-static__if-else-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_e6a2e9636a59__cwe457__read-static__linear-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_66a8cb415087__cwe457__read-static__call-array-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_92ba20c00927__cwe457__read-static__call-global-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_e07fd7bb0d59__cwe457__read-static__call-int-int-values-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_3ae852239bec__cwe457__read-static__call-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_6cbf8f446b5e__cwe457__read-static__call-list-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_009dd5107cae__cwe457__read-static__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_12bd050e4ffa__cwe457__read-static__call-pointer-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_c06fcc69a731__cwe457__read-static__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_53e8f7a0a81c__cwe457__read-static__call-pstruct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_41277279e20d__cwe457__read-static__call-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_4f62672e9a3c__cwe457__read-static__call-with-assign-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_c784f906cdf9__cwe457__read-static__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_23b1b98abd50__cwe457__read-static__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_bcf13711c203__cwe457__read-static__if-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_e88d2526706d__cwe457__read-static__if-else-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_b92f433de60a__cwe457__read-static__pcall-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_f9eff1df02b5__cwe457__read-static__switch-default-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_232ebce40f5d__cwe457__read-static__switch-default__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_5d8dfd203482__cwe457__read-static__switch-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_8d7dcc9203eb__cwe457__read-static__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_c0e243d51ae8__cwe457__read-static__switch-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_b691bb2b7da8__cwe457__read-static__if-check-param-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_c1c66f7e0c80__cwe457__read-static__ternary-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_6a2d9f50fc10__cwe457__sometimes-init__call-array__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_b24f974080c7__cwe457__sometimes-init__call-global__ispras.c"]]
+lines = [ 40 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_07a5c3bff2f6__cwe457__sometimes-init__call-int-int-values__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_c97b299e5738__cwe457__sometimes-init__call-int-value__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_1772acda0683__cwe457__sometimes-init__call-list__ispras.c"]]
+lines = [ 49 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_fd1548393969__cwe457__sometimes-init__call-pointer-alias__ispras.c"]]
+lines = [ 39 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_104a8d73f4cf__cwe457__sometimes-init__call-pointer__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_949f52d35684__cwe457__sometimes-init__call-pstruct__ispras.c"]]
+lines = [ 48 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_6ae65d33fd62__cwe457__sometimes-init__call-struct__ispras.c"]]
+lines = [ 45 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_bbcbd6666bea__cwe457__sometimes-init__call-with-assign-if__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_30e0e5c898f1__cwe457__sometimes-init__call-with-assign__ispras.c"]]
+lines = [ 33 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_3972350f768b__cwe457__sometimes-init__call-with-no-assign-if__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_af99f465b25f__cwe457__sometimes-init__error-path-check-flag__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_59751d140472__cwe457__sometimes-init__error-path-check__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_9a53cbacbe99__cwe457__sometimes-init__error-path-external__ispras.c"]]
+lines = [ 33 ]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_cb5710519b5a__cwe457__sometimes-init__if-check-inverted-filtered__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_b6e35cbf9083__cwe457__sometimes-init__if-check-inverted__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_25fc8d76e08a__cwe457__sometimes-init__if-else-check-inverted-filtered__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_5b40d31b8840__cwe457__sometimes-init__if-else-check-inverted__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_15d2babf9d22__cwe457__sometimes-init__linear-filtered-inverted__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_bed7a59b1869__cwe457__sometimes-init__linear__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_7ab99dc07dad__cwe457__sometimes-init__loop-dowhile__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_91b7a77af233__cwe457__sometimes-init__loop-for__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_b98591454f99__cwe457__sometimes-init__loop-while__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-457"
+tags = [ "flow", "loop", ]
+
+[["test_2d4ac1add58d__cwe457__sometimes-init__pcall-int-value__ispras.c"]]
+lines = [ 40 ]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_affa12200c13__cwe457__sometimes-init__switch-default-inverted__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_a3201c653a5c__cwe457__sometimes-init__switch-flipped-no-break__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_85aa931e30a3__cwe457__sometimes-init__switch__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_d01254dc11c9__cwe457__sometimes-init__ternary__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_71be963df9e2__cwe457__sometimes-init__if-check-param-interval__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_5b5d4a8cb99e__cwe457__sometimes-init__if-check-param__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_9a6441717685__cwe457__sometimes-init__error-path-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_34db59c2cc8d__cwe457__sometimes-init__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_276ff349f87d__cwe457__sometimes-init__error-path-external-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "goto", "if", ]
+
+[["test_e6112fc1599c__cwe457__sometimes-init__if-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_09131b829c9b__cwe457__sometimes-init__if-else-check-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_ca804e67b943__cwe457__sometimes-init__linear-filtered__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", ]
+
+[["test_38d78ecd1061__cwe457__sometimes-init__call-array-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "array", "call", "flow", ]
+
+[["test_9fd06545508c__cwe457__sometimes-init__call-global-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "global", ]
+
+[["test_46c5e69d1c3b__cwe457__sometimes-init__call-int-int-values-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_ea36f44b5c8e__cwe457__sometimes-init__call-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_64cfcdc64d8a__cwe457__sometimes-init__call-list-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_f23e33bfd5ce__cwe457__sometimes-init__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_1d2584b11e12__cwe457__sometimes-init__call-pointer-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_71ffb61927eb__cwe457__sometimes-init__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_3c8ea936c994__cwe457__sometimes-init__call-pstruct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_8dbbb8da67a7__cwe457__sometimes-init__call-struct-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "struct", ]
+
+[["test_bf7ce21a6d4b__cwe457__sometimes-init__call-with-assign-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_ef0898046a6c__cwe457__sometimes-init__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_75ec4b3cd8e6__cwe457__sometimes-init__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_b3f39cef6b4d__cwe457__sometimes-init__if-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_16d956fc3858__cwe457__sometimes-init__if-else-check__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_2a248049c026__cwe457__sometimes-init__pcall-int-value-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "call", "flow", ]
+
+[["test_6f632e30dfad__cwe457__sometimes-init__switch-default-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_9ef64b958c5e__cwe457__sometimes-init__switch-default__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_feb5c82986ec__cwe457__sometimes-init__switch-flipped__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_248cfec5b5c0__cwe457__sometimes-init__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_198451adfd18__cwe457__sometimes-init__switch-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_de42801abd84__cwe457__sometimes-init__if-check-param-false__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "if", ]
+
+[["test_1237503bfff7__cwe457__sometimes-init__ternary-inverted__ispras.c"]]
+rule = "CWE-457"
+tags = [ "flow", "ternary", ]
+
+[["test_c86c65ea99a1__cwe824__read-and-call__call-array__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-824"
+tags = [ "array", "call", "flow", ]
+
+[["test_b451367d61f3__cwe824__read-and-call__call-global__ispras.c"]]
+lines = [ 39 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "global", ]
+
+[["test_f5422d8c22db__cwe824__read-and-call__call-int-int-values__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_34e4560131aa__cwe824__read-and-call__call-int-value__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_e68534d70535__cwe824__read-and-call__call-list__ispras.c"]]
+lines = [ 48 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_b9e98aabc0dd__cwe824__read-and-call__call-pointer-alias__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_4eaa07170cde__cwe824__read-and-call__call-pointer__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_31aaf163a458__cwe824__read-and-call__call-pstruct__ispras.c"]]
+lines = [ 47 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_54e6bea25bc6__cwe824__read-and-call__call-struct__ispras.c"]]
+lines = [ 44 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_a6d0cc60f11d__cwe824__read-and-call__call-with-assign-if__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_083d578faf98__cwe824__read-and-call__call-with-assign__ispras.c"]]
+lines = [ 32 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_25c5c06f0613__cwe824__read-and-call__call-with-no-assign-if__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_51d98836ec62__cwe824__read-and-call__error-path-check-flag__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_e5ec7c8e29da__cwe824__read-and-call__error-path-check__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_be13d28d0466__cwe824__read-and-call__error-path-external__ispras.c"]]
+lines = [ 32 ]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_609742e0e65a__cwe824__read-and-call__if-check-inverted-filtered__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_bc0e8421bb8e__cwe824__read-and-call__if-check-inverted__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_ad6620023f12__cwe824__read-and-call__if-else-check-inverted-filtered__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_836b2abf3e12__cwe824__read-and-call__if-else-check-inverted__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_a8f8041b9ef1__cwe824__read-and-call__linear-filtered-inverted__ispras.c"]]
+lines = [ 20 ]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_25b14f79a949__cwe824__read-and-call__linear__ispras.c"]]
+lines = [ 20 ]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_ff8888b7e67a__cwe824__read-and-call__loop-dowhile__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_3f53f7f81e6b__cwe824__read-and-call__loop-for__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_b324a6a30f38__cwe824__read-and-call__loop-while__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_a6f170b80f94__cwe824__read-and-call__pcall-int-value__ispras.c"]]
+lines = [ 39 ]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_2d40ad5fe648__cwe824__read-and-call__switch-default-inverted__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_3516f7c0aedd__cwe824__read-and-call__switch-flipped-no-break__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_9a6474720599__cwe824__read-and-call__switch__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_b3c62a07a685__cwe824__read-and-call__ternary__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-824"
+tags = [ "flow", "ternary", ]
+
+[["test_03d95e8d97d4__cwe824__read-and-call__if-check-param-interval__ispras.c"]]
+lines = [ 22 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_8e557019b9da__cwe824__read-and-call__if-check-param__ispras.c"]]
+lines = [ 22 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_5f519661bf65__cwe824__read-and-call__error-path-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_70e55c4c89db__cwe824__read-and-call__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_d6e444c814f6__cwe824__read-and-call__error-path-external-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_fc7167be5972__cwe824__read-and-call__if-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_dd51dd4547e9__cwe824__read-and-call__if-else-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_50725173c0e2__cwe824__read-and-call__linear-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_fc956447db16__cwe824__read-and-call__call-array-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "array", "call", "flow", ]
+
+[["test_d75707d6f53c__cwe824__read-and-call__call-global-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "global", ]
+
+[["test_073b8ad02d3e__cwe824__read-and-call__call-int-int-values-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_c51ff6209e2c__cwe824__read-and-call__call-int-value-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_cbcc41d31f8e__cwe824__read-and-call__call-list-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_62e74dd11135__cwe824__read-and-call__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_c3f9e65005e2__cwe824__read-and-call__call-pointer-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_a65c99000a2d__cwe824__read-and-call__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_4cbcd0654e88__cwe824__read-and-call__call-pstruct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_82244cade3ba__cwe824__read-and-call__call-struct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_264c674176cc__cwe824__read-and-call__call-with-assign-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_93f76422c3a7__cwe824__read-and-call__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_eb9448bc4941__cwe824__read-and-call__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_59c587544866__cwe824__read-and-call__if-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_ac2247772223__cwe824__read-and-call__if-else-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_f2393ee82b28__cwe824__read-and-call__pcall-int-value-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_f416c3b8a2ac__cwe824__read-and-call__switch-default-flipped__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_451508603c23__cwe824__read-and-call__switch-default__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_7e803baf25ed__cwe824__read-and-call__switch-flipped__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_d612953d4c2d__cwe824__read-and-call__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_27604d095eef__cwe824__read-and-call__switch-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_4156a052bd8b__cwe824__read-and-call__if-check-param-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_a1a5899008a7__cwe824__read-and-call__ternary-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "ternary", ]
+
+[["test_7dc1f0e0063e__cwe824__read-and-return__call-array__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-824"
+tags = [ "array", "call", "flow", ]
+
+[["test_b8cb08b8571c__cwe824__read-and-return__call-global__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "global", ]
+
+[["test_dca4c109d4fd__cwe824__read-and-return__call-int-int-values__ispras.c"]]
+lines = [ 34 ]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_25ae73efb007__cwe824__read-and-return__call-int-value__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_2628a25443e8__cwe824__read-and-return__call-list__ispras.c"]]
+lines = [ 46 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_443ffa3eaa5d__cwe824__read-and-return__call-pointer-alias__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_5c1314ab142a__cwe824__read-and-return__call-pointer__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_67cf295ffdb5__cwe824__read-and-return__call-pstruct__ispras.c"]]
+lines = [ 45 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_df4b86b223e4__cwe824__read-and-return__call-struct__ispras.c"]]
+lines = [ 42 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_a0aba6206a48__cwe824__read-and-return__call-with-assign-if__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_ae98f6419cb1__cwe824__read-and-return__call-with-assign__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_5e914bfdddd2__cwe824__read-and-return__call-with-no-assign-if__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_f7430ed7ab4d__cwe824__read-and-return__error-path-check-flag__ispras.c"]]
+lines = [ 33 ]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_29935b3fec87__cwe824__read-and-return__error-path-check__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_daf06ff03911__cwe824__read-and-return__error-path-external__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_0663b9195800__cwe824__read-and-return__if-check-inverted-filtered__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_a4b17da1b8c2__cwe824__read-and-return__if-check-inverted__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_d5fd25640e82__cwe824__read-and-return__if-else-check-inverted-filtered__ispras.c"]]
+lines = [ 22 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_b2cc78f610c4__cwe824__read-and-return__if-else-check-inverted__ispras.c"]]
+lines = [ 22 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_1bef29ea0ac5__cwe824__read-and-return__linear-filtered-inverted__ispras.c"]]
+lines = [ 18 ]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_e42986319069__cwe824__read-and-return__linear__ispras.c"]]
+lines = [ 18 ]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_7479b508aed7__cwe824__read-and-return__loop-dowhile__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_2a395031900c__cwe824__read-and-return__loop-for__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_1670cc0601fb__cwe824__read-and-return__loop-while__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_9c5005d2466d__cwe824__read-and-return__pcall-int-value__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_29c870fabcda__cwe824__read-and-return__switch-default-inverted__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_14fb6823d814__cwe824__read-and-return__switch-flipped-no-break__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_325d291d1b1c__cwe824__read-and-return__switch__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_0871ed95071f__cwe824__read-and-return__ternary__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-824"
+tags = [ "flow", "ternary", ]
+
+[["test_88a065d3d50e__cwe824__read-and-return__if-check-param-interval__ispras.c"]]
+lines = [ 20 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_01ec215ca7a8__cwe824__read-and-return__if-check-param__ispras.c"]]
+lines = [ 20 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_016efa116728__cwe824__read-and-return__error-path-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_7762d714e59e__cwe824__read-and-return__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_1e1be10c66cf__cwe824__read-and-return__error-path-external-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_e24d82bc1233__cwe824__read-and-return__if-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_cf5e4dfdfc3e__cwe824__read-and-return__if-else-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_21a54bd8261e__cwe824__read-and-return__linear-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_4801a0c032e6__cwe824__read-and-return__call-array-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "array", "call", "flow", ]
+
+[["test_0a6b4a70af4b__cwe824__read-and-return__call-global-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "global", ]
+
+[["test_dc06f28e1311__cwe824__read-and-return__call-int-int-values-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_dcaec92713f8__cwe824__read-and-return__call-int-value-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_b9ed239508ae__cwe824__read-and-return__call-list-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_aa4db8515fdf__cwe824__read-and-return__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_443d8149741a__cwe824__read-and-return__call-pointer-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_ad8ef371b975__cwe824__read-and-return__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_f873df197b40__cwe824__read-and-return__call-pstruct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_fa909d73e8af__cwe824__read-and-return__call-struct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_91a00e5f3ebb__cwe824__read-and-return__call-with-assign-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_ca1ad9d1d071__cwe824__read-and-return__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_80da86efd56a__cwe824__read-and-return__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_56b0afd45e96__cwe824__read-and-return__if-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_70ab7d6652d1__cwe824__read-and-return__if-else-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_5521f41db12b__cwe824__read-and-return__pcall-int-value-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_0b30e46823cb__cwe824__read-and-return__switch-default-flipped__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_77fa131b96b4__cwe824__read-and-return__switch-default__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_1cc1a5adcb69__cwe824__read-and-return__switch-flipped__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_a17543458ec8__cwe824__read-and-return__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_bebc189743ba__cwe824__read-and-return__switch-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_a134bec1c935__cwe824__read-and-return__if-check-param-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_eb765ab81e1d__cwe824__read-and-return__ternary-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "ternary", ]
+
+[["test_eaef207d31ed__cwe824__sometimes-init__call-array__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-824"
+tags = [ "array", "call", "flow", ]
+
+[["test_ae5d4771d93d__cwe824__sometimes-init__call-global__ispras.c"]]
+lines = [ 39 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "global", ]
+
+[["test_190ef66f1e9a__cwe824__sometimes-init__call-int-int-values__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_85a6065f189b__cwe824__sometimes-init__call-int-value__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_2f0deb4e141d__cwe824__sometimes-init__call-list__ispras.c"]]
+lines = [ 48 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_e8346871c0f9__cwe824__sometimes-init__call-pointer-alias__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_b92710336842__cwe824__sometimes-init__call-pointer__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_24fbb3135212__cwe824__sometimes-init__call-pstruct__ispras.c"]]
+lines = [ 47 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_45058b3d92fb__cwe824__sometimes-init__call-struct__ispras.c"]]
+lines = [ 44 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_da9c807a2307__cwe824__sometimes-init__call-with-assign-if__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_fa9b5bc7d374__cwe824__sometimes-init__call-with-assign__ispras.c"]]
+lines = [ 32 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_f0e8bf6e7162__cwe824__sometimes-init__call-with-no-assign-if__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_25bee65197c5__cwe824__sometimes-init__error-path-check-flag__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_3d836f029dfc__cwe824__sometimes-init__error-path-check__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_7cff0429f1af__cwe824__sometimes-init__error-path-external__ispras.c"]]
+lines = [ 32 ]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_3e9c189dcef2__cwe824__sometimes-init__if-check-inverted-filtered__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_49674ccc4946__cwe824__sometimes-init__if-check-inverted__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_305246d6523e__cwe824__sometimes-init__if-else-check-inverted-filtered__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_f35c5b25b813__cwe824__sometimes-init__if-else-check-inverted__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_1f1fcf06f029__cwe824__sometimes-init__linear-filtered-inverted__ispras.c"]]
+lines = [ 20 ]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_18047a172336__cwe824__sometimes-init__linear__ispras.c"]]
+lines = [ 20 ]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_b8a536953396__cwe824__sometimes-init__loop-dowhile__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_071e1db872f5__cwe824__sometimes-init__loop-for__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_35c45e17c184__cwe824__sometimes-init__loop-while__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_e4eef45b1184__cwe824__sometimes-init__pcall-int-value__ispras.c"]]
+lines = [ 39 ]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_eddfdafc871c__cwe824__sometimes-init__switch-default-inverted__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_9054bca73d93__cwe824__sometimes-init__switch-flipped-no-break__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_3518e2df15f8__cwe824__sometimes-init__switch__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_82549b4cff1d__cwe824__sometimes-init__ternary__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-824"
+tags = [ "flow", "ternary", ]
+
+[["test_d36edd12a679__cwe824__sometimes-init__if-check-param-interval__ispras.c"]]
+lines = [ 22 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_e0afb70583a0__cwe824__sometimes-init__if-check-param__ispras.c"]]
+lines = [ 22 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_137848950153__cwe824__sometimes-init__error-path-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_ebec223e0113__cwe824__sometimes-init__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_263dc25cb736__cwe824__sometimes-init__error-path-external-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_e6e42c2d48ae__cwe824__sometimes-init__if-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_83793512dbd5__cwe824__sometimes-init__if-else-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_6aa9de6e3ff3__cwe824__sometimes-init__linear-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_656d2fd4a79c__cwe824__sometimes-init__call-array-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "array", "call", "flow", ]
+
+[["test_412f823f8588__cwe824__sometimes-init__call-global-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "global", ]
+
+[["test_09f34066a080__cwe824__sometimes-init__call-int-int-values-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_69ac7717661e__cwe824__sometimes-init__call-int-value-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_adda7df09ebc__cwe824__sometimes-init__call-list-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_d1970efdc93b__cwe824__sometimes-init__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_3764dbf59a8c__cwe824__sometimes-init__call-pointer-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_7bef3691c3b5__cwe824__sometimes-init__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_63352627583b__cwe824__sometimes-init__call-pstruct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_12f955a01609__cwe824__sometimes-init__call-struct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_b4c933f1862b__cwe824__sometimes-init__call-with-assign-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_e84ba07edf2d__cwe824__sometimes-init__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_6f7ab39737d6__cwe824__sometimes-init__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_0f527753bd1b__cwe824__sometimes-init__if-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_b977d08ce9b9__cwe824__sometimes-init__if-else-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_473123d43c39__cwe824__sometimes-init__pcall-int-value-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_21f57ea0734c__cwe824__sometimes-init__switch-default-flipped__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_b1e73e2c81d7__cwe824__sometimes-init__switch-default__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_5611a0e2341d__cwe824__sometimes-init__switch-flipped__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_a889f974d160__cwe824__sometimes-init__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_111c6b315207__cwe824__sometimes-init__switch-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_d6010fc36f86__cwe824__sometimes-init__if-check-param-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_7a8eab272f38__cwe824__sometimes-init__ternary-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "ternary", ]
+
+[["test_1f633a1e3357__cwe824__write-global__call-array__ispras.c"]]
+rule = "CWE-824"
+tags = [ "array", "call", "flow", ]
+
+[["test_99d5e29b0190__cwe824__write-global__call-global__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "global", ]
+
+[["test_addd4736bec8__cwe824__write-global__call-int-int-values__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_65eb47991517__cwe824__write-global__call-int-value__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_835b3b98700a__cwe824__write-global__call-list__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_1f236c61025e__cwe824__write-global__call-pointer-alias__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_3012cd8412d6__cwe824__write-global__call-pointer__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_5a524ff2411c__cwe824__write-global__call-pstruct__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_ee5aaa5cb4e5__cwe824__write-global__call-struct__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_7b219ca99de9__cwe824__write-global__call-with-assign-if__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_094087e142bb__cwe824__write-global__call-with-assign__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_978d4a50d25d__cwe824__write-global__call-with-no-assign-if__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_dd558a147277__cwe824__write-global__error-path-check-flag__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_36e8057e6105__cwe824__write-global__error-path-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_34baffdca10b__cwe824__write-global__error-path-external__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_c56d4ec36ed8__cwe824__write-global__if-check-inverted-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_f0c7b475acdc__cwe824__write-global__if-check-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_4906dfc7f71c__cwe824__write-global__if-else-check-inverted-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_7c2232993411__cwe824__write-global__if-else-check-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_4f96987f5f80__cwe824__write-global__linear-filtered-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_d39a5fa9fedf__cwe824__write-global__linear__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_6fd7f7a41914__cwe824__write-global__loop-dowhile__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_4c764d0bcd73__cwe824__write-global__loop-for__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_8ea89ec00f15__cwe824__write-global__loop-while__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_fc16d95b864b__cwe824__write-global__pcall-int-value__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_2edf1433e04e__cwe824__write-global__switch-default-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_6457adf2820f__cwe824__write-global__switch-flipped-no-break__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_a12391001248__cwe824__write-global__switch__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_d9fecb4bcd63__cwe824__write-global__ternary__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "ternary", ]
+
+[["test_1f325778331d__cwe824__write-global__if-check-param-interval__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_0b908968b5b7__cwe824__write-global__if-check-param__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_9d57483b84e1__cwe824__write-global__error-path-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_79d7e031fe84__cwe824__write-global__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_83c446e8edc7__cwe824__write-global__error-path-external-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_cf0564e235da__cwe824__write-global__if-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_3dd40ae52c7a__cwe824__write-global__if-else-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_dfb79b5c3e97__cwe824__write-global__linear-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_af8876c05155__cwe824__write-global__call-array-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "array", "call", "flow", ]
+
+[["test_d523aeb8d6ab__cwe824__write-global__call-global-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "global", ]
+
+[["test_2bcb49b79f59__cwe824__write-global__call-int-int-values-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_d2454a41723e__cwe824__write-global__call-int-value-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_ff887e537d14__cwe824__write-global__call-list-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_23a6013b4011__cwe824__write-global__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_bdd4a9f05886__cwe824__write-global__call-pointer-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_ab9ac642a110__cwe824__write-global__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_87cb3efb4b07__cwe824__write-global__call-pstruct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_9c45f8a06f21__cwe824__write-global__call-struct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_6df33b3cdf9e__cwe824__write-global__call-with-assign-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_1a3353647474__cwe824__write-global__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_60bcfeb20f9c__cwe824__write-global__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_2388b817336f__cwe824__write-global__if-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_546f21626243__cwe824__write-global__if-else-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_a632c946761f__cwe824__write-global__pcall-int-value-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_d7697dd13daf__cwe824__write-global__switch-default-flipped__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_5f0d27cbb6be__cwe824__write-global__switch-default__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_2b74f5b20c1d__cwe824__write-global__switch-flipped__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_3e5dc043b45d__cwe824__write-global__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_99628c08779d__cwe824__write-global__switch-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_dc76571dbc72__cwe824__write-global__if-check-param-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_1b6987f4338c__cwe824__write-global__ternary-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "ternary", ]
+
+[["test_8d349976f679__cwe824__write-static__call-array__ispras.c"]]
+rule = "CWE-824"
+tags = [ "array", "call", "flow", ]
+
+[["test_62c363f48878__cwe824__write-static__call-global__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "global", ]
+
+[["test_f0bd5832700e__cwe824__write-static__call-int-int-values__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_be5c2dc3623d__cwe824__write-static__call-int-value__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_82641b134a4a__cwe824__write-static__call-list__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_ed019e97ef29__cwe824__write-static__call-pointer-alias__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_f2e4c2e892ae__cwe824__write-static__call-pointer__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_702f57d07b1b__cwe824__write-static__call-pstruct__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_10d4b24c105d__cwe824__write-static__call-struct__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_786811988485__cwe824__write-static__call-with-assign-if__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_8866badf8c04__cwe824__write-static__call-with-assign__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_2c171782d0fd__cwe824__write-static__call-with-no-assign-if__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_e04d2f94cf56__cwe824__write-static__error-path-check-flag__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_6a00f6d6b564__cwe824__write-static__error-path-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_743a3ac0fd67__cwe824__write-static__error-path-external__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_1a47536ed7a6__cwe824__write-static__if-check-inverted-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_17abe26b3d3e__cwe824__write-static__if-check-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_e8e93914075c__cwe824__write-static__if-else-check-inverted-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_12cdd0901a96__cwe824__write-static__if-else-check-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_558acd9389a3__cwe824__write-static__linear-filtered-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_81514f8ec51f__cwe824__write-static__linear__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_7b5a0e06b24b__cwe824__write-static__loop-dowhile__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_ce52c738ab5b__cwe824__write-static__loop-for__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_ce5347ae344a__cwe824__write-static__loop-while__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_31d7e1595be2__cwe824__write-static__pcall-int-value__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_5a5921027559__cwe824__write-static__switch-default-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_795d61627cdf__cwe824__write-static__switch-flipped-no-break__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_b44d4a9b7d38__cwe824__write-static__switch__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_301e995b9155__cwe824__write-static__ternary__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "ternary", ]
+
+[["test_a3090f3faee5__cwe824__write-static__if-check-param-interval__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_7128a4026418__cwe824__write-static__if-check-param__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_4344afd7c484__cwe824__write-static__error-path-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_422fd5975c65__cwe824__write-static__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_44edf274c407__cwe824__write-static__error-path-external-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_8a12aad8cc54__cwe824__write-static__if-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_5e1379e52267__cwe824__write-static__if-else-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_0343fe92ec31__cwe824__write-static__linear-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_8a476fabfbf7__cwe824__write-static__call-array-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "array", "call", "flow", ]
+
+[["test_a762148747a1__cwe824__write-static__call-global-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "global", ]
+
+[["test_ae8db3310a15__cwe824__write-static__call-int-int-values-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_77f7d2328e81__cwe824__write-static__call-int-value-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_bba47f7b6474__cwe824__write-static__call-list-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_f2b2cfa6fecd__cwe824__write-static__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_92ef339f0cac__cwe824__write-static__call-pointer-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_0e380ad0eed8__cwe824__write-static__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_3b5ddb1af7d5__cwe824__write-static__call-pstruct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_a93e2a96249f__cwe824__write-static__call-struct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_c77492cb94b3__cwe824__write-static__call-with-assign-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_4ab4c1fac45f__cwe824__write-static__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_8260db164cb2__cwe824__write-static__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_5940c9ea1cfe__cwe824__write-static__if-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_0b1d0a0b4f9f__cwe824__write-static__if-else-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_de8a9a5d474e__cwe824__write-static__pcall-int-value-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_3e60712a9404__cwe824__write-static__switch-default-flipped__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_6996e2418c64__cwe824__write-static__switch-default__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_514236c0b684__cwe824__write-static__switch-flipped__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_4fcdb16b1c03__cwe824__write-static__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_2854f2adb995__cwe824__write-static__switch-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_d4cf0be52243__cwe824__write-static__if-check-param-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_0dbab107b442__cwe824__write-static__ternary-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "ternary", ]
+
+[["test_f02bd182284d__cwe824__write__call-array__ispras.c"]]
+lines = [ 34 ]
+rule = "CWE-824"
+tags = [ "array", "call", "flow", ]
+
+[["test_58e9346cf3b2__cwe824__write__call-global__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "global", ]
+
+[["test_9d100348822a__cwe824__write__call-int-int-values__ispras.c"]]
+lines = [ 33 ]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_38a54727dbf8__cwe824__write__call-int-value__ispras.c"]]
+lines = [ 34 ]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_971816c438ca__cwe824__write__call-list__ispras.c"]]
+lines = [ 45 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_d2fdca88f019__cwe824__write__call-pointer-alias__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_9f63bb66d5b0__cwe824__write__call-pointer__ispras.c"]]
+lines = [ 34 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_d3da18a25dd2__cwe824__write__call-pstruct__ispras.c"]]
+lines = [ 44 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_7db497f56360__cwe824__write__call-struct__ispras.c"]]
+lines = [ 41 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_52ff6c7eb06e__cwe824__write__call-with-assign-if__ispras.c"]]
+lines = [ 34 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_e4669c55826c__cwe824__write__call-with-assign__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_3cf299a9ed2f__cwe824__write__call-with-no-assign-if__ispras.c"]]
+lines = [ 34 ]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_6385eb05ae24__cwe824__write__error-path-check-flag__ispras.c"]]
+lines = [ 32 ]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_aa89263d4b5d__cwe824__write__error-path-check__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_4711145a063c__cwe824__write__error-path-external__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_8cece26eb96f__cwe824__write__if-check-inverted-filtered__ispras.c"]]
+lines = [ 22 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_7067da08be03__cwe824__write__if-check-inverted__ispras.c"]]
+lines = [ 22 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_68eec0081851__cwe824__write__if-else-check-inverted-filtered__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_857034fafe4c__cwe824__write__if-else-check-inverted__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_0bb1dc680f07__cwe824__write__linear-filtered-inverted__ispras.c"]]
+lines = [ 17 ]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_ceea5d4e4bd4__cwe824__write__linear__ispras.c"]]
+lines = [ 17 ]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_b9b5e6e6b38c__cwe824__write__loop-dowhile__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_6dac19643923__cwe824__write__loop-for__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_7e54f1b6a65a__cwe824__write__loop-while__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-824"
+tags = [ "flow", "loop", ]
+
+[["test_12be717c9fd1__cwe824__write__pcall-int-value__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_817015cc2507__cwe824__write__switch-default-inverted__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_c3e487c9be84__cwe824__write__switch-flipped-no-break__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_3ff600766462__cwe824__write__switch__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_33a83ab7042f__cwe824__write__ternary__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-824"
+tags = [ "flow", "ternary", ]
+
+[["test_949759af6ba5__cwe824__write__if-check-param-interval__ispras.c"]]
+lines = [ 19 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_1978c277d1ea__cwe824__write__if-check-param__ispras.c"]]
+lines = [ 19 ]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_e5cf9e5a7d7c__cwe824__write__error-path-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_5f10d713ebc0__cwe824__write__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_de5ef9d31c25__cwe824__write__error-path-external-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "goto", "if", ]
+
+[["test_e3a9f3479da2__cwe824__write__if-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_fa9d05b17aad__cwe824__write__if-else-check-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_c69ccc4bbe27__cwe824__write__linear-filtered__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", ]
+
+[["test_24bd21220daa__cwe824__write__call-array-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "array", "call", "flow", ]
+
+[["test_85f7a08b3da3__cwe824__write__call-global-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "global", ]
+
+[["test_93bd67d49723__cwe824__write__call-int-int-values-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_01b5e657791a__cwe824__write__call-int-value-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_1806f1023235__cwe824__write__call-list-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_9c7196d0c0d4__cwe824__write__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_6637054b7364__cwe824__write__call-pointer-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_34ef158e729b__cwe824__write__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_43a933ff287e__cwe824__write__call-pstruct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_8ca1ad80fa56__cwe824__write__call-struct-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "struct", ]
+
+[["test_c3d48c5fc41e__cwe824__write__call-with-assign-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_c18b5a92ac42__cwe824__write__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_b94899fc4c14__cwe824__write__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_94c9cbc67d8c__cwe824__write__if-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_7ad4b70261db__cwe824__write__if-else-check__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_6670ba1f747e__cwe824__write__pcall-int-value-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "call", "flow", ]
+
+[["test_cf95fed7be30__cwe824__write__switch-default-flipped__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_b94f90e69406__cwe824__write__switch-default__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_e0fc0d1a697a__cwe824__write__switch-flipped__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_6231fa21d71f__cwe824__write__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_9ce1dd013a36__cwe824__write__switch-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_3931de6f4ed1__cwe824__write__if-check-param-false__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "if", ]
+
+[["test_2992a70fd108__cwe824__write__ternary-inverted__ispras.c"]]
+rule = "CWE-824"
+tags = [ "flow", "ternary", ]
+
+[["test_ffacc96cc34a__cwe908__read-and-arithm__call-array__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-908"
+tags = [ "array", "call", "flow", ]
+
+[["test_e13889e74be8__cwe908__read-and-arithm__call-global__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "global", ]
+
+[["test_6f374ea221c5__cwe908__read-and-arithm__call-int-int-values__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_9544e8e514d1__cwe908__read-and-arithm__call-int-value__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_08ba1b766b9d__cwe908__read-and-arithm__call-list__ispras.c"]]
+lines = [ 47 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_102d029632a6__cwe908__read-and-arithm__call-pointer-alias__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_dad7e90e4a7a__cwe908__read-and-arithm__call-pointer__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_52be0a589837__cwe908__read-and-arithm__call-pstruct__ispras.c"]]
+lines = [ 46 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_eb6f1560351a__cwe908__read-and-arithm__call-struct__ispras.c"]]
+lines = [ 43 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_ad530e665f4c__cwe908__read-and-arithm__call-with-assign-if__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_73cfbf2b3c8b__cwe908__read-and-arithm__call-with-assign__ispras.c"]]
+lines = [ 31 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_08cf91816931__cwe908__read-and-arithm__call-with-no-assign-if__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_aa4207517fa0__cwe908__read-and-arithm__error-path-check-flag__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_7545c1321682__cwe908__read-and-arithm__error-path-check__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_96ce61ec8041__cwe908__read-and-arithm__error-path-external__ispras.c"]]
+lines = [ 33 ]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_dc4ed6466a8a__cwe908__read-and-arithm__if-check-inverted-filtered__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_60db560d0620__cwe908__read-and-arithm__if-check-inverted__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_b2d24cd287ec__cwe908__read-and-arithm__if-else-check-inverted-filtered__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_27f6e645d72c__cwe908__read-and-arithm__if-else-check-inverted__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_23c2ebc1e36b__cwe908__read-and-arithm__linear-filtered-inverted__ispras.c"]]
+lines = [ 19 ]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_d0506374e749__cwe908__read-and-arithm__linear__ispras.c"]]
+lines = [ 19 ]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_acf17081a7d7__cwe908__read-and-arithm__loop-dowhile__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_8b05db847d9b__cwe908__read-and-arithm__loop-for__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_7635031d769b__cwe908__read-and-arithm__loop-while__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_3096e0369fdc__cwe908__read-and-arithm__pcall-int-value__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_b7cfb14d33c7__cwe908__read-and-arithm__switch-default-inverted__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_0098a25fd63a__cwe908__read-and-arithm__switch-flipped-no-break__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_d99621e9fe1a__cwe908__read-and-arithm__switch__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_726e9ebf25b5__cwe908__read-and-arithm__ternary__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-908"
+tags = [ "flow", "ternary", ]
+
+[["test_f4a1b3bbd250__cwe908__read-and-arithm__if-check-param-interval__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_8f314909dee8__cwe908__read-and-arithm__if-check-param__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_e7b5a63a2667__cwe908__read-and-arithm__error-path-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_8877a0cf6cd6__cwe908__read-and-arithm__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_7f7c4996b65f__cwe908__read-and-arithm__error-path-external-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_5bc652d7f3a0__cwe908__read-and-arithm__if-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_1ad17c93159b__cwe908__read-and-arithm__if-else-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_16e36b510311__cwe908__read-and-arithm__linear-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_8bcdf992743e__cwe908__read-and-arithm__call-array-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "array", "call", "flow", ]
+
+[["test_9997bd33e440__cwe908__read-and-arithm__call-global-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "global", ]
+
+[["test_4883b6c8faf8__cwe908__read-and-arithm__call-int-int-values-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_53dae41e254a__cwe908__read-and-arithm__call-int-value-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_1938f03515f5__cwe908__read-and-arithm__call-list-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_31453916d934__cwe908__read-and-arithm__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_eee8bb80f2dc__cwe908__read-and-arithm__call-pointer-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_b2676e7c41d7__cwe908__read-and-arithm__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_163958c4c1aa__cwe908__read-and-arithm__call-pstruct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_3529da7e218e__cwe908__read-and-arithm__call-struct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_6ebe4a785d41__cwe908__read-and-arithm__call-with-assign-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_dec0d4c9b6ac__cwe908__read-and-arithm__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_b02ba9e32358__cwe908__read-and-arithm__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_68aa28bf1b95__cwe908__read-and-arithm__if-check__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_c07faeff7ce4__cwe908__read-and-arithm__if-else-check__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_fc4c35ddbdfa__cwe908__read-and-arithm__pcall-int-value-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_d1cf230ce92c__cwe908__read-and-arithm__switch-default-flipped__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_17d82e24171b__cwe908__read-and-arithm__switch-default__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_79b20bebaa7b__cwe908__read-and-arithm__switch-flipped__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_d90220f865ae__cwe908__read-and-arithm__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_c2f4e04b23b0__cwe908__read-and-arithm__switch-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_a0768828d274__cwe908__read-and-arithm__if-check-param-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_480137eb0e35__cwe908__read-and-arithm__ternary-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "ternary", ]
+
+[["test_8445be34e79c__cwe908__read-and-call__call-array__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-908"
+tags = [ "array", "call", "flow", ]
+
+[["test_996a22cccd3e__cwe908__read-and-call__call-global__ispras.c"]]
+lines = [ 40 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "global", ]
+
+[["test_fe300a05560d__cwe908__read-and-call__call-int-int-values__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_a0fec15f7873__cwe908__read-and-call__call-int-value__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_998e1a474a19__cwe908__read-and-call__call-list__ispras.c"]]
+lines = [ 49 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_933aae48ac14__cwe908__read-and-call__call-pointer-alias__ispras.c"]]
+lines = [ 39 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_6d6d96f922ab__cwe908__read-and-call__call-pointer__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_28cab66366b8__cwe908__read-and-call__call-pstruct__ispras.c"]]
+lines = [ 48 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_24c0d4372b26__cwe908__read-and-call__call-struct__ispras.c"]]
+lines = [ 45 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_a749d11f419f__cwe908__read-and-call__call-with-assign-if__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_6a045d9919ef__cwe908__read-and-call__call-with-assign__ispras.c"]]
+lines = [ 33 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_d2770dc33d42__cwe908__read-and-call__call-with-no-assign-if__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_2ec744018a79__cwe908__read-and-call__error-path-check-flag__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_d7fd512dafc6__cwe908__read-and-call__error-path-check__ispras.c"]]
+lines = [ 32 ]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_3cf2ec7f8609__cwe908__read-and-call__error-path-external__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_94f155c37e08__cwe908__read-and-call__if-check-inverted-filtered__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_788c15b523e0__cwe908__read-and-call__if-check-inverted__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_9ab7c9d0bc60__cwe908__read-and-call__if-else-check-inverted-filtered__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_5919f5ce2e6a__cwe908__read-and-call__if-else-check-inverted__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_874581dae65f__cwe908__read-and-call__linear-filtered-inverted__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_430e33fb44d9__cwe908__read-and-call__linear__ispras.c"]]
+lines = [ 21 ]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_3b64ddb5eb93__cwe908__read-and-call__loop-dowhile__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_2a89516373f2__cwe908__read-and-call__loop-for__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_dc78aafb35f6__cwe908__read-and-call__loop-while__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_4e27d1d84848__cwe908__read-and-call__pcall-int-value__ispras.c"]]
+lines = [ 40 ]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_50d7a008c012__cwe908__read-and-call__switch-default-inverted__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_37ac330f5d2d__cwe908__read-and-call__switch-flipped-no-break__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_90cd453b730b__cwe908__read-and-call__switch__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_f166b5040ad5__cwe908__read-and-call__ternary__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-908"
+tags = [ "flow", "ternary", ]
+
+[["test_ef58113ee9a9__cwe908__read-and-call__if-check-param-interval__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_8994eaca9dae__cwe908__read-and-call__if-check-param__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_9adc8c429d51__cwe908__read-and-call__error-path-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_419d8194b1aa__cwe908__read-and-call__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_ee66a96bc76b__cwe908__read-and-call__error-path-external-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_a5f50eb6fa12__cwe908__read-and-call__if-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_39b58c4d2f2f__cwe908__read-and-call__if-else-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_b2a5857ebcdf__cwe908__read-and-call__linear-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_2fe5bf78de5b__cwe908__read-and-call__call-array-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "array", "call", "flow", ]
+
+[["test_e14ca33b20a9__cwe908__read-and-call__call-global-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "global", ]
+
+[["test_9640c11a8942__cwe908__read-and-call__call-int-int-values-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_9294db7b989f__cwe908__read-and-call__call-int-value-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_ac17ec81352c__cwe908__read-and-call__call-list-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_210390cbc9a0__cwe908__read-and-call__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_771d6b08a932__cwe908__read-and-call__call-pointer-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_6e2af1e7ae71__cwe908__read-and-call__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_3b2ac656e4bf__cwe908__read-and-call__call-pstruct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_0b80af6c5daa__cwe908__read-and-call__call-struct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_ac4e2748145a__cwe908__read-and-call__call-with-assign-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_c139ce7e6f40__cwe908__read-and-call__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_e25a7f1acba2__cwe908__read-and-call__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_7df06ed186b4__cwe908__read-and-call__if-check__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_9593e7162cd3__cwe908__read-and-call__if-else-check__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_e4b267a8f3a1__cwe908__read-and-call__pcall-int-value-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_a56f21237079__cwe908__read-and-call__switch-default-flipped__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_6534f714d562__cwe908__read-and-call__switch-default__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_dc5ee846165a__cwe908__read-and-call__switch-flipped__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_e8be8e873802__cwe908__read-and-call__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_1768b978e60a__cwe908__read-and-call__switch-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_aaf5d0ad31f5__cwe908__read-and-call__if-check-param-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_66889afcf9d8__cwe908__read-and-call__ternary-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "ternary", ]
+
+[["test_d8e992b7b097__cwe908__read-and-compare__call-array__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-908"
+tags = [ "array", "call", "flow", ]
+
+[["test_42404173bb35__cwe908__read-and-compare__call-global__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "global", ]
+
+[["test_ebc5ddee8037__cwe908__read-and-compare__call-int-int-values__ispras.c"]]
+lines = [ 34 ]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_677ce41ad7d6__cwe908__read-and-compare__call-int-value__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_0d94093b691a__cwe908__read-and-compare__call-list__ispras.c"]]
+lines = [ 46 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_48f0512ab923__cwe908__read-and-compare__call-pointer-alias__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_e829eac8fa41__cwe908__read-and-compare__call-pointer__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_d3756b266224__cwe908__read-and-compare__call-pstruct__ispras.c"]]
+lines = [ 45 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_9f924b748508__cwe908__read-and-compare__call-struct__ispras.c"]]
+lines = [ 42 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_0b0685428d08__cwe908__read-and-compare__call-with-assign-if__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_27890ca3ba6a__cwe908__read-and-compare__call-with-assign__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_35bcb98cbca6__cwe908__read-and-compare__call-with-no-assign-if__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_d8e57047bad6__cwe908__read-and-compare__error-path-check-flag__ispras.c"]]
+lines = [ 35 ]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_15731b4b0788__cwe908__read-and-compare__error-path-check__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_aeddee03b0b2__cwe908__read-and-compare__error-path-external__ispras.c"]]
+lines = [ 32 ]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_a0ecf9afd7cd__cwe908__read-and-compare__if-check-inverted-filtered__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_02c698599fbf__cwe908__read-and-compare__if-check-inverted__ispras.c"]]
+lines = [ 23 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_3ae7a0c2e8fa__cwe908__read-and-compare__if-else-check-inverted-filtered__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_d2a3019e3c76__cwe908__read-and-compare__if-else-check-inverted__ispras.c"]]
+lines = [ 22 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_2ba40e10d54a__cwe908__read-and-compare__linear-filtered-inverted__ispras.c"]]
+lines = [ 18 ]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_8500844de9d0__cwe908__read-and-compare__linear__ispras.c"]]
+lines = [ 18 ]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_eeab39fc593b__cwe908__read-and-compare__loop-dowhile__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_5658a2b1bb6e__cwe908__read-and-compare__loop-for__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_4ccb3043661d__cwe908__read-and-compare__loop-while__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_f6fae710d0b2__cwe908__read-and-compare__pcall-int-value__ispras.c"]]
+lines = [ 37 ]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_cc381b468a2a__cwe908__read-and-compare__switch-default-inverted__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_3b5873249cfb__cwe908__read-and-compare__switch-flipped-no-break__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_b5f75b68e15f__cwe908__read-and-compare__switch__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_923fa9dec57b__cwe908__read-and-compare__ternary__ispras.c"]]
+lines = [ 25 ]
+rule = "CWE-908"
+tags = [ "flow", "ternary", ]
+
+[["test_189cce6885e7__cwe908__read-and-compare__if-check-param-interval__ispras.c"]]
+lines = [ 20 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_f702ebe2430e__cwe908__read-and-compare__if-check-param__ispras.c"]]
+lines = [ 20 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_e1b2084a1412__cwe908__read-and-compare__error-path-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_e0dc609f5b0d__cwe908__read-and-compare__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_61c80f94f69c__cwe908__read-and-compare__error-path-external-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_e83cc227c774__cwe908__read-and-compare__if-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_7f7321c8d1e3__cwe908__read-and-compare__if-else-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_6cea3657be05__cwe908__read-and-compare__linear-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_968f514f7b88__cwe908__read-and-compare__call-array-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "array", "call", "flow", ]
+
+[["test_cbbce7b49533__cwe908__read-and-compare__call-global-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "global", ]
+
+[["test_999ec9ea859a__cwe908__read-and-compare__call-int-int-values-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_edbd76370391__cwe908__read-and-compare__call-int-value-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_6792a4b6ac43__cwe908__read-and-compare__call-list-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_bdfb7dc61d5b__cwe908__read-and-compare__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_732b6bd5a06a__cwe908__read-and-compare__call-pointer-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_b66043f58194__cwe908__read-and-compare__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_81d877a3cfda__cwe908__read-and-compare__call-pstruct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_70da400bfe33__cwe908__read-and-compare__call-struct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_8d2e51ec7ab2__cwe908__read-and-compare__call-with-assign-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_da0a111731f5__cwe908__read-and-compare__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_5c78e20019fc__cwe908__read-and-compare__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_2f4959575db2__cwe908__read-and-compare__if-check__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_71dd4387c45d__cwe908__read-and-compare__if-else-check__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_754a58fbd063__cwe908__read-and-compare__pcall-int-value-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_aee6ac3c8a07__cwe908__read-and-compare__switch-default-flipped__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_cf75b68489da__cwe908__read-and-compare__switch-default__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_e6da90f74413__cwe908__read-and-compare__switch-flipped__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_c1f8ca329eb3__cwe908__read-and-compare__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_25cd61f91da8__cwe908__read-and-compare__switch-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_ce8c41464937__cwe908__read-and-compare__if-check-param-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_9a5e2b04efd5__cwe908__read-and-compare__ternary-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "ternary", ]
+
+[["test_c32723aebaef__cwe908__read-fake__call-array__ispras.c"]]
+rule = "CWE-908"
+tags = [ "array", "call", "flow", ]
+
+[["test_dd0473ec40fe__cwe908__read-fake__call-global__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "global", ]
+
+[["test_caf644e04b77__cwe908__read-fake__call-int-int-values__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_28ba13a60cdc__cwe908__read-fake__call-int-value__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_e50eb53cf436__cwe908__read-fake__call-list__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_0f20b38b5936__cwe908__read-fake__call-pointer-alias__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_d3cd1a05e742__cwe908__read-fake__call-pointer__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_95bbce61201b__cwe908__read-fake__call-pstruct__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_48d44eef4a98__cwe908__read-fake__call-struct__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_b2a6e15d112c__cwe908__read-fake__call-with-assign-if__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_a44c818ebb13__cwe908__read-fake__call-with-assign__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_b037b4df3150__cwe908__read-fake__call-with-no-assign-if__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_5dcdcdad06df__cwe908__read-fake__error-path-check-flag__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_6c71acfdc280__cwe908__read-fake__error-path-check__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_8211c2369be5__cwe908__read-fake__error-path-external__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_d4338cad6202__cwe908__read-fake__if-check-inverted-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_3d539152f38e__cwe908__read-fake__if-check-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_b2c728c5d8a0__cwe908__read-fake__if-else-check-inverted-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_e6d68c20a5f4__cwe908__read-fake__if-else-check-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_9516732d2148__cwe908__read-fake__linear-filtered-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_974cbc88efa5__cwe908__read-fake__linear__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_0cc7696c1ecd__cwe908__read-fake__loop-dowhile__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_f705f0d1f21c__cwe908__read-fake__loop-for__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_91c9b54ed9a4__cwe908__read-fake__loop-while__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_72247b4450cf__cwe908__read-fake__pcall-int-value__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_ae72a40d5955__cwe908__read-fake__switch-default-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_b7d532d0d061__cwe908__read-fake__switch-flipped-no-break__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_571b48bf7039__cwe908__read-fake__switch__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_1eeb6b087ae3__cwe908__read-fake__ternary__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "ternary", ]
+
+[["test_a1ded563c337__cwe908__read-fake__if-check-param-interval__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_ad58e3136c97__cwe908__read-fake__if-check-param__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_4f2a5bf41e70__cwe908__read-fake__error-path-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_86b7c773d297__cwe908__read-fake__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_88626af67ca3__cwe908__read-fake__error-path-external-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_8c7999d5bc49__cwe908__read-fake__if-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_4b0ee459fd48__cwe908__read-fake__if-else-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_b0e6df9ecf8a__cwe908__read-fake__linear-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_8c111550d7df__cwe908__read-fake__call-array-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "array", "call", "flow", ]
+
+[["test_f13f02b2d46b__cwe908__read-fake__call-global-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "global", ]
+
+[["test_c3303e668746__cwe908__read-fake__call-int-int-values-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_d7a840f97423__cwe908__read-fake__call-int-value-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_76e222410843__cwe908__read-fake__call-list-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_bb0c4deac8cf__cwe908__read-fake__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_6603f8bea35d__cwe908__read-fake__call-pointer-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_20e721386f65__cwe908__read-fake__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_b64c4c8a2968__cwe908__read-fake__call-pstruct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_a5f533e13a72__cwe908__read-fake__call-struct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_250358ec0dcc__cwe908__read-fake__call-with-assign-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_1275ab302b4f__cwe908__read-fake__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_37ecb1b50c5f__cwe908__read-fake__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_de04c9ee82be__cwe908__read-fake__if-check__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_1cd0536c397a__cwe908__read-fake__if-else-check__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_2039d762d2ff__cwe908__read-fake__pcall-int-value-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_9a9be840ea55__cwe908__read-fake__switch-default-flipped__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_f603478847c4__cwe908__read-fake__switch-default__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_ec03767abd35__cwe908__read-fake__switch-flipped__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_37a5263dc669__cwe908__read-fake__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_6402f55cedd3__cwe908__read-fake__switch-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_6a03d85a04bd__cwe908__read-fake__if-check-param-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_6984396ce173__cwe908__read-fake__ternary-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "ternary", ]
+
+[["test_9811b247a1c8__cwe908__sometimes-init__call-array__ispras.c"]]
+lines = [ 39 ]
+rule = "CWE-908"
+tags = [ "array", "call", "flow", ]
+
+[["test_9b919efb3dec__cwe908__sometimes-init__call-global__ispras.c"]]
+lines = [ 41 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "global", ]
+
+[["test_ce8574f170da__cwe908__sometimes-init__call-int-int-values__ispras.c"]]
+lines = [ 38 ]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_53f886865b0d__cwe908__sometimes-init__call-int-value__ispras.c"]]
+lines = [ 39 ]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_aa6f07fbea27__cwe908__sometimes-init__call-list__ispras.c"]]
+lines = [ 50 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_804ce021004a__cwe908__sometimes-init__call-pointer-alias__ispras.c"]]
+lines = [ 40 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_88ab05291613__cwe908__sometimes-init__call-pointer__ispras.c"]]
+lines = [ 39 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_6afecf45496d__cwe908__sometimes-init__call-pstruct__ispras.c"]]
+lines = [ 49 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_fb76f895d140__cwe908__sometimes-init__call-struct__ispras.c"]]
+lines = [ 46 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_dea9a780b237__cwe908__sometimes-init__call-with-assign-if__ispras.c"]]
+lines = [ 39 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_ce94fe988a43__cwe908__sometimes-init__call-with-assign__ispras.c"]]
+lines = [ 34 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_aaa0d45fb182__cwe908__sometimes-init__call-with-no-assign-if__ispras.c"]]
+lines = [ 39 ]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_bd89222be441__cwe908__sometimes-init__error-path-check-flag__ispras.c"]]
+lines = [ 39 ]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_8a87f6ae7178__cwe908__sometimes-init__error-path-check__ispras.c"]]
+lines = [ 33 ]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_5c1df3dd3fdd__cwe908__sometimes-init__error-path-external__ispras.c"]]
+lines = [ 36 ]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_28878a06b1de__cwe908__sometimes-init__if-check-inverted-filtered__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_35d0e114a7bd__cwe908__sometimes-init__if-check-inverted__ispras.c"]]
+lines = [ 27 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_cf79054db49b__cwe908__sometimes-init__if-else-check-inverted-filtered__ispras.c"]]
+lines = [ 28 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_b2b030818c69__cwe908__sometimes-init__if-else-check-inverted__ispras.c"]]
+lines = [ 26 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_6562841b8c72__cwe908__sometimes-init__linear-filtered-inverted__ispras.c"]]
+lines = [ 22 ]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_7e915db1452e__cwe908__sometimes-init__linear__ispras.c"]]
+lines = [ 22 ]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_b66f9707b14a__cwe908__sometimes-init__loop-dowhile__ispras.c"]]
+lines = [ 31 ]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_0cd8afe393c2__cwe908__sometimes-init__loop-for__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_c069e999a85a__cwe908__sometimes-init__loop-while__ispras.c"]]
+lines = [ 30 ]
+rule = "CWE-908"
+tags = [ "flow", "loop", ]
+
+[["test_de6c5df03533__cwe908__sometimes-init__pcall-int-value__ispras.c"]]
+lines = [ 41 ]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_63c3eb1fbcfd__cwe908__sometimes-init__switch-default-inverted__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_435f82b13335__cwe908__sometimes-init__switch-flipped-no-break__ispras.c"]]
+lines = [ 31 ]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_d5581a5beb8d__cwe908__sometimes-init__switch__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_adea640c6c10__cwe908__sometimes-init__ternary__ispras.c"]]
+lines = [ 29 ]
+rule = "CWE-908"
+tags = [ "flow", "ternary", ]
+
+[["test_971baf468e61__cwe908__sometimes-init__if-check-param-interval__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_5c00fb4555c6__cwe908__sometimes-init__if-check-param__ispras.c"]]
+lines = [ 24 ]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_5c83373b95ee__cwe908__sometimes-init__error-path-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_c39b4e8c65b3__cwe908__sometimes-init__error-path-check-flag-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_580ede32dfbd__cwe908__sometimes-init__error-path-external-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "goto", "if", ]
+
+[["test_ba6ac9288ae3__cwe908__sometimes-init__if-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_6a3f659359a5__cwe908__sometimes-init__if-else-check-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_ad1b3f2d9cc4__cwe908__sometimes-init__linear-filtered__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", ]
+
+[["test_5fcab2b76231__cwe908__sometimes-init__call-array-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "array", "call", "flow", ]
+
+[["test_63051451a91f__cwe908__sometimes-init__call-global-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "global", ]
+
+[["test_6e98487fc386__cwe908__sometimes-init__call-int-int-values-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_90b5efe1313e__cwe908__sometimes-init__call-int-value-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_21ac1632e59f__cwe908__sometimes-init__call-list-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "loop", "struct", ]
+
+[["test_21c5dd96cb3b__cwe908__sometimes-init__call-pointer-alias-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_66f40fd41d41__cwe908__sometimes-init__call-pointer-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_c76893b499a1__cwe908__sometimes-init__call-pstruct-and-inner-struct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_69ff0980679d__cwe908__sometimes-init__call-pstruct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_9bc6e8db3962__cwe908__sometimes-init__call-struct-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "struct", ]
+
+[["test_873d37417126__cwe908__sometimes-init__call-with-assign-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_8fffae7cce5f__cwe908__sometimes-init__call-with-assign-if-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_8e6bd345185f__cwe908__sometimes-init__call-with-no-assign-if-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", "pointer", ]
+
+[["test_bbd463a51ce9__cwe908__sometimes-init__if-check__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_2ade33dbf40e__cwe908__sometimes-init__if-else-check__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_c8694e97f26b__cwe908__sometimes-init__pcall-int-value-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "call", "flow", ]
+
+[["test_5753e3398775__cwe908__sometimes-init__switch-default-flipped__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_e4f1f8d74306__cwe908__sometimes-init__switch-default__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_7482403a371b__cwe908__sometimes-init__switch-flipped__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_deaf58049e49__cwe908__sometimes-init__switch-inverted-no-break__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_f71b8c6e64e3__cwe908__sometimes-init__switch-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "switch", "value-analysis", ]
+
+[["test_4ee5aac56c30__cwe908__sometimes-init__if-check-param-false__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "if", ]
+
+[["test_dd0ff89f8da3__cwe908__sometimes-init__ternary-inverted__ispras.c"]]
+rule = "CWE-908"
+tags = [ "flow", "ternary", ]
+
