@@ -1,3 +1,4 @@
+import sys
 import os
 import json
 from analyzers_handler import AnalyzersHandler
@@ -98,14 +99,27 @@ def run_analyzer(analyzer_name, config, analyzer_handler):
     print(f"Готово! Результаты сохранены в {final_file}")
 
 def main():
+    specific_analyzer = None
+    if len(sys.argv) > 1:
+        specific_analyzer = sys.argv[1]
+
     with open("analyzers_runner_util/test_configs.json") as f:
         config = json.load(f)
+
+    if specific_analyzer:
+        if specific_analyzer not in config["analyzers_all"]:
+            print(f"Ошибка: Анализатора '{specific_analyzer}' нету в конфигурационном файле")
+            print(f"Доступные анализаторы: {', '.join(config['analyzers_all'])}")
+            sys.exit(1)
+        analyzers_to_run = [specific_analyzer]
+    else:
+        analyzers_to_run = config["analyzers_all"]
 
     analyzer_handler = AnalyzersHandler()
 
     with ThreadPoolExecutor(max_workers=len(config["analyzers_all"])) as executor:
         futures = [executor.submit(run_analyzer, analyzer_name, config, analyzer_handler)
-                   for analyzer_name in config["analyzers_all"]]
+                   for analyzer_name in analyzers_to_run
         for future in futures:
             future.result()
 
