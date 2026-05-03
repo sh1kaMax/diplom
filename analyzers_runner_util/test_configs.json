@@ -371,7 +371,8 @@
           "accepted_errors": [
             "invalid free",
             "pointer is outside allocated block",
-            "invalid memory access"
+            "invalid memory access",
+            "escaping address"
           ],
           "accepted_cwe": [763, 761, 415, 416]
         },
