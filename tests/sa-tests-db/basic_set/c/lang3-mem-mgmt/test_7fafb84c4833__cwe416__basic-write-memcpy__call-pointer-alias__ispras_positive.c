@@ -27,7 +27,8 @@ int callee(int *pointer_param) {
 }
 
 int func(int *param) {
-  int *pointer = NULL;
+  int *pointer = malloc(sizeof(int));
+  *pointer = 42;
   int freed_flag = 0;
 
   int local_var = 0, *local_pointer = &local_var;
