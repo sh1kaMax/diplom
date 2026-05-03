@@ -119,7 +119,7 @@ def main():
 
     with ThreadPoolExecutor(max_workers=len(config["analyzers_all"])) as executor:
         futures = [executor.submit(run_analyzer, analyzer_name, config, analyzer_handler)
-                   for analyzer_name in analyzers_to_run
+                   for analyzer_name in analyzers_to_run]
         for future in futures:
             future.result()
 
