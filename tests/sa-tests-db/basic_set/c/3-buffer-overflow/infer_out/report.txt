@@ -1,0 +1,13 @@
+#0
+test_76b7e8048ab9__cwe120__wrapper-array-global-const_size-const_index__ternary__ispras_positive.c:37: error: Dead Store
+  The value written to `&result` is never used. 
+  35.   if (var) {
+  36.     buf_ptr = get_buffer_func();
+  37.     result = buf_ptr[index]; // FLAW
+          ^
+  38.   }
+  39. 
+
+Found 1 issue
+  Issue Type(ISSUED_TYPE_ID): #
+      Dead Store(DEAD_STORE): 1
