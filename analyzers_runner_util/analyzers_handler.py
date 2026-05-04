@@ -11,7 +11,7 @@ from analyzers.splint                   import SplintAnalyzer
 class AnalyzersHandler:
     def __init__(self):
         self.analyzers_map = {
-            "clang_static_analyzer":    ClangStaticAnalyzer,
+            "clang-static-analyzer":    ClangStaticAnalyzer,
             "clang_tidy":               ClangTidyAnalyzer,
             "cppcheck":                 CppcheckAnalyzer,
             "flawfinder":               FlawfinderAnalyzer,

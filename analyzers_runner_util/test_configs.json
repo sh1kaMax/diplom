@@ -1,5 +1,5 @@
 {
-  "analyzers_all": ["cppcheck", "frama-c", "splint", "infer", "flawfinder", "rats"],
+  "analyzers_all": ["cppcheck", "frama-c", "splint", "infer", "flawfinder", "rats", "clang-static-analyzer"],
   "tests": [
     {
       "name": "Buffer Overflow (CWE 120)",
@@ -11,6 +11,7 @@
           "accepted_errors": [
             "arrayIndexOutOfBounds",
             "bufferAccessOutOfBounds",
+            "arrayIndexOutOfBoundsCond",
             "outOfBounds"
           ],
           "accepted_cwe": [120, 787, 788]
@@ -26,9 +27,7 @@
 
         "splint": {
           "accepted_errors": [
-            "Likely buffer overflow",
-            "Out of bounds array access",
-            "out-of-bounds"
+            "Possible out-of-bounds store"
           ],
           "accepted_cwe": [120, 787, 788]
         },
@@ -37,7 +36,8 @@
           "accepted_errors": [
             "BUFFER_OVERRUN_L1",
             "BUFFER_OVERRUN_L2",
-            "Out of bounds write"
+            "Out of bounds write",
+            "PULSE_UNINITIALIZED_VALUE"
           ],
           "accepted_cwe": [120, 787, 788]
         },
@@ -48,7 +48,8 @@
             "potential overflows",
             "buffer overflows",
             "CWE-120",
-            "buffer overflow"
+            "buffer overflow",
+            "CWE-119"
           ],
           "accepted_cwe": [120]
         },
@@ -58,6 +59,16 @@
             "buffer overflow",
             "memset",
             "High risk: memset"
+          ],
+          "accepted_cwe": [120]
+        },
+
+        "clang-static-analyzer" : {
+          "accepted_errors": [
+            "buffer overflow",
+            "alpha.unix.cstring.OutOfBounds",
+            "alpha.security.ArrayBound",
+            "alpha.security.ArrayBoundV2"
           ],
           "accepted_cwe": [120]
         }
@@ -71,30 +82,14 @@
 
         "cppcheck": {
           "accepted_errors": [
-            "unvalidated input",
-            "unvalidated tainted",
-            "unvalidated value",
-            "untrusted data",
-            "tainted data in allocation",
-            "size argument is tainted",
-            "tainted size",
-            "tainted value used here",
-            "Division by tainted", 
-            "unbounded memory allocation"
+            "unvalidated input"
           ],
           "accepted_cwe": [1284, 20, 190, 1255]
         },
 
         "frama-c": {
           "accepted_errors": [
-            "value from untrusted source",
-            "argument may be invalid",
-            "allocation size may be unbounded",
-            "invalid size",
-            "untrusted value reaches",
-            "value from 'scanf' flows to",
-            "insufficient validation",
-            "size argument might be unchecked"
+            "out of bounds"
           ],
           "accepted_cwe": [1284, 20, 190, 1255]
         },
@@ -113,17 +108,7 @@
 
         "infer": {
           "accepted_errors": [
-            "TAINT_ERROR",
-            "TaintFlow",
-            "UNTRUSTED_INPUT",
-            "unvalidated input",
-            "parameter is tainted",
-            "tainted value may reach",
-            "tainted value reaches",
-            "tainted argument",
-            "untrusted data passed to malloc",
-            "allocation with untrusted input",
-            "size is influenced by user-controlled input"
+            "TAINT_ERROR"
           ],
           "accepted_cwe": [1284, 20, 190, 1255]
         },
@@ -143,12 +128,14 @@
 
         "rats": {
           "accepted_errors": [
-            "unbounded",
-            "user-controlled input",
-            "validation failure",
-            "improper input",
-            "dangerous use of untrusted data",
-            "malloc with user input"
+            "High: scanf"
+          ],
+          "accepted_cwe": [1284, 20, 190, 1255]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "alpha.security.taint.TaintPropagation"            
           ],
           "accepted_cwe": [1284, 20, 190, 1255]
         }
@@ -176,12 +163,7 @@
         "frama-c": {
           "accepted_errors": [
             "integer overflow",
-            "value overflow",
-            "arithmetic overflow",
-            "signed overflow",
-            "wraparound",
-            "operand overflow",
-            "possible overflow"
+            "signed overflow"
           ],
           "accepted_cwe": [190, 191, 681]
         },
@@ -200,13 +182,7 @@
 
         "infer": {
           "accepted_errors": [
-            "INTEGER_OVERFLOW",
-            "UNARY_MINUS_OVERFLOW",
-            "ARITHMETIC_OVERFLOW",
-            "Possible integer overflow",
-            "signed overflow",
-            "overflow during addition",
-            "overflow during multiplication"
+            "INTEGER_OVERFLOW"
           ],
           "accepted_cwe": [190, 191, 681]
         },
@@ -230,6 +206,13 @@
             "numeric overflow"
           ],
           "accepted_cwe": [190]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "alpha.core.Conversion"
+          ],
+          "accepted_cwe": [190]
         }
       }
     },
@@ -242,6 +225,7 @@
         "cppcheck": {
           "accepted_errors": [
             "nullPointer",
+            "nullPointerRedundantCheck",
             "possible null pointer",
             "dereference null"
           ],
@@ -250,9 +234,8 @@
 
         "frama-c": {
           "accepted_errors": [
-            "dereferencing a null pointer",
-            "null pointer",
-            "invalid memory access"
+            "invalid memory access",
+            "out of bounds"
           ],
           "accepted_cwe": [476, 690, 824]
         },
@@ -268,9 +251,7 @@
 
         "infer": {
           "accepted_errors": [
-            "NULL_DEREFERENCE",
-            "NULLPTR_DEREFERENCE",
-            "null dereference"
+            "NULLPTR_DEREFERENCE"
           ],
           "accepted_cwe": [476]
         },
@@ -289,6 +270,16 @@
             "CWE-476"
           ],
           "accepted_cwe": [476]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "core.NullDereference",
+            "Dereference of null pointer",
+            "core.NonNullParamChecker",
+            "Null pointer passed"
+          ],
+          "accepted_cwe": [476]
         }
       }
     },
@@ -300,19 +291,15 @@
 
         "cppcheck": {
           "accepted_errors": [
-            "division by zero",
-            "divide by zero",
-            "modulo of zero"
+            "zerodiv",
+            "zerodivcond"
           ],
           "accepted_cwe": [369]
         },
 
         "frama-c": {
           "accepted_errors": [
-            "division by zero",
-            "assert",
-            "undefined value",
-            "possible division by zero"
+            "division by zero"
           ],
           "accepted_cwe": [369]
         },
@@ -328,8 +315,7 @@
 
         "infer": {
           "accepted_errors": [
-            "DIVIDE_BY_ZERO",
-            "division by zero"
+            "DIVIDE_BY_ZERO"
           ],
           "accepted_cwe": [369]
         },
@@ -348,6 +334,13 @@
             "CWE-369"
           ],
           "accepted_cwe": [369]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "Division by zero"
+          ],
+          "accepted_cwe": [369]
         }
       }
     },
@@ -359,29 +352,28 @@
         
         "cppcheck": {
           "accepted_errors": [
-            "deallocating memory not allocated",
-            "mismatching allocation",
-            "invalid free",
-            "pointer arithmetic on allocation"
+            "memleak",
+            "doubleFree",
+            "deallocuse"
           ],
           "accepted_cwe": [763, 761, 415, 416]
         },
         
         "frama-c": {
           "accepted_errors": [
-            "invalid free",
-            "pointer is outside allocated block",
             "invalid memory access",
-            "escaping address"
+            "escaping address",
+            "out of bounds write",
+            "out of bounds read"
           ],
           "accepted_cwe": [763, 761, 415, 416]
         },
         
         "splint": {
           "accepted_errors": [
-            "Possibly freeing non-allocated storage",
-            "Invalid free",
-            "freeing memory outside region"
+            "memory leak",
+            "not released",
+            "Memory is used after it has been released"
           ],
           "accepted_cwe": [763]
         },
@@ -389,17 +381,16 @@
         "infer": {
           "accepted_errors": [
             "INVALID_FREE",
-            "MEMORY_LEAK",
-            "pointer not allocated",
-            "freeing pointer not at base address"
+            "MEMORY_LEAK_C",
+            "USE_AFTER_FREE",
+            "NULLPTR_DEREFERENCE"
           ],
           "accepted_cwe": [763, 415, 416]
         },
 
         "flawfinder": {
           "accepted_errors": [
-            "invalid free",
-            "CWE-763"
+            "Does not check for buffer overflows"
           ],
           "accepted_cwe": [763]
         },
@@ -409,6 +400,15 @@
             "free called on invalid pointer",
             "high risk: free",
             "CWE-763"
+          ],
+          "accepted_cwe": [763]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "unix.Malloc",
+            "Use of memory after it is freed",
+            "Attempt to free released memory"
           ],
           "accepted_cwe": [763]
         }
@@ -431,18 +431,14 @@
         
         "frama-c": {
           "accepted_errors": [
-            "format string",
-            "invalid format specifier",
-            "dangerous format"
+            "Call to function printf with non-static format argument"
           ],
           "accepted_cwe": [134]
         },
         
         "splint": {
           "accepted_errors": [
-            "Format string vulnerability",
-            "invalid format arg",
-            "dangerous format"
+            "Format string parameter to printf is not a compile-time constant"
           ],
           "accepted_cwe": [134]
         },
@@ -465,9 +461,15 @@
 
         "rats": {
           "accepted_errors": [
-            "format string",
-            "printf",
-            "CWE-134"
+            "High: printf"
+          ],
+          "accepted_cwe": [134]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "Untrusted data is used as a format string",
+            "CWE-134: Uncontrolled Format String"
           ],
           "accepted_cwe": [134]
         }
@@ -481,9 +483,8 @@
         
         "cppcheck": {
           "accepted_errors": [
-            "uninitialized variable",
-            "uninit",
-            "using uninitialized value"
+            "Uninitialized variable",
+            "uninitvar"
           ],
           "accepted_cwe": [908, 457]
         },
@@ -497,9 +498,7 @@
 
         "splint": {
           "accepted_errors": [
-            "Variable may be used before definition",
-            "Possibly undefined",
-            "uninitialized"
+            "used before definition"
           ],
           "accepted_cwe": [908]
         },
@@ -507,7 +506,8 @@
         "infer": {
           "accepted_errors": [
             "UNINITIALIZED_VALUE",
-            "READ_UNINITIALIZED_VALUE"
+            "READ_UNINITIALIZED_VALUE",
+            "PULSE_UNINITIALIZED_VALUE"
           ],
           "accepted_cwe": [908, 457]
         },
@@ -526,6 +526,76 @@
             "CWE-908"
           ],
           "accepted_cwe": [908]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "uninitialized value",
+            "core.uninitialized.Assign",
+            "core.NullDereference"
+          ],
+          "accepted_cwe": [908]
+        }
+      }
+    },
+    {
+      "name": "Missing Release of Resource (772)",
+      "path": "tests/sa-tests-db/basic_set/c/lang6-mem-leak",
+      "cwe": 772,
+      "analyzers": {
+        
+        "cppcheck": {
+          "accepted_errors": [
+            "resourceLeak",
+            "memleak"
+          ],
+          "accepted_cwe": [772]
+        },
+        
+        "frama-c": {
+          "accepted_errors": [
+            "uninitialized left-values"
+          ],
+          "accepted_cwe": [772]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "A memory leak has been detected"
+          ],
+          "accepted_cwe": [772]
+        },
+        
+        "infer": {
+          "accepted_errors": [
+            "MEMORY_LEAK_C"
+          ],
+          "accepted_cwe": [772]
+        },
+        
+        "flawfinder": {
+          "accepted_errors": [
+            "CWE-362"
+          ],
+          "accepted_cwe": [772]
+        },
+        
+        "rats": {
+          "accepted_errors": [
+            "High: open",
+            "High: fopen"
+          ],
+          "accepted_cwe": [772]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "alpha.unix.SimpleStream",
+            "unix.Malloc",
+            "Potential leak of memory",
+            "alpha.unix.Stream"
+          ],
+          "accepted_cwe": [772]
         }
       }
     }

@@ -3,7 +3,7 @@ import time
 
 class ClangStaticAnalyzer:
     def __init__(self, extra_args=None):
-        self.extra_args = extra_args or ["--analyze", "-Xanalyzer", "-analyzer-checker=core,unix"]
+        self.extra_args = extra_args or ["--analyze", "-Xclang","-analyzer-output=text", "-Xanalyzer", "-analyzer-checker=core,unix,security,deadcode,alpha"]
 
     def get_name(self):
         return "clang-static-analyzer"
