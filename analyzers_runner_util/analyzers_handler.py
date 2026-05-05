@@ -7,6 +7,7 @@ from analyzers.infer                    import InferAnalyzer
 from analyzers.rats                     import RATSAnalyzer
 from analyzers.sparse                   import SparseAnalyzer
 from analyzers.splint                   import SplintAnalyzer
+from analyzers.pvs_studio               import PVSStudio
 
 class AnalyzersHandler:
     def __init__(self):
@@ -19,7 +20,8 @@ class AnalyzersHandler:
             "infer":                    InferAnalyzer,
             "rats":                     RATSAnalyzer,
             "sparse":                   SparseAnalyzer,
-            "splint":                   SplintAnalyzer
+            "splint":                   SplintAnalyzer,
+            "pvs-studio":               PVSStudio
         }
 
     def get_analyzer_by_name(self, analyzer_name):
