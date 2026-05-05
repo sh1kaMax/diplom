@@ -8,17 +8,27 @@ class SplintAnalyzer:
             "+strict",
             "+memchecks",
             "+usedef",
+            "+ignoresys",
+            "-exporttype",
+            "-exportconst",
+            "-exportfcn",
+            "-isoreserved", 
+            "-warnposixheaders",
+            "-shiftimplementation",
+            "-incondefs",
+            "-unusedfield",
             "-I/home/shika/diplom/analyzers_runner_util/include",
             # "+matchanyintegral"
         ]
+        self.extra_good = ["-I", "/usr/include", "-I", "/home/shika/diplom/tests/C/testcasesupport", "-DINCLUDEMAIN", "-DOMITBAD"]
+        self.extra_bad = ["-I", "/usr/include", "-I", "/home/shika/diplom/tests/C/testcasesupport", "-DINCLUDEMAIN", "-DOMITGOOD"]
 
     def get_name(self):
         return "splint"
 
-    def run(self, file_path):
+    def __run_cmd(self, cmd):
         start = time.time()
-        cmd = ["splint"] + self.extra_args + [file_path]
-
+        
         try:
             proc = subprocess.run(
                 cmd,
@@ -32,10 +42,25 @@ class SplintAnalyzer:
                 "raw_output": "TIMEOUT",
                 "runtime_sec": time.time() - start
             }
-
+        
         runtime = time.time() - start
-
+        
         return {
             "raw_output": proc.stdout.strip() + proc.stderr.strip(),
             "runtime_sec": runtime
         }
+
+    def run(self, file_path):
+        cmd = ["splint"] + self.extra_args + [file_path]
+
+        return self.__run_cmd(cmd)
+
+    def run_good(self, file_path):
+        cmd = ["splint"] + self.extra_args + self.extra_good + [file_path]
+
+        return self.__run_cmd(cmd)
+
+    def run_bad(self, file_path):
+        cmd = ["splint"] + self.extra_args + self.extra_bad + [file_path]
+
+        return self.__run_cmd(cmd)

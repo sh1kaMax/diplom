@@ -3,14 +3,13 @@ import time
 
 class RATSAnalyzer:
     def __init__(self, extra_args=None):
-        self.extra_args = extra_args or ["--language", "c"]
+        self.extra_args = extra_args or ["-w", "3", "--language", "c"]
 
     def get_name(self):
         return "rats"
 
-    def run(self, file_path):
+    def __run_cmd(self, cmd):
         start = time.time()
-        cmd = ["rats"] + self.extra_args + [file_path]
         
         try:
             proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=10)
@@ -26,3 +25,18 @@ class RATSAnalyzer:
             "raw_output": proc.stdout.strip() + proc.stderr.strip(),
             "runtime_sec": runtime
         }
+
+    def run(self, file_path):
+        cmd = ["rats"] + self.extra_args + [file_path]
+        
+        return self.__run_cmd(cmd)
+
+    def run_good(self, file_path):
+        cmd = ["rats"] + self.extra_args + [file_path]
+        
+        return self.__run_cmd(cmd)
+
+    def run_bad(self, file_path):
+        cmd = ["rats"] + self.extra_args + [file_path]
+        
+        return self.__run_cmd(cmd)

@@ -4,13 +4,14 @@ import time
 class ClangStaticAnalyzer:
     def __init__(self, extra_args=None):
         self.extra_args = extra_args or ["--analyze", "-Xclang","-analyzer-output=text", "-Xanalyzer", "-analyzer-checker=core,unix,security,deadcode,alpha"]
+        self.extra_good = ["-I/home/shika/diplom/tests/C/testcasesupport", "-include", "alloca.h", "-DINCLUDEMAIN", "-DOMITBAD"]
+        self.extra_bad = ["-I/home/shika/diplom/tests/C/testcasesupport", "-include", "alloca.h", "-DINCLUDEMAIN", "-DOMITGOOD"]
 
     def get_name(self):
         return "clang-static-analyzer"
 
-    def run(self, file_path):
+    def __run_cmd(self, cmd):
         start = time.time()
-        cmd = ["clang"] + self.extra_args + [file_path]
         
         try:
             proc = subprocess.run(
@@ -32,3 +33,19 @@ class ClangStaticAnalyzer:
             "raw_output": proc.stdout.strip() + proc.stderr.strip(),
             "runtime_sec": runtime
         }
+
+    def run(self, file_path):
+        cmd = ["clang"] + self.extra_args + [file_path]
+
+        return self.__run_cmd(cmd)
+
+    def run_good(self, file_path):
+        cmd = ["clang"] + self.extra_args + self.extra_good + [file_path]
+
+        return self.__run_cmd(cmd)
+
+    def run_bad(self, file_path):
+        cmd = ["clang"] + self.extra_args + self.extra_bad + [file_path]
+
+        return self.__run_cmd(cmd)
+        

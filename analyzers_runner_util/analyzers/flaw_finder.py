@@ -8,9 +8,8 @@ class FlawfinderAnalyzer:
     def get_name(self):
         return "flawfinder"
 
-    def run(self, file_path):
+    def __run_cmd(self, cmd):
         start = time.time()
-        cmd = ["flawfinder"] + self.extra_args + [file_path]
         
         try:
             proc = subprocess.run(
@@ -32,3 +31,19 @@ class FlawfinderAnalyzer:
             "raw_output": proc.stdout.strip() + proc.stderr.strip(),
             "runtime_sec": runtime
         }
+
+    def run(self, file_path):
+        cmd = ["flawfinder"] + self.extra_args + [file_path]
+        
+        return self.__run_cmd(cmd)
+
+    def run_good(self, file_path):
+        cmd = ["flawfinder"] + self.extra_args + [file_path]
+        
+        return self.__run_cmd(cmd)
+
+    def run_bad(self, file_path):
+        cmd = ["flawfinder"] + self.extra_args + [file_path]
+        
+        return self.__run_cmd(cmd)
+

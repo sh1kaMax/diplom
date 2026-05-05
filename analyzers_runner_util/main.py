@@ -9,11 +9,23 @@ def collect_tests(path):
 
     for root, _, files in os.walk(path):
         for f in files:
-            if f.endswith(".c") or f.endswith(".cpp"):
+            if f.endswith(".c"):
                 path = os.path.join(root, f)
                 tests.append(path)
 
     return tests
+
+def check_test_result(result, is_pos, accepted_errs):
+    if is_pos:
+        for check_err in accepted_errs:
+            if check_err in result["raw_output"]:
+                return True
+        return False
+    else:
+        for check_err in accepted_errs:
+            if check_err in result["raw_output"]:
+                return False
+        return True
 
 def evaluate(analyzer, tests, accepted_errors):
     results = []
@@ -23,33 +35,59 @@ def evaluate(analyzer, tests, accepted_errors):
     correct_negative_tests_count = 0
 
     for t in tests:
-        is_positive_test = True if "positive" in t else False
-        all_positive_tests_count += 1 if "positive" in t else 0
-        all_negative_tests_count += 1 if "positive" not in t else 0
+        is_positive_test = "positive" in t
+        is_negative_test = "negative" in t
+        is_double_test = not (is_positive_test or is_negative_test)
+
+        all_positive_tests_count += 1 if ("positive" in t) or is_double_test else 0
+        all_negative_tests_count += 1 if ("positive" not in t) or is_double_test else 0
         
-        res = analyzer.run(t)
-        flag = False
-        count_checked_negative_errs = 0
-
-        for check_err in accepted_errors:
-            if (check_err in res["raw_output"] and "positive" in t):
+        if is_double_test:
+            res_good = analyzer.run_good(t)
+            good_passed = check_test_result(res_good, False, accepted_errors)
+            
+            res_bad = analyzer.run_bad(t)
+            bad_passed = check_test_result(res_bad, True, accepted_errors)
+            
+            if bad_passed:
                 correct_positive_tests_count += 1
-                flag = True
-                break
-            elif (check_err not in res["raw_output"] and "negative" in t):
-                count_checked_negative_errs += 1
+            if good_passed:
+                correct_negative_tests_count += 1
 
-        if ("negative" in t and count_checked_negative_errs == len(accepted_errors)):
-            correct_negative_tests_count += 1
-            flag = True
+            results.append({
+                "file": t,
+                "test_completed_right": good_passed,
+                "is_positive_test": False,
+                "runtime_sec": res_good["runtime_sec"],
+                "output": res_good["raw_output"],
+            })
 
-        results.append({
-            "file": t,
-            "test_complited_right": flag,
-            "is_positive_test": is_positive_test,
-            "runtime_sec": res["runtime_sec"],
-            "output": res["raw_output"],
-        })
+            results.append({
+                "file": t,
+                "test_completed_right": bad_passed,
+                "is_positive_test": True,
+                "runtime_sec": res_bad["runtime_sec"],
+                "output": res_bad["raw_output"],
+            })
+            
+            
+        else:
+            res = analyzer.run(t)
+            passed = check_test_result(res, is_positive_test, accepted_errors)
+            
+            if passed:
+                if is_positive_test:
+                    correct_positive_tests_count += 1
+                else:
+                    correct_negative_tests_count += 1
+
+            results.append({
+                "file": t,
+                "test_completed_right": passed,
+                "is_positive_test": is_positive_test,
+                "runtime_sec": res["runtime_sec"],
+                "output": res["raw_output"],
+            })
 
     return results, all_positive_tests_count, correct_positive_tests_count, all_negative_tests_count, correct_negative_tests_count
 
@@ -71,9 +109,17 @@ def run_test_type(analyzer, test, output_dir):
         }, f, indent=4)
     return test_file
 
-def run_analyzer(analyzer_name, config, analyzer_handler):
+def run_analyzer(analyzer_name, config, analyzer_handler, spec_err):
     print(f"Проверка {analyzer_name}")
     analyzer = analyzer_handler.get_analyzer_by_name(analyzer_name)
+    tests_to_run = []
+
+    if spec_err is not None:
+        for test in config["tests"]:
+            if test["name"] == spec_err:
+                tests_to_run.append(test)
+    else:
+        tests_to_run = config["tests"]
 
     analyzer_dir = os.path.join("results", analyzer_name)
     os.makedirs(analyzer_dir, exist_ok=True)
@@ -81,7 +127,7 @@ def run_analyzer(analyzer_name, config, analyzer_handler):
     test_files = []
     with ThreadPoolExecutor(max_workers=len(config["tests"])) as test_executor:
         futures = [test_executor.submit(run_test_type, analyzer, test, analyzer_dir)
-                   for test in config["tests"]]
+                   for test in tests_to_run]
         for future in futures:
             test_files.append(future.result())
 
@@ -100,8 +146,12 @@ def run_analyzer(analyzer_name, config, analyzer_handler):
 
 def main():
     specific_analyzer = None
+    specific_err = None
     if len(sys.argv) > 1:
         specific_analyzer = sys.argv[1]
+
+    if len(sys.argv) > 2:
+        specific_err = sys.argv[2]
 
     with open("analyzers_runner_util/test_configs.json") as f:
         config = json.load(f)
@@ -118,7 +168,7 @@ def main():
     analyzer_handler = AnalyzersHandler()
 
     with ThreadPoolExecutor(max_workers=len(config["analyzers_all"])) as executor:
-        futures = [executor.submit(run_analyzer, analyzer_name, config, analyzer_handler)
+        futures = [executor.submit(run_analyzer, analyzer_name, config, analyzer_handler, specific_err)
                    for analyzer_name in analyzers_to_run]
         for future in futures:
             future.result()

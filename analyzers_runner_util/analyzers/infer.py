@@ -14,35 +14,52 @@ class InferAnalyzer:
             "-c",
             "-I/home/shika/diplom/analazers_runner_util/include"
         ]
+        self.extra_good = ["-I/home/shika/diplom/tests/C/testcasesupport", "-include", "alloca.h", "-DINCLUDEMAIN", "-DOMITBAD"]
+        self.extra_bad = ["-I/home/shika/diplom/tests/C/testcasesupport", "-include", "alloca.h", "-DINCLUDEMAIN", "-DOMITGOOD"]
 
     def get_name(self):
         return "infer"
 
-    def run(self, file_path):
+    def __run_cmd(self, cmd):
         start = time.time()
         
+        try:
+            proc = subprocess.run(
+                cmd,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True,
+                timeout=10
+            )
+        except subprocess.TimeoutExpired:
+            return {
+                "raw_output": "TIMEOUT",
+                "runtime_sec": time.time() - start
+            }
+
+        runtime = time.time() - start
+        
+        subprocess.run("rm -f *.o", shell=True)
+        
+        return {
+            "raw_output": proc.stdout.strip() + proc.stderr.strip(),
+            "runtime_sec": runtime
+        }
+
+    def run(self, file_path):
         with tempfile.TemporaryDirectory(prefix="infer_out_") as results_dir:
             cmd = ["infer", "--results-dir", results_dir] + self.extra_args + [file_path]
             
-            try:
-                proc = subprocess.run(
-                    cmd,
-                    stdout=subprocess.PIPE,
-                    stderr=subprocess.PIPE,
-                    text=True,
-                    timeout=10
-                )
-            except subprocess.TimeoutExpired:
-                return {
-                    "raw_output": "TIMEOUT",
-                    "runtime_sec": time.time() - start
-                }
+            return self.__run_cmd(cmd)
 
-            subprocess.run("rm -f *.o", shell=True)
+    def run_good(self, file_path):
+        with tempfile.TemporaryDirectory(prefix="infer_out_") as results_dir:
+            cmd = ["infer", "--results-dir", results_dir] + self.extra_args + self.extra_good + [file_path]
+            
+            return self.__run_cmd(cmd)
 
-            runtime = time.time() - start
-
-            return {
-                "raw_output": proc.stdout.strip() + proc.stderr.strip(),
-                "runtime_sec": runtime
-            }
+    def run_bad(self, file_path):
+        with tempfile.TemporaryDirectory(prefix="infer_out_") as results_dir:
+            cmd = ["infer", "--results-dir", results_dir] + self.extra_args + self.extra_bad + [file_path]
+            
+            return self.__run_cmd(cmd)

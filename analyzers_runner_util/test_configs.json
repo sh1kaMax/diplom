@@ -1,5 +1,5 @@
 {
-  "analyzers_all": ["cppcheck", "frama-c", "splint", "infer", "flawfinder", "rats", "clang-static-analyzer"],
+  "analyzers_all": ["cppcheck", "frama-c", "splint", "infer", "flawfinder", "rats", "clang-static-analyzer", "pvs-studio"],
   "tests": [
     {
       "name": "Buffer Overflow (CWE 120)",
@@ -71,6 +71,15 @@
             "alpha.security.ArrayBoundV2"
           ],
           "accepted_cwe": [120]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V512", "V514", "V594", "V635", "V641",
+            "V645", "V752", "V755", "V557", "V582",
+            "V643", "V781", "V1038", "V1111"
+          ],
+          "accepted_cwe": []
         }
       }
     },
@@ -138,6 +147,13 @@
             "alpha.security.taint.TaintPropagation"            
           ],
           "accepted_cwe": [1284, 20, 190, 1255]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V1010", "V755", "V557"
+          ],
+          "accepted_cwe": []
         }
       }
     },
@@ -213,6 +229,16 @@
             "alpha.core.Conversion"
           ],
           "accepted_cwe": [190]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V569", "V636", "V658", "V784", "V786",
+            "V1012", "V1026", "V1028", "V1029", "V1033",
+            "V1070", "V1081", "V1083", "V1085", "V1112",
+            "V127"
+          ],
+          "accepted_cwe": []
         }
       }
     },
@@ -280,6 +306,14 @@
             "Null pointer passed"
           ],
           "accepted_cwe": [476]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V522", "V595", "V664", "V713", "V757",
+            "V769", "V783", "V1004"
+          ],
+          "accepted_cwe": []
         }
       }
     },
@@ -341,6 +375,13 @@
             "Division by zero"
           ],
           "accepted_cwe": [369]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V609"
+          ],
+          "accepted_cwe": []
         }
       }
     },
@@ -411,6 +452,15 @@
             "Attempt to free released memory"
           ],
           "accepted_cwe": [763]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V1005", "V701", "V1006", "V586",
+            "V749", "V1002", "V1006", "V611", "V762",
+            "V522", "V595", "V664", "V713", "V757", "V769"
+          ],
+          "accepted_cwe": []
         }
       }
     },
@@ -472,6 +522,13 @@
             "CWE-134: Uncontrolled Format String"
           ],
           "accepted_cwe": [134]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V618", "V576", "format not a string literal"
+          ],
+          "accepted_cwe": []
         }
       }
     },
@@ -535,11 +592,20 @@
             "core.NullDereference"
           ],
           "accepted_cwe": [908]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V573", "V614", "V679", "V737", "V788",
+            "V1007", "V1050", "V1077", "V1086", "V670",
+            "V730"
+          ],
+          "accepted_cwe": []
         }
       }
     },
     {
-      "name": "Missing Release of Resource (772)",
+      "name": "Missing Release of Resource (CWE 772)",
       "path": "tests/sa-tests-db/basic_set/c/lang6-mem-leak",
       "cwe": 772,
       "analyzers": {
@@ -568,7 +634,8 @@
         
         "infer": {
           "accepted_errors": [
-            "MEMORY_LEAK_C"
+            "MEMORY_LEAK_C",
+            "CWE-763"
           ],
           "accepted_cwe": [772]
         },
@@ -596,6 +663,448 @@
             "alpha.unix.Stream"
           ],
           "accepted_cwe": [772]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V599", "V701", "V773", "V1020", "V1023",
+            "V1100", "V1106", "V1110", "V1005", "V611"
+          ],
+          "accepted_cwe": []
+        }
+      }
+    },
+    {
+      "name": "Stack Based Buffer OverflowMissing (CWE 121)",
+      "path": "tests/C/testcases/CWE121_Stack_Based_Buffer_Overflow",
+      "cwe": 121,
+      "analyzers": {
+        "cppcheck": {
+          "accepted_errors": [
+            "arrayIndexOutOfBounds",
+            "bufferAccessOutOfBounds",
+            "arrayIndexOutOfBoundsCond",
+            "outOfBounds"
+          ],
+          "accepted_cwe": [121, 787, 788]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "out of bounds",
+            "invalid memory access"
+          ],
+          "accepted_cwe": [121, 787, 788]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "Possible out-of-bounds store",
+            "Likely out-of-bounds store"
+          ],
+          "accepted_cwe": [121, 787, 788]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "BUFFER_OVERRUN_L1",
+            "BUFFER_OVERRUN_L2",
+            "Out of bounds write",
+            "Out of bounds read",
+            "PULSE_UNINITIALIZED_VALUE"
+          ],
+          "accepted_cwe": [121, 787, 788]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "buffer overflow",
+            "potential overflows",
+            "buffer overflows",
+            "CWE-120",
+            "buffer overflow",
+            "CWE-119"
+          ],
+          "accepted_cwe": [121]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "buffer overflow",
+            "memset",
+            "High risk: memset",
+            "High risk: strcpy",
+            "High risk: gets"
+          ],
+          "accepted_cwe": [121]
+        },
+
+        "clang-static-analyzer" : {
+          "accepted_errors": [
+            "Out-of-bound access",
+            "buffer overflow",
+            "alpha.unix.cstring.OutOfBounds",
+            "alpha.security.ArrayBound",
+            "alpha.security.ArrayBoundV2"
+          ],
+          "accepted_cwe": [121]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "invalid access"
+          ],
+          "accepted_cwe": [121]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V512", "V514", "V594", "V635", "V641",
+            "V645", "V752", "V755", "V557", "V582",
+            "V643", "V781", "V1038", "V1111"
+          ],
+          "accepted_cwe": []
+        }
+      }
+    },
+    {
+      "name": "Heap Based Buffer Overflow (CWE 122)",
+      "path": "tests/C/testcases/CWE122_Heap_Based_Buffer_Overflow",
+      "cwe": 122,
+      "analyzers": {
+        "cppcheck": {
+          "accepted_errors": [
+            "arrayIndexOutOfBounds",
+            "bufferAccessOutOfBounds",
+            "arrayIndexOutOfBoundsCond",
+            "outOfBounds"
+          ],
+          "accepted_cwe": [121, 787, 788]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "out of bounds",
+            "invalid memory access"
+          ],
+          "accepted_cwe": [121, 787, 788]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "Possible out-of-bounds store",
+            "Likely out-of-bounds store"
+          ],
+          "accepted_cwe": [121, 787, 788]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "BUFFER_OVERRUN_L1",
+            "BUFFER_OVERRUN_L2",
+            "Out of bounds write",
+            "Out of bounds read",
+            "PULSE_UNINITIALIZED_VALUE"
+          ],
+          "accepted_cwe": [121, 787, 788]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "buffer overflow",
+            "potential overflows",
+            "buffer overflows",
+            "CWE-120",
+            "buffer overflow",
+            "CWE-119"
+          ],
+          "accepted_cwe": [121]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "buffer overflow",
+            "memset",
+            "High risk: memset",
+            "High risk: strcpy",
+            "High risk: gets"
+          ],
+          "accepted_cwe": [121]
+        },
+
+        "clang-static-analyzer" : {
+          "accepted_errors": [
+            "Out-of-bound access",
+            "buffer overflow",
+            "alpha.unix.cstring.OutOfBounds",
+            "alpha.security.ArrayBound",
+            "alpha.security.ArrayBoundV2"
+          ],
+          "accepted_cwe": [121]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "invalid access"
+          ],
+          "accepted_cwe": [121]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V512", "V514", "V594", "V635", "V641",
+            "V645", "V752", "V755", "V557", "V582",
+            "V643", "V781", "V1038", "V1111"
+          ],
+          "accepted_cwe": []
+        }
+      }
+    },
+    {
+      "name": "Double Free (CWE 415)",
+      "path": "tests/C/testcases/CWE415_Double_Free",
+      "cwe": 415,
+      "analyzers": {
+        "cppcheck": {
+          "accepted_errors": [
+            "doubleFree",
+            "Memory pointed to by '.*' is freed twice",
+            "deallocDealloc"
+          ],
+          "accepted_cwe": [415]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "freed",
+            "escaping address",
+            "double free",
+            "invalid memory access"
+          ],
+          "accepted_cwe": [415]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "Only storage",
+            "memory leak",
+            "fresh storage",
+            "Memory is used after it has been released"
+          ],
+          "accepted_cwe": [415]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "USE_AFTER_FREE",
+            "MEMORY_LEAK_C"
+          ],
+          "accepted_cwe": [415]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "free",
+            "memory"
+          ],
+          "accepted_cwe": [415]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "high risk: free",
+            "CWE-763"
+          ],
+          "accepted_cwe": [415]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "double-free",
+            "Attempt to free released memory",
+            "Double free",
+            "unix.Malloc",
+            "Use of memory after it is freed",
+            "Attempt to free released memory"
+          ],
+          "accepted_cwe": [415]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "free"
+          ],
+          "accepted_cwe": [415]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V586", "V611", "V749", "V701", "V1006"
+          ],
+          "accepted_cwe": []
+        }
+      }
+    },
+    {
+      "name": "Use After Free (CWE 416)",
+      "path": "tests/C/testcases/CWE416_Use_After_Free",
+      "cwe": 416,
+      "analyzers": {
+        "cppcheck": {
+          "accepted_errors": [
+            "deallocret",
+            "deallocuse",
+            "Memory pointed to by '.*' is freed"
+          ],
+          "accepted_cwe": [416]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "Use of memory after it is freed",
+            "use-after-free",
+            "cplusplus.NewDelete"
+          ],
+          "accepted_cwe": [416]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "USE_AFTER_FREE",
+            "MEMORY_LEAK_C"
+          ],
+          "accepted_cwe": [416]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "invalid memory access",
+            "freed",
+            "out of bounds read"
+          ],
+          "accepted_cwe": [416]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "freed",
+            "use after free"
+          ],
+          "accepted_cwe": [416]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "Does not check for buffer overflows"
+          ],
+          "accepted_cwe": [416]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "free called on invalid pointer",
+            "high risk: free",
+            "CWE-763"
+          ],
+          "accepted_cwe": [416]
+        },
+
+        "sparse": {
+          "accepted_errors": [],
+          "accepted_cwe": [416]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V758", "V774", "V1006", "V586", "V1031"
+          ],
+          "accepted_cwe": []
+        }
+      }
+    },
+    {
+      "name": "OS Command Injection (CWE 78)",
+      "path": "tests/C/testcases/CWE78_OS_Command_Injection",
+      "cwe": 78,
+      "analyzers": {
+        "cppcheck": {
+          "accepted_errors": [
+            "Command injection",
+            "premium-cert-env33-c",
+            "IO.INJ.COMMAND",
+            "system",
+            "popen"
+          ],
+          "accepted_cwe": [78]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "system",
+            "popen",
+            "execlp",
+            "execvp",
+            "tainted",
+            "command injection"
+          ],
+          "accepted_cwe": [78]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "TAINTED_DATA",
+            "command injection",
+            "system"
+          ],
+          "accepted_cwe": [78]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "tainted",
+            "system"
+          ],
+          "accepted_cwe": [78]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "system"
+          ],
+          "accepted_cwe": [78]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "system",
+            "popen",
+            "execl",
+            "execvp",
+            "shell"
+          ],
+          "accepted_cwe": [78]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "system",
+            "popen",
+            "execlp",
+            "execvp"
+          ],
+          "accepted_cwe": [78]
+        },
+
+        "sparse": {
+          "accepted_errors": [],
+          "accepted_cwe": [78]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V1010"
+          ],
+          "accepted_cwe": []
         }
       }
     }

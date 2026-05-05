@@ -1,15 +1,20 @@
 import subprocess
 import time
+import os
 
 class FramaCAnalyzer:
     def __init__(self, extra_args=None):
         self.extra_args = extra_args or ["-eva", "-warn-signed-overflow", "-warn-unsigned-overflow"]
         self.main_func = ["-main", "func"]
-        self.extra_pos = ["-cpp-extra-args=\"-I/home/shika/diplom/tests/C/testcasesupport -include alloca.h -DINCLUDEMAIN -DOMITBAD\"", "-main", "main"]
-        self.extra_neg = ["-cpp-extra-args=\"-I/home/shika/diplom/tests/C/testcasesupport -include alloca.h -DINCLUDEMAIN -DOMITGOOD\"", "-main", "main"]
+        self.extra_good = ["-cpp-extra-args=-I/home/shika/diplom/tests/C/testcasesupport -DOMITBAD"] # -DINCLUDEMAIN
+        self.extra_bad = ["-cpp-extra-args=-I/home/shika/diplom/tests/C/testcasesupport -DOMITGOOD"] # -DINCLUDEMAIN
 
     def get_name(self):
         return "frama-c"
+
+    def __get_file_name(self, file_path, suffix):
+        base_name = os.path.splitext(os.path.basename(file_path))[0]
+        return f"{base_name}_{suffix}"
     
     def __run_cmd(self, cmd):
         start = time.time()
@@ -40,12 +45,14 @@ class FramaCAnalyzer:
         
         return self.__run_cmd(cmd)
     
-    def run_pos(self, file_path):
-        cmd = ["frama-c"] + self.extra_args + self.extra_pos + [file_path]
+    def run_good(self, file_path):
+        print(self.__get_file_name(file_path, "good"))
+        cmd = ["frama-c"] + self.extra_args + self.extra_good + ["-main", self.__get_file_name(file_path, "good")] + [file_path]
         
         return self.__run_cmd(cmd)
     
-    def run_neg(self, file_path):
-        cmd = ["frama-c"] + self.extra_args + self.extra_neg + [file_path]
+    def run_bad(self, file_path):
+        print(self.__get_file_name(file_path, "bad"))
+        cmd = ["frama-c"] + self.extra_args + self.extra_bad + ["-main", self.__get_file_name(file_path, "bad")] + [file_path]
         
         return self.__run_cmd(cmd)
