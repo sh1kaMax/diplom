@@ -1,0 +1,5 @@
+pvs-studio.com/en/docs/warnings/	1	err	Help: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.
+/home/shika/diplom/tests/sa-tests-db/basic_set/c/3-buffer-overflow/test_0a03b02b3551__cwe120__array-auto-const_size-computed_index-memset__call-pointer__ispras_positive.c	51	err	V512 A call of the 'memset' function will lead to overflow of the buffer 'buffer'.
+/home/shika/diplom/tests/sa-tests-db/basic_set/c/3-buffer-overflow/test_0a03b02b3551__cwe120__array-auto-const_size-computed_index-memset__call-pointer__ispras_positive.c	39	err	V763 Parameter 'param' is always rewritten in function body before being used.
+/home/shika/diplom/tests/sa-tests-db/basic_set/c/3-buffer-overflow/test_0a03b02b3551__cwe120__array-auto-const_size-computed_index-memset__call-pointer__ispras_positive.c	40	warn	V560 A part of conditional expression is always true: param < 12.
+/home/shika/diplom/tests/sa-tests-db/basic_set/c/3-buffer-overflow/test_0a03b02b3551__cwe120__array-auto-const_size-computed_index-memset__call-pointer__ispras_positive.c	40	warn	V560 A part of conditional expression is always true: param > 0.
