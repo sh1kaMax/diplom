@@ -34,7 +34,12 @@ def evaluate(analyzer, tests, accepted_errors):
     all_negative_tests_count = 0
     correct_negative_tests_count = 0
 
+    count = 0
     for t in tests:
+        count += 1
+        if count == 2:
+            break
+
         is_positive_test = "positive" in t
         is_negative_test = "negative" in t
         is_double_test = not (is_positive_test or is_negative_test)

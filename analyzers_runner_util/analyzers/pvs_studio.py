@@ -9,8 +9,6 @@ class PVSStudio:
         self.include_path = "/home/shika/diplom/tests/C/testcasesupport"
         self.extra_good = ["-DINCLUDEMAIN", "-DOMITBAD"]
         self.extra_bad = ["-DINCLUDEMAIN", "-DOMITGOOD"]
-        
-        self.temp_dir = tempfile.mkdtemp(prefix="pvs_temp_")
 
     def get_name(self):
         return "pvs-studio"
@@ -40,55 +38,65 @@ class PVSStudio:
             "runtime_sec": runtime
         }
 
-    def __cleanup(self):
-        if os.path.exists(self.temp_dir):
-            shutil.rmtree(self.temp_dir, ignore_errors=True)
-
     def __run_pvs_analysis(self, file_path, extra_defines):
-        trace_cmd = [
-            "pvs-studio-analyzer", "trace", "--",
-            "gcc", "-c", file_path,
-            f"-I{self.include_path}"
-        ] + extra_defines
+        file_name = os.path.splitext(os.path.basename(file_path))[0]
+        temp_dir = f"tmp_{file_name}"
+
+        if os.path.exists(temp_dir):
+            shutil.rmtree(temp_dir)
+        os.makedirs(temp_dir)
         
-        trace_result = self.__run_cmd(trace_cmd, timeout=30)
-        if "error" in trace_result["raw_output"].lower() or "failed" in trace_result["raw_output"].lower():
-            self.__cleanup()
+        try:
+            trace_path = f"{temp_dir}/strace_out"
+            object_file_path = f"{temp_dir}/object.o"
+            trace_cmd = [
+                "pvs-studio-analyzer", "trace", "-o", trace_path, "--",
+                "gcc", "-c", file_path,
+                "-o", object_file_path,
+                f"-I{self.include_path}"
+            ] + extra_defines
+            
+            trace_result = self.__run_cmd(trace_cmd, timeout=30)
+            if "error" in trace_result["raw_output"].lower() or "failed" in trace_result["raw_output"].lower():
+                return {
+                    "raw_output": f"Trace failed: {trace_result['raw_output']}",
+                    "runtime_sec": trace_result["runtime_sec"]
+                }
+            
+            log_path = f"{temp_dir}/test.log"
+            analyze_cmd = [
+                "pvs-studio-analyzer", "analyze", "-f", trace_path,
+                "-o", log_path
+            ]
+            analyze_result = self.__run_cmd(analyze_cmd, timeout=60)
+            
+            tasks_path = f"{temp_dir}/test.tasks"
+            convert_cmd = [
+                "plog-converter",
+                "-a", "GA:1,2,3",
+                "-t", "tasklist",
+                "-o", tasks_path,
+                log_path
+            ]
+            convert_result = self.__run_cmd(convert_cmd, timeout=30)
+            
+            output = []
+            if os.path.exists(tasks_path):
+                with open(tasks_path, 'r') as f:
+                    output.append(f.read())
+            
+            if convert_result["raw_output"].strip():
+                output.append(f"CONVERTER OUTPUT: {convert_result['raw_output']}")
+            
+            total_runtime = trace_result["runtime_sec"] + analyze_result["runtime_sec"] + convert_result["runtime_sec"]
+            
             return {
-                "raw_output": f"Trace failed: {trace_result['raw_output']}",
-                "runtime_sec": trace_result["runtime_sec"]
+                "raw_output": "\n".join(output) if output else "No issues found",
+                "runtime_sec": total_runtime
             }
-        
-        analyze_cmd = [
-            "pvs-studio-analyzer", "analyze",
-            "-o", "test.log"
-        ]
-        analyze_result = self.__run_cmd(analyze_cmd, timeout=60)
-        
-        convert_cmd = [
-            "plog-converter",
-            "-a", "GA:1,2,3",
-            "-t", "tasklist",
-            "-o", "test.tasks",
-            "test.log"
-        ]
-        convert_result = self.__run_cmd(convert_cmd, timeout=30)
-        
-        output = []
-        if os.path.exists("test.tasks"):
-            with open("test.tasks", 'r') as f:
-                output.append(f.read())
-        
-        if convert_result["raw_output"].strip():
-            output.append(f"CONVERTER OUTPUT: {convert_result['raw_output']}")
-        
-        total_runtime = trace_result["runtime_sec"] + analyze_result["runtime_sec"] + convert_result["runtime_sec"]
-        self.__cleanup()
-        
-        return {
-            "raw_output": "\n".join(output) if output else "No issues found",
-            "runtime_sec": total_runtime
-        }
+        finally:
+            if os.path.exists(temp_dir):
+                shutil.rmtree(temp_dir)
 
     def run_good(self, file_path):
         return self.__run_pvs_analysis(file_path, self.extra_good)
