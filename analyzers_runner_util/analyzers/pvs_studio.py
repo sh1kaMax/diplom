@@ -6,7 +6,7 @@ import shutil
 
 class PVSStudio:
     def __init__(self, extra_args=None):
-        self.include_path = "/home/shika/diplom/tests/C/testcasesupport"
+        self.include_path = ["-I/home/shika/diplom/tests/C/testcasesupport", "-I/home/shika/diplom/analyzers_runner_util/include"]
         self.extra_good = ["-DINCLUDEMAIN", "-DOMITBAD"]
         self.extra_bad = ["-DINCLUDEMAIN", "-DOMITGOOD"]
 
@@ -40,7 +40,7 @@ class PVSStudio:
 
     def __run_pvs_analysis(self, file_path, extra_defines):
         file_name = os.path.splitext(os.path.basename(file_path))[0]
-        temp_dir = f"tmp_{file_name}"
+        temp_dir = f"pvs_studio_tmp_{file_name}"
 
         if os.path.exists(temp_dir):
             shutil.rmtree(temp_dir)
@@ -52,9 +52,8 @@ class PVSStudio:
             trace_cmd = [
                 "pvs-studio-analyzer", "trace", "-o", trace_path, "--",
                 "gcc", "-c", file_path,
-                "-o", object_file_path,
-                f"-I{self.include_path}"
-            ] + extra_defines
+                "-o", object_file_path
+            ] + self.include_path + extra_defines
             
             trace_result = self.__run_cmd(trace_cmd, timeout=30)
             if "error" in trace_result["raw_output"].lower() or "failed" in trace_result["raw_output"].lower():

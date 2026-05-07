@@ -46,13 +46,11 @@ class FramaCAnalyzer:
         return self.__run_cmd(cmd)
     
     def run_good(self, file_path):
-        print(self.__get_file_name(file_path, "good"))
         cmd = ["frama-c"] + self.extra_args + self.extra_good + ["-main", self.__get_file_name(file_path, "good")] + [file_path]
         
         return self.__run_cmd(cmd)
     
     def run_bad(self, file_path):
-        print(self.__get_file_name(file_path, "bad"))
         cmd = ["frama-c"] + self.extra_args + self.extra_bad + ["-main", self.__get_file_name(file_path, "bad")] + [file_path]
         
         return self.__run_cmd(cmd)

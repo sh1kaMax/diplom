@@ -1,5 +1,5 @@
 {
-  "analyzers_all": ["cppcheck", "frama-c", "splint", "infer", "flawfinder", "rats", "clang-static-analyzer", "pvs-studio"],
+  "analyzers_all": ["cppcheck", "frama-c", "splint", "infer", "flawfinder", "rats", "clang-static-analyzer", "pvs-studio", "sparse", "ikos"],
   "tests": [
     {
       "name": "Buffer Overflow (CWE 120)",
@@ -13,23 +13,20 @@
             "bufferAccessOutOfBounds",
             "arrayIndexOutOfBoundsCond",
             "outOfBounds"
-          ],
-          "accepted_cwe": [120, 787, 788]
+          ]
         },
 
         "frama-c": {
           "accepted_errors": [
             "out of bounds",
             "invalid memory access"
-          ],
-          "accepted_cwe": [120, 787, 788]
+          ]
         },
 
         "splint": {
           "accepted_errors": [
             "Possible out-of-bounds store"
-          ],
-          "accepted_cwe": [120, 787, 788]
+          ]
         },
 
         "infer": {
@@ -38,8 +35,7 @@
             "BUFFER_OVERRUN_L2",
             "Out of bounds write",
             "PULSE_UNINITIALIZED_VALUE"
-          ],
-          "accepted_cwe": [120, 787, 788]
+          ]
         },
 
         "flawfinder": {
@@ -48,10 +44,8 @@
             "potential overflows",
             "buffer overflows",
             "CWE-120",
-            "buffer overflow",
             "CWE-119"
-          ],
-          "accepted_cwe": [120]
+          ]
         },
 
         "rats": {
@@ -59,8 +53,7 @@
             "buffer overflow",
             "memset",
             "High risk: memset"
-          ],
-          "accepted_cwe": [120]
+          ]
         },
 
         "clang-static-analyzer" : {
@@ -69,8 +62,7 @@
             "alpha.unix.cstring.OutOfBounds",
             "alpha.security.ArrayBound",
             "alpha.security.ArrayBoundV2"
-          ],
-          "accepted_cwe": [120]
+          ]
         },
 
         "pvs-studio": {
@@ -78,8 +70,25 @@
             "V512", "V514", "V594", "V635", "V641",
             "V645", "V752", "V755", "V557", "V582",
             "V643", "V781", "V1038", "V1111"
-          ],
-          "accepted_cwe": []
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "invalid access",
+            "out of bounds",
+            "buffer overflow",
+            "array access"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "buffer overflow",
+            "out of bounds",
+            "accesses .* bytes at offset",
+            "size .* bytes"
+          ]
         }
       }
     },
@@ -92,15 +101,13 @@
         "cppcheck": {
           "accepted_errors": [
             "unvalidated input"
-          ],
-          "accepted_cwe": [1284, 20, 190, 1255]
+          ]
         },
 
         "frama-c": {
           "accepted_errors": [
             "out of bounds"
-          ],
-          "accepted_cwe": [1284, 20, 190, 1255]
+          ]
         },
 
         "splint": {
@@ -111,15 +118,13 @@
             "improper input checking",
             "unvalidated parameter",
             "possibly untrusted"
-          ],
-          "accepted_cwe": [1284, 20, 190, 1255]
+          ]
         },
 
         "infer": {
           "accepted_errors": [
             "TAINT_ERROR"
-          ],
-          "accepted_cwe": [1284, 20, 190, 1255]
+          ]
         },
 
         "flawfinder": {
@@ -131,29 +136,39 @@
             "CWE-20",
             "CWE-1284",
             "user-controlled value"
-          ],
-          "accepted_cwe": [1284, 20, 190, 1255]
+          ]
         },
 
         "rats": {
           "accepted_errors": [
             "High: scanf"
-          ],
-          "accepted_cwe": [1284, 20, 190, 1255]
+          ]
         },
 
         "clang-static-analyzer": {
           "accepted_errors": [
             "alpha.security.taint.TaintPropagation"            
-          ],
-          "accepted_cwe": [1284, 20, 190, 1255]
+          ]
         },
 
         "pvs-studio": {
           "accepted_errors": [
             "V1010", "V755", "V557"
-          ],
-          "accepted_cwe": []
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "tainted value",
+            "untrusted source",
+            "unvalidated input"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "ignored side effect"
+          ]
         }
       }
     },
@@ -239,6 +254,25 @@
             "V127"
           ],
           "accepted_cwe": []
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "overflow",
+            "wraparound",
+            "integer overflow",
+            "signed overflow"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "integer overflow",
+            "signed integer overflow",
+            "unsigned integer overflow",
+            "overflow in expression",
+            "wraparound"
+          ]
         }
       }
     },
@@ -254,16 +288,14 @@
             "nullPointerRedundantCheck",
             "possible null pointer",
             "dereference null"
-          ],
-          "accepted_cwe": [476, 690, 824]
+          ]
         },
 
         "frama-c": {
           "accepted_errors": [
             "invalid memory access",
             "out of bounds"
-          ],
-          "accepted_cwe": [476, 690, 824]
+          ]
         },
 
         "splint": {
@@ -271,31 +303,27 @@
             "Possible null dereference",
             "Null pointer dereferenced",
             "null pointer"
-          ],
-          "accepted_cwe": [476]
+          ]
         },
 
         "infer": {
           "accepted_errors": [
             "NULLPTR_DEREFERENCE"
-          ],
-          "accepted_cwe": [476]
+          ]
         },
 
         "flawfinder": {
           "accepted_errors": [
             "null pointer dereference",
             "CWE-476"
-          ],
-          "accepted_cwe": [476]
+          ]
         },
 
         "rats": {
           "accepted_errors": [
             "null dereference",
             "CWE-476"
-          ],
-          "accepted_cwe": [476]
+          ]
         },
 
         "clang-static-analyzer": {
@@ -304,16 +332,28 @@
             "Dereference of null pointer",
             "core.NonNullParamChecker",
             "Null pointer passed"
-          ],
-          "accepted_cwe": [476]
+          ]
         },
 
         "pvs-studio": {
           "accepted_errors": [
             "V522", "V595", "V664", "V713", "V757",
             "V769", "V783", "V1004"
-          ],
-          "accepted_cwe": []
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "null pointer",
+            "null dereference",
+            "dereference of null"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "is null"
+          ]
         }
       }
     },
@@ -327,15 +367,13 @@
           "accepted_errors": [
             "zerodiv",
             "zerodivcond"
-          ],
-          "accepted_cwe": [369]
+          ]
         },
 
         "frama-c": {
           "accepted_errors": [
             "division by zero"
-          ],
-          "accepted_cwe": [369]
+          ]
         },
 
         "splint": {
@@ -343,45 +381,54 @@
             "Possible divide by zero",
             "division by zero",
             "zero denominator"
-          ],
-          "accepted_cwe": [369]
+          ]
         },
 
         "infer": {
           "accepted_errors": [
             "DIVIDE_BY_ZERO"
-          ],
-          "accepted_cwe": [369]
+          ]
         },
 
         "flawfinder": {
           "accepted_errors": [
             "divide by zero",
             "CWE-369"
-          ],
-          "accepted_cwe": [369]
+          ]
         },
 
         "rats": {
           "accepted_errors": [
             "division by zero",
             "CWE-369"
-          ],
-          "accepted_cwe": [369]
+          ]
         },
 
         "clang-static-analyzer": {
           "accepted_errors": [
             "Division by zero"
-          ],
-          "accepted_cwe": [369]
+          ]
         },
 
         "pvs-studio": {
           "accepted_errors": [
             "V609"
-          ],
-          "accepted_cwe": []
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "division by zero",
+            "zero divisor",
+            "divide by zero"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "division by zero",
+            "might be zero"
+          ]
         }
       }
     },
@@ -396,8 +443,7 @@
             "memleak",
             "doubleFree",
             "deallocuse"
-          ],
-          "accepted_cwe": [763, 761, 415, 416]
+          ]
         },
         
         "frama-c": {
@@ -406,8 +452,7 @@
             "escaping address",
             "out of bounds write",
             "out of bounds read"
-          ],
-          "accepted_cwe": [763, 761, 415, 416]
+          ]
         },
         
         "splint": {
@@ -415,8 +460,7 @@
             "memory leak",
             "not released",
             "Memory is used after it has been released"
-          ],
-          "accepted_cwe": [763]
+          ]
         },
         
         "infer": {
@@ -425,15 +469,13 @@
             "MEMORY_LEAK_C",
             "USE_AFTER_FREE",
             "NULLPTR_DEREFERENCE"
-          ],
-          "accepted_cwe": [763, 415, 416]
+          ]
         },
 
         "flawfinder": {
           "accepted_errors": [
             "Does not check for buffer overflows"
-          ],
-          "accepted_cwe": [763]
+          ]
         },
 
         "rats": {
@@ -441,8 +483,7 @@
             "free called on invalid pointer",
             "high risk: free",
             "CWE-763"
-          ],
-          "accepted_cwe": [763]
+          ]
         },
 
         "clang-static-analyzer": {
@@ -450,8 +491,7 @@
             "unix.Malloc",
             "Use of memory after it is freed",
             "Attempt to free released memory"
-          ],
-          "accepted_cwe": [763]
+          ]
         },
 
         "pvs-studio": {
@@ -459,8 +499,24 @@
             "V1005", "V701", "V1006", "V586",
             "V749", "V1002", "V1006", "V611", "V762",
             "V522", "V595", "V664", "V713", "V757", "V769"
-          ],
-          "accepted_cwe": []
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "invalid free",
+            "double free",
+            "memory leak",
+            "use after free"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "double free",
+            "invalid memory deallocation",
+            "use after free"
+          ]
         }
       }
     },
@@ -475,60 +531,66 @@
             "uncontrolled format string",
             "format string",
             "wrong type in format"
-          ],
-          "accepted_cwe": [134, 685]
+          ]
         },
         
         "frama-c": {
           "accepted_errors": [
             "Call to function printf with non-static format argument"
-          ],
-          "accepted_cwe": [134]
+          ]
         },
         
         "splint": {
           "accepted_errors": [
             "Format string parameter to printf is not a compile-time constant"
-          ],
-          "accepted_cwe": [134]
+          ]
         },
         
         "infer": {
           "accepted_errors": [
             "FORMAT_STRING",
             "printf format issue"
-          ],
-          "accepted_cwe": [134]
+          ]
         },
         
         "flawfinder": {
           "accepted_errors": [
             "format string",
             "CWE-134"
-          ],
-          "accepted_cwe": [134]
+          ]
         },
 
         "rats": {
           "accepted_errors": [
             "High: printf"
-          ],
-          "accepted_cwe": [134]
+          ]
         },
 
         "clang-static-analyzer": {
           "accepted_errors": [
             "Untrusted data is used as a format string",
             "CWE-134: Uncontrolled Format String"
-          ],
-          "accepted_cwe": [134]
+          ]
         },
 
         "pvs-studio": {
           "accepted_errors": [
             "V618", "V576", "format not a string literal"
-          ],
-          "accepted_cwe": []
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "format string",
+            "non-constant format",
+            "uncontrolled format"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "format string"
+          ]
         }
       }
     },
@@ -542,22 +604,19 @@
           "accepted_errors": [
             "Uninitialized variable",
             "uninitvar"
-          ],
-          "accepted_cwe": [908, 457]
+          ]
         },
         
         "frama-c": {
           "accepted_errors": [
             "uninitialized left-values"
-          ],
-          "accepted_cwe": [908, 457]
+          ]
         },
 
         "splint": {
           "accepted_errors": [
             "used before definition"
-          ],
-          "accepted_cwe": [908]
+          ]
         },
         
         "infer": {
@@ -565,24 +624,21 @@
             "UNINITIALIZED_VALUE",
             "READ_UNINITIALIZED_VALUE",
             "PULSE_UNINITIALIZED_VALUE"
-          ],
-          "accepted_cwe": [908, 457]
+          ]
         },
         
         "flawfinder": {
           "accepted_errors": [
             "uninitialized",
             "CWE-908"
-          ],
-          "accepted_cwe": [908]
+          ]
         },
         
         "rats": {
           "accepted_errors": [
             "uninitialized",
             "CWE-908"
-          ],
-          "accepted_cwe": [908]
+          ]
         },
 
         "clang-static-analyzer": {
@@ -590,8 +646,7 @@
             "uninitialized value",
             "core.uninitialized.Assign",
             "core.NullDereference"
-          ],
-          "accepted_cwe": [908]
+          ]
         },
 
         "pvs-studio": {
@@ -599,8 +654,21 @@
             "V573", "V614", "V679", "V737", "V788",
             "V1007", "V1050", "V1077", "V1086", "V670",
             "V730"
-          ],
-          "accepted_cwe": []
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "uninitialized",
+            "undefined value",
+            "used before set"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "uninitialized"
+          ]
         }
       }
     },
@@ -614,45 +682,39 @@
           "accepted_errors": [
             "resourceLeak",
             "memleak"
-          ],
-          "accepted_cwe": [772]
+          ]
         },
         
         "frama-c": {
           "accepted_errors": [
             "uninitialized left-values"
-          ],
-          "accepted_cwe": [772]
+          ]
         },
 
         "splint": {
           "accepted_errors": [
             "A memory leak has been detected"
-          ],
-          "accepted_cwe": [772]
+          ]
         },
         
         "infer": {
           "accepted_errors": [
             "MEMORY_LEAK_C",
             "CWE-763"
-          ],
-          "accepted_cwe": [772]
+          ]
         },
         
         "flawfinder": {
           "accepted_errors": [
             "CWE-362"
-          ],
-          "accepted_cwe": [772]
+          ]
         },
         
         "rats": {
           "accepted_errors": [
             "High: open",
             "High: fopen"
-          ],
-          "accepted_cwe": [772]
+          ]
         },
 
         "clang-static-analyzer": {
@@ -661,16 +723,29 @@
             "unix.Malloc",
             "Potential leak of memory",
             "alpha.unix.Stream"
-          ],
-          "accepted_cwe": [772]
+          ]
         },
 
         "pvs-studio": {
           "accepted_errors": [
             "V599", "V701", "V773", "V1020", "V1023",
             "V1100", "V1106", "V1110", "V1005", "V611"
-          ],
-          "accepted_cwe": []
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "resource leak",
+            "memory leak",
+            "unclosed resource"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "use after free",
+            "double free"
+          ]
         }
       }
     },
@@ -685,24 +760,21 @@
             "bufferAccessOutOfBounds",
             "arrayIndexOutOfBoundsCond",
             "outOfBounds"
-          ],
-          "accepted_cwe": [121, 787, 788]
+          ]
         },
 
         "frama-c": {
           "accepted_errors": [
             "out of bounds",
             "invalid memory access"
-          ],
-          "accepted_cwe": [121, 787, 788]
+          ]
         },
 
         "splint": {
           "accepted_errors": [
             "Possible out-of-bounds store",
             "Likely out-of-bounds store"
-          ],
-          "accepted_cwe": [121, 787, 788]
+          ]
         },
 
         "infer": {
@@ -712,8 +784,7 @@
             "Out of bounds write",
             "Out of bounds read",
             "PULSE_UNINITIALIZED_VALUE"
-          ],
-          "accepted_cwe": [121, 787, 788]
+          ]
         },
 
         "flawfinder": {
@@ -724,8 +795,7 @@
             "CWE-120",
             "buffer overflow",
             "CWE-119"
-          ],
-          "accepted_cwe": [121]
+          ]
         },
 
         "rats": {
@@ -735,8 +805,7 @@
             "High risk: memset",
             "High risk: strcpy",
             "High risk: gets"
-          ],
-          "accepted_cwe": [121]
+          ]
         },
 
         "clang-static-analyzer" : {
@@ -746,15 +815,7 @@
             "alpha.unix.cstring.OutOfBounds",
             "alpha.security.ArrayBound",
             "alpha.security.ArrayBoundV2"
-          ],
-          "accepted_cwe": [121]
-        },
-
-        "sparse": {
-          "accepted_errors": [
-            "invalid access"
-          ],
-          "accepted_cwe": [121]
+          ]
         },
 
         "pvs-studio": {
@@ -762,8 +823,22 @@
             "V512", "V514", "V594", "V635", "V641",
             "V645", "V752", "V755", "V557", "V582",
             "V643", "V781", "V1038", "V1111"
-          ],
-          "accepted_cwe": []
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "invalid access",
+            "out of bounds",
+            "buffer overflow",
+            "stack buffer overflow"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "buffer overflow"
+          ]
         }
       }
     },
@@ -778,24 +853,21 @@
             "bufferAccessOutOfBounds",
             "arrayIndexOutOfBoundsCond",
             "outOfBounds"
-          ],
-          "accepted_cwe": [121, 787, 788]
+          ]
         },
 
         "frama-c": {
           "accepted_errors": [
             "out of bounds",
             "invalid memory access"
-          ],
-          "accepted_cwe": [121, 787, 788]
+          ]
         },
 
         "splint": {
           "accepted_errors": [
             "Possible out-of-bounds store",
             "Likely out-of-bounds store"
-          ],
-          "accepted_cwe": [121, 787, 788]
+          ]
         },
 
         "infer": {
@@ -805,8 +877,7 @@
             "Out of bounds write",
             "Out of bounds read",
             "PULSE_UNINITIALIZED_VALUE"
-          ],
-          "accepted_cwe": [121, 787, 788]
+          ]
         },
 
         "flawfinder": {
@@ -817,8 +888,7 @@
             "CWE-120",
             "buffer overflow",
             "CWE-119"
-          ],
-          "accepted_cwe": [121]
+          ]
         },
 
         "rats": {
@@ -828,8 +898,7 @@
             "High risk: memset",
             "High risk: strcpy",
             "High risk: gets"
-          ],
-          "accepted_cwe": [121]
+          ]
         },
 
         "clang-static-analyzer" : {
@@ -839,15 +908,7 @@
             "alpha.unix.cstring.OutOfBounds",
             "alpha.security.ArrayBound",
             "alpha.security.ArrayBoundV2"
-          ],
-          "accepted_cwe": [121]
-        },
-
-        "sparse": {
-          "accepted_errors": [
-            "invalid access"
-          ],
-          "accepted_cwe": [121]
+          ]
         },
 
         "pvs-studio": {
@@ -855,8 +916,22 @@
             "V512", "V514", "V594", "V635", "V641",
             "V645", "V752", "V755", "V557", "V582",
             "V643", "V781", "V1038", "V1111"
-          ],
-          "accepted_cwe": []
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "invalid access",
+            "out of bounds",
+            "buffer overflow",
+            "heap buffer overflow"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "buffer overflow"
+          ]
         }
       }
     },
@@ -870,8 +945,7 @@
             "doubleFree",
             "Memory pointed to by '.*' is freed twice",
             "deallocDealloc"
-          ],
-          "accepted_cwe": [415]
+          ]
         },
 
         "frama-c": {
@@ -880,8 +954,7 @@
             "escaping address",
             "double free",
             "invalid memory access"
-          ],
-          "accepted_cwe": [415]
+          ]
         },
 
         "splint": {
@@ -890,32 +963,28 @@
             "memory leak",
             "fresh storage",
             "Memory is used after it has been released"
-          ],
-          "accepted_cwe": [415]
+          ]
         },
 
         "infer": {
           "accepted_errors": [
             "USE_AFTER_FREE",
             "MEMORY_LEAK_C"
-          ],
-          "accepted_cwe": [415]
+          ]
         },
 
         "flawfinder": {
           "accepted_errors": [
             "free",
             "memory"
-          ],
-          "accepted_cwe": [415]
+          ]
         },
 
         "rats": {
           "accepted_errors": [
             "high risk: free",
             "CWE-763"
-          ],
-          "accepted_cwe": [415]
+          ]
         },
 
         "clang-static-analyzer": {
@@ -926,22 +995,30 @@
             "unix.Malloc",
             "Use of memory after it is freed",
             "Attempt to free released memory"
-          ],
-          "accepted_cwe": [415]
-        },
-
-        "sparse": {
-          "accepted_errors": [
-            "free"
-          ],
-          "accepted_cwe": [415]
+          ]
         },
 
         "pvs-studio": {
           "accepted_errors": [
             "V586", "V611", "V749", "V701", "V1006"
-          ],
-          "accepted_cwe": []
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "double free",
+            "invalid free",
+            "free twice"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "double free",
+            "invalid free",
+            "free twice",
+            "double-free"
+          ]
         }
       }
     },
@@ -955,8 +1032,7 @@
             "deallocret",
             "deallocuse",
             "Memory pointed to by '.*' is freed"
-          ],
-          "accepted_cwe": [416]
+          ]
         },
 
         "clang-static-analyzer": {
@@ -964,16 +1040,14 @@
             "Use of memory after it is freed",
             "use-after-free",
             "cplusplus.NewDelete"
-          ],
-          "accepted_cwe": [416]
+          ]
         },
 
         "infer": {
           "accepted_errors": [
             "USE_AFTER_FREE",
             "MEMORY_LEAK_C"
-          ],
-          "accepted_cwe": [416]
+          ]
         },
 
         "frama-c": {
@@ -981,23 +1055,20 @@
             "invalid memory access",
             "freed",
             "out of bounds read"
-          ],
-          "accepted_cwe": [416]
+          ]
         },
 
         "splint": {
           "accepted_errors": [
             "freed",
             "use after free"
-          ],
-          "accepted_cwe": [416]
+          ]
         },
 
         "flawfinder": {
           "accepted_errors": [
             "Does not check for buffer overflows"
-          ],
-          "accepted_cwe": [416]
+          ]
         },
 
         "rats": {
@@ -1005,20 +1076,27 @@
             "free called on invalid pointer",
             "high risk: free",
             "CWE-763"
-          ],
-          "accepted_cwe": [416]
-        },
-
-        "sparse": {
-          "accepted_errors": [],
-          "accepted_cwe": [416]
+          ]
         },
 
         "pvs-studio": {
           "accepted_errors": [
             "V758", "V774", "V1006", "V586", "V1031"
-          ],
-          "accepted_cwe": []
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "use after free",
+            "dangling pointer",
+            "use of freed memory"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "use after free"
+          ]
         }
       }
     },
@@ -1034,8 +1112,7 @@
             "IO.INJ.COMMAND",
             "system",
             "popen"
-          ],
-          "accepted_cwe": [78]
+          ]
         },
 
         "clang-static-analyzer": {
@@ -1046,8 +1123,7 @@
             "execvp",
             "tainted",
             "command injection"
-          ],
-          "accepted_cwe": [78]
+          ]
         },
 
         "infer": {
@@ -1055,34 +1131,26 @@
             "TAINTED_DATA",
             "command injection",
             "system"
-          ],
-          "accepted_cwe": [78]
+          ]
         },
 
         "frama-c": {
           "accepted_errors": [
             "tainted",
             "system"
-          ],
-          "accepted_cwe": [78]
+          ]
         },
 
         "splint": {
           "accepted_errors": [
             "system"
-          ],
-          "accepted_cwe": [78]
+          ]
         },
 
         "flawfinder": {
           "accepted_errors": [
-            "system",
-            "popen",
-            "execl",
-            "execvp",
-            "shell"
-          ],
-          "accepted_cwe": [78]
+            "CWE-78"
+          ]
         },
 
         "rats": {
@@ -1091,20 +1159,34 @@
             "popen",
             "execlp",
             "execvp"
-          ],
-          "accepted_cwe": [78]
-        },
-
-        "sparse": {
-          "accepted_errors": [],
-          "accepted_cwe": [78]
+          ]
         },
 
         "pvs-studio": {
           "accepted_errors": [
             "V1010"
-          ],
-          "accepted_cwe": []
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "command injection",
+            "tainted argument",
+            "untrusted command",
+            "shell injection",
+            "system",
+            "popen",
+            "execlp",
+            "execvp"
+          ]
+        },
+        
+        "ikos": {
+          "accepted_errors": [
+            "tainted",
+            "untrusted source",
+            "unvalidated input"
+          ]
         }
       }
     }

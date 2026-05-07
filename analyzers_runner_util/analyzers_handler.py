@@ -1,5 +1,4 @@
 from analyzers.clang_static_analyzer    import ClangStaticAnalyzer
-from analyzers.clang_tidy               import ClangTidyAnalyzer
 from analyzers.cppcheck                 import CppcheckAnalyzer
 from analyzers.flaw_finder              import FlawfinderAnalyzer
 from analyzers.frama_c                  import FramaCAnalyzer
@@ -8,12 +7,12 @@ from analyzers.rats                     import RATSAnalyzer
 from analyzers.sparse                   import SparseAnalyzer
 from analyzers.splint                   import SplintAnalyzer
 from analyzers.pvs_studio               import PVSStudio
+from analyzers.ikos                     import IkosAnalyzer
 
 class AnalyzersHandler:
     def __init__(self):
         self.analyzers_map = {
             "clang-static-analyzer":    ClangStaticAnalyzer,
-            "clang_tidy":               ClangTidyAnalyzer,
             "cppcheck":                 CppcheckAnalyzer,
             "flawfinder":               FlawfinderAnalyzer,
             "frama-c":                  FramaCAnalyzer,
@@ -21,7 +20,8 @@ class AnalyzersHandler:
             "rats":                     RATSAnalyzer,
             "sparse":                   SparseAnalyzer,
             "splint":                   SplintAnalyzer,
-            "pvs-studio":               PVSStudio
+            "pvs-studio":               PVSStudio,
+            "ikos":                     IkosAnalyzer
         }
 
     def get_analyzer_by_name(self, analyzer_name):

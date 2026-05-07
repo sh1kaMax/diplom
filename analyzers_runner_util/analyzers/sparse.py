@@ -40,11 +40,11 @@ class SparseAnalyzer:
         return self.__run_cmd(cmd)
 
     def run_good(self, file_path):
-        cmd = ["sparse"] + self.extra_args + + self.extra_good + [file_path]
+        cmd = ["sparse"] + self.extra_args + self.extra_good + [file_path]
 
         return self.__run_cmd(cmd)
 
-    def run_good(self, file_path):
-        cmd = ["sparse"] + self.extra_args + + self.extra_bad + [file_path]
+    def run_bad(self, file_path):
+        cmd = ["sparse"] + self.extra_args + self.extra_bad + [file_path]
 
         return self.__run_cmd(cmd)
