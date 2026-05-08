@@ -33,4 +33,13 @@ sudo apt install sparse
 # splint
 sudo apt install splint
 
-# SMATCH ESBMC IKOS 
+# IKOS 
+sudo apt install ikos
+
+# ESBMC
+sudo apt-get install -y clang-14 llvm-14 clang-tidy-14 python-is-python3 python3 git ccache unzip wget curl bison flex g++-multilib linux-libc-dev libboost-all-dev libz3-dev libclang-14-dev libclang-cpp-dev cmake
+git clone https://github.com/esbmc/esbmc.git
+mkdir build && cd build
+cmake .. -DENABLE_Z3=1
+make -j4
+sudo make install

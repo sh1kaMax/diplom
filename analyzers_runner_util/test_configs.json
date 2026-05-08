@@ -1,5 +1,5 @@
 {
-  "analyzers_all": ["cppcheck", "frama-c", "splint", "infer", "flawfinder", "rats", "clang-static-analyzer", "pvs-studio", "sparse", "ikos"],
+  "analyzers_all": ["cppcheck", "frama-c", "splint", "infer", "flawfinder", "rats", "clang-static-analyzer", "pvs-studio", "sparse", "ikos", "esbmc"],
   "tests": [
     {
       "name": "Buffer Overflow (CWE 120)",
@@ -89,6 +89,14 @@
             "accesses .* bytes at offset",
             "size .* bytes"
           ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "array bounds violated",
+            "unwinding assertion",
+            "writing memory segment"
+          ]
         }
       }
     },
@@ -168,6 +176,12 @@
         "ikos": {
           "accepted_errors": [
             "ignored side effect"
+          ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "buffer overflow on scanf"            
           ]
         }
       }
@@ -273,6 +287,12 @@
             "overflow in expression",
             "wraparound"
           ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "arithmetic overflow"
+          ]
         }
       }
     },
@@ -354,6 +374,13 @@
           "accepted_errors": [
             "is null"
           ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "NULL pointer",
+            "Incorrect alignment"
+          ]
         }
       }
     },
@@ -428,6 +455,12 @@
           "accepted_errors": [
             "division by zero",
             "might be zero"
+          ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "division by zero"
           ]
         }
       }
@@ -517,6 +550,15 @@
             "invalid memory deallocation",
             "use after free"
           ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "invalidated dynamic object",
+            "NULL pointer",
+            "free() of non-dynamic memory",
+            "forgotten memory"
+          ]
         }
       }
     },
@@ -590,6 +632,12 @@
         "ikos": {
           "accepted_errors": [
             "format string"
+          ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "format string is not a string literal (potentially insecure)"
           ]
         }
       }
@@ -669,6 +717,12 @@
           "accepted_errors": [
             "uninitialized"
           ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "NULL pointer"
+          ]
         }
       }
     },
@@ -746,6 +800,12 @@
             "use after free",
             "double free"
           ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "forgotten memory"
+          ]
         }
       }
     },
@@ -791,9 +851,7 @@
           "accepted_errors": [
             "buffer overflow",
             "potential overflows",
-            "buffer overflows",
             "CWE-120",
-            "buffer overflow",
             "CWE-119"
           ]
         },
@@ -838,6 +896,14 @@
         "ikos": {
           "accepted_errors": [
             "buffer overflow"
+          ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "array bounds violated",
+            "unwinding assertion",
+            "writing memory segment"
           ]
         }
       }
@@ -932,6 +998,14 @@
           "accepted_errors": [
             "buffer overflow"
           ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "array bounds violated",
+            "unwinding assertion",
+            "writing memory segment"
+          ]
         }
       }
     },
@@ -1019,6 +1093,15 @@
             "free twice",
             "double-free"
           ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "invalidated dynamic object",
+            "NULL pointer",
+            "free() of non-dynamic memory",
+            "forgotten memory"
+          ]
         }
       }
     },
@@ -1096,6 +1179,12 @@
         "ikos": {
           "accepted_errors": [
             "use after free"
+          ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "invalid pointer"
           ]
         }
       }
@@ -1186,6 +1275,13 @@
             "tainted",
             "untrusted source",
             "unvalidated input"
+          ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "untrusted argument in system call",
+            "NULL pointer"
           ]
         }
       }

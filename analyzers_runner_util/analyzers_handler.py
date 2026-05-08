@@ -8,6 +8,7 @@ from analyzers.sparse                   import SparseAnalyzer
 from analyzers.splint                   import SplintAnalyzer
 from analyzers.pvs_studio               import PVSStudio
 from analyzers.ikos                     import IkosAnalyzer
+from analyzers.esbmc                    import ESBMCAnalyzer
 
 class AnalyzersHandler:
     def __init__(self):
@@ -21,7 +22,8 @@ class AnalyzersHandler:
             "sparse":                   SparseAnalyzer,
             "splint":                   SplintAnalyzer,
             "pvs-studio":               PVSStudio,
-            "ikos":                     IkosAnalyzer
+            "ikos":                     IkosAnalyzer,
+            "esbmc":                    ESBMCAnalyzer
         }
 
     def get_analyzer_by_name(self, analyzer_name):
