@@ -42,7 +42,6 @@
           "accepted_errors": [
             "buffer overflow",
             "potential overflows",
-            "buffer overflows",
             "CWE-120",
             "CWE-119"
           ]
@@ -86,8 +85,8 @@
           "accepted_errors": [
             "buffer overflow",
             "out of bounds",
-            "accesses .* bytes at offset",
-            "size .* bytes"
+            "accesses",
+            "could not bound"
           ]
         },
 
@@ -1282,6 +1281,594 @@
           "accepted_errors": [
             "untrusted argument in system call",
             "NULL pointer"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buffer Underwrite (CWE 124)",
+      "path": "tests/C/testcases/CWE124_Buffer_Underwrite",
+      "cwe": 124,
+      "analyzers": {
+        
+        "cppcheck": {
+          "accepted_errors": [
+            "arrayIndexOutOfBounds",
+            "bufferAccessOutOfBounds",
+            "arrayIndexOutOfBoundsCond",
+            "outOfBounds"
+          ]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "OutOfBounds",
+            "alpha.security.ArrayBound"
+          ]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "BUFFER_OVERRUN_L1",
+            "BUFFER_OVERRUN_L2",
+            "Out of bounds write",
+            "PULSE_UNINITIALIZED_VALUE"
+          ]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "out of bounds",
+            "invalid memory access"
+          ]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "Possible out-of-bounds store"
+          ]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "buffer overflow",
+            "potential overflows",
+            "CWE-120",
+            "CWE-119"
+          ]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "buffer overflow",
+            "memset",
+            "High risk: memset"
+          ]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V512", "V514", "V594", "V635", "V641",
+            "V645", "V752", "V755", "V557", "V582",
+            "V643", "V781", "V1038", "V1111"
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "invalid access",
+            "out of bounds",
+            "buffer overflow",
+            "array access"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "buffer overflow",
+            "accesses",
+            "could not bound"
+          ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "array bounds violated",
+            "unwinding assertion",
+            "writing memory segment"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buffer Over-read (CWE 126)",
+      "path": "tests/C/testcases/CWE126_Buffer_Overread",
+      "cwe": 126,
+      "analyzers": {
+        
+        "cppcheck": {
+          "accepted_errors": [
+            "bufferAccessOutOfBounds",
+            "arrayIndexOutOfBounds"
+          ]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "buffer overflow",
+            "alpha.unix.cstring.OutOfBounds",
+            "alpha.security.ArrayBound",
+            "alpha.security.ArrayBoundV2"
+          ]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "BUFFER_OVERRUN_L1",
+            "BUFFER_OVERRUN_L2",
+            "Out of bounds write",
+            "PULSE_UNINITIALIZED_VALUE"
+          ]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "out of bounds",
+            "invalid memory access"
+          ]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "Possible out-of-bounds store"
+          ]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "buffer overflow",
+            "potential overflows",
+            "CWE-120",
+            "CWE-119"
+          ]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "buffer overflow",
+            "memset",
+            "High risk: memset"
+          ]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V512", "V514", "V594", "V635", "V641",
+            "V645", "V752", "V755", "V557", "V582",
+            "V643", "V781", "V1038", "V1111"
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "invalid access",
+            "out of bounds",
+            "buffer overflow",
+            "array access"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "buffer overflow",
+            "out of bounds",
+            "accesses",
+            "could not bound"
+          ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "array bounds violated",
+            "unwinding assertion",
+            "writing memory segment"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buffer Under-read (CWE 127)",
+      "path": "tests/C/testcases/CWE127_Buffer_Underread",
+      "cwe": 127,
+      "analyzers": {
+        
+        "cppcheck": {
+          "accepted_errors": [
+            "bufferAccessOutOfBounds",
+            "arrayIndexOutOfBounds"
+          ]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "buffer overflow",
+            "alpha.unix.cstring.OutOfBounds",
+            "alpha.security.ArrayBound",
+            "alpha.security.ArrayBoundV2"
+          ]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "BUFFER_OVERRUN_L1",
+            "BUFFER_OVERRUN_L2",
+            "Out of bounds write",
+            "PULSE_UNINITIALIZED_VALUE"
+          ]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "out of bounds",
+            "invalid memory access"
+          ]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "Possible out-of-bounds store"
+          ]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "buffer overflow",
+            "potential overflows",
+            "CWE-120",
+            "CWE-119"
+          ]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "buffer overflow",
+            "memset",
+            "High risk: memset"
+          ]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V512", "V514", "V594", "V635", "V641",
+            "V645", "V752", "V755", "V557", "V582",
+            "V643", "V781", "V1038", "V1111"
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "invalid access",
+            "out of bounds",
+            "buffer overflow",
+            "array access"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "buffer overflow",
+            "out of bounds",
+            "accesses",
+            "could not bound"
+          ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "array bounds violated",
+            "unwinding assertion",
+            "writing memory segment"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Incorrect Pointer Scaling (CWE 468)",
+      "path": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling",
+      "cwe": 468,
+      "analyzers": {
+
+        "cppcheck": {
+          "accepted_errors": [
+            "pointerOutOfBounds",
+            "invalidPointer"
+          ]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "core.uninitialized.Assign"
+          ]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "NULL_DEREFERENCE",
+            "UNINITIALIZED_VALUE"
+          ]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "pointer invalid"
+          ]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "SuspiciousPointerArithmetic"
+          ]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "pointer arithmetic risk"
+          ]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "unsafe pointer operations"
+          ]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V567", "V769", "V620"
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "Pointer arithmetic using pointer and integer"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "pointer_arithmetic_error"
+          ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "pointer safety violation"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Return Of Stack Variable Address (CWE 562)",
+      "path": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address",
+      "cwe": 562,
+      "analyzers": {
+
+        "cppcheck": {
+          "accepted_errors": [
+            "returnDanglingLifetime"
+          ]
+        },
+        
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "core.StackAddressEscape"
+          ]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "USE_AFTER_FREE",
+            "DANGLING_POINTER_DEREFERENCE"
+          ]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "dangling_pointer",
+            "invalid_pointer_return"
+          ]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "stack-allocated"
+          ]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "dangling pointer risk"
+          ]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "invalid pointer return"
+          ]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V558"
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "incorrect pointer dereference"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "address of stack memory associated"
+          ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "pointer lifetime violation"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Use of sizeof on Pointer Type (CWE 467)",
+      "path": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type",
+      "cwe": 467,
+      "analyzers": {
+
+        "cppcheck": {
+          "accepted_errors": [
+            "Size of pointer",
+            "pointerSize"
+          ]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "unix.MallocSizeof",
+            "alpha.core.SizeofPtr"
+          ]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "UNINITIALIZED_VALUE"
+          ]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "type_mismatch"
+          ]
+        },
+
+        "splint": {
+          "accepted_errors": [
+            "SizeofWarning"
+          ]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "sizeof pointer risk"
+          ]
+        },
+
+        "rats": {
+          "accepted_errors": [
+            "sizeof misuse"
+          ]
+        },
+        
+        "pvs-studio": {
+          "accepted_errors": [
+            "V641"
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "weird size calculation"
+          ]
+        },
+        
+        "ikos": {
+          "accepted_errors": [
+            "type_error"
+          ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "type mismatch",
+            "size of"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Free Memory Not on Heap (CWE 590)",
+      "path": "tests/C/testcases/CWE590_Free_Memory_Not_on_Heap",
+      "cwe": 590,
+      "analyzers": {
+
+        "cppcheck": {
+          "accepted_errors": [
+            "autovarInvalidDeallocation"
+          ]
+        },
+
+        "clang-static-analyzer": {
+          "accepted_errors": [
+            "FreeStackMemory",
+            "UndefinedBehavior"
+          ]
+        },
+
+        "infer": {
+          "accepted_errors": [
+            "INVALID_FREE"
+          ]
+        },
+
+        "frama-c": {
+          "accepted_errors": [
+            "invalid memory access"
+          ]
+        },
+        
+        "splint": {
+          "accepted_errors": [
+            "FreeingStack"
+          ]
+        },
+
+        "flawfinder": {
+          "accepted_errors": [
+            "free stack memory risk"
+          ]
+        },
+        
+        "rats": {
+          "accepted_errors": [
+            "invalid free"
+          ]
+        },
+
+        "pvs-studio": {
+          "accepted_errors": [
+            "V726",
+            "V507"
+          ]
+        },
+
+        "sparse": {
+          "accepted_errors": [
+            "invalid free"
+          ]
+        },
+
+        "ikos": {
+          "accepted_errors": [
+            "invalid memory deallocation"
+          ]
+        },
+
+        "esbmc": {
+          "accepted_errors": [
+            "invalid free violation"
           ]
         }
       }

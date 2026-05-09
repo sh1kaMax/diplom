@@ -157,11 +157,15 @@ def main():
         config = json.load(f)
 
     if specific_analyzer:
-        if specific_analyzer not in config["analyzers_all"]:
+        if specific_analyzer not in config["analyzers_all"] and specific_analyzer != "all":
             print(f"Ошибка: Анализатора '{specific_analyzer}' нету в конфигурационном файле")
             print(f"Доступные анализаторы: {', '.join(config['analyzers_all'])}")
             sys.exit(1)
-        analyzers_to_run = [specific_analyzer]
+
+        if specific_analyzer == "all":
+            analyzers_to_run = config["analyzers_all"]
+        else:
+            analyzers_to_run = [specific_analyzer]
     else:
         analyzers_to_run = config["analyzers_all"]
 
