@@ -1,1 +1,7 @@
 results/
+venv/
+myenv/
+plots/
+analyzers_runner_util/__pycache__
+analyzers_runner_util/analyzers/__pycache__
+plots

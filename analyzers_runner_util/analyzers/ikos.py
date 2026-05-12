@@ -2,8 +2,9 @@ import subprocess
 import time
 import os
 import shutil
+from analyzers.abstract_analyzer import AbstractAnalyzer
 
-class IkosAnalyzer:
+class IkosAnalyzer(AbstractAnalyzer):
     def __init__(self, extra_args=None):
         self.extra_args = extra_args or []
         self.main_func = ["--entry-point=func", "-I/home/shika/diplom/analyzer_runner_util/include"]

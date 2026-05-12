@@ -3,8 +3,9 @@ import time
 import os
 import tempfile
 import shutil
+from analyzers.abstract_analyzer import AbstractAnalyzer
 
-class PVSStudio:
+class PVSStudio(AbstractAnalyzer):
     def __init__(self, extra_args=None):
         self.include_path = ["-I/home/shika/diplom/tests/C/testcasesupport", "-I/home/shika/diplom/analyzers_runner_util/include"]
         self.extra_good = ["-DINCLUDEMAIN", "-DOMITBAD"]

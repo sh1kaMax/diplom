@@ -1,7 +1,8 @@
 import subprocess
 import time
+from analyzers.abstract_analyzer import AbstractAnalyzer
 
-class SparseAnalyzer:
+class SparseAnalyzer(AbstractAnalyzer):
     def __init__(self, extra_args=None):
         self.extra_args = extra_args or ["-Wsparse-all"]
         self.extra_good = ["-I/home/shika/diplom/tests/C/testcasesupport", "-include", "alloca.h", "-DINCLUDEMAIN", "-DOMITBAD"]

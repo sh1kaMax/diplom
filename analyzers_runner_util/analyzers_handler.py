@@ -9,6 +9,7 @@ from analyzers.splint                   import SplintAnalyzer
 from analyzers.pvs_studio               import PVSStudio
 from analyzers.ikos                     import IkosAnalyzer
 from analyzers.esbmc                    import ESBMCAnalyzer
+from analyzers.abstract_analyzer        import AbstractAnalyzer
 
 class AnalyzersHandler:
     def __init__(self):
@@ -26,10 +27,14 @@ class AnalyzersHandler:
             "esbmc":                    ESBMCAnalyzer
         }
 
-    def get_analyzer_by_name(self, analyzer_name):
+    def get_analyzer_by_name(self, analyzer_name) -> AbstractAnalyzer:
         analyzer_constructor = self.analyzers_map.get(analyzer_name.lower())
-
         if analyzer_constructor is None:
             raise ValueError(f"Такой анализатор '{analyzer_name}' не найден")
-        return analyzer_constructor()
+        
+        instance = analyzer_constructor()
+        if not isinstance(instance, AbstractAnalyzer):
+            raise TypeError(f"Анализатор '{analyzer_name}' не реализует AbstractAnalyzer")
+
+        return instance
     

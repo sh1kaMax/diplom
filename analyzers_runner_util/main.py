@@ -27,7 +27,7 @@ def check_test_result(result, is_pos, accepted_errs):
                 return False
         return True
 
-def evaluate(analyzer, tests, accepted_errors):
+def run_tests(analyzer, tests, accepted_errors):
     results = []
     all_positive_tests_count = 0
     correct_positive_tests_count = 0
@@ -94,7 +94,7 @@ def evaluate(analyzer, tests, accepted_errors):
 def run_test_type(analyzer, test, output_dir):
     tests = collect_tests(test["path"])
     accepted_errors = test["analyzers"].get(analyzer.get_name(), {}).get("accepted_errors", [])
-    results, count_positive, correct_positive, count_negative, correct_negative = evaluate(analyzer, tests, accepted_errors)
+    results, count_positive, correct_positive, count_negative, correct_negative = run_tests(analyzer, tests, accepted_errors)
     
     test_file = os.path.join(output_dir, f"{test['name']}_results.json")
     with open(test_file, "w") as f:

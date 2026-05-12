@@ -2,8 +2,9 @@ import subprocess
 import time
 import os
 import tempfile
+from analyzers.abstract_analyzer import AbstractAnalyzer
 
-class InferAnalyzer:
+class InferAnalyzer(AbstractAnalyzer):
     def __init__(self, extra_args=None):
         self.extra_args = extra_args or [
             "run",

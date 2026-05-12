@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import os
 
-analyzers = ["cppcheck", "flawfinder", "frama-c", "rats", "infer", "splint"]
+analyzers = ["cppcheck", "frama-c", "splint", "infer", "flawfinder", "rats", "clang-static-analyzer", "pvs-studio", "sparse", "ikos", "esbmc"]
 results_path = "results"
 save_dir = "plots"
 os.makedirs(save_dir, exist_ok=True)

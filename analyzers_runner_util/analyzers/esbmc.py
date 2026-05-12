@@ -1,8 +1,9 @@
 import subprocess
 import time
 import os
+from analyzers.abstract_analyzer import AbstractAnalyzer
 
-class ESBMCAnalyzer:
+class ESBMCAnalyzer(AbstractAnalyzer):
     def __init__(self, extra_args=None):
         self.extra_args = extra_args or [
             "--unwind", "100", "--overflow-check", "--printf-check",

@@ -1,8 +1,9 @@
 import subprocess
 import time
 import os
+from analyzers.abstract_analyzer import AbstractAnalyzer
 
-class FramaCAnalyzer:
+class FramaCAnalyzer(AbstractAnalyzer):
     def __init__(self, extra_args=None):
         self.extra_args = extra_args or ["-eva", "-warn-signed-overflow", "-warn-unsigned-overflow"]
         self.main_func = ["-main", "func"]
