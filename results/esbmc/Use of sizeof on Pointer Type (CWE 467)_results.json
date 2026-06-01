@@ -1,0 +1,766 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.830492496490479,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.839s\nGOTO program processing time: 0.184s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.349054098129272,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 7.537s\nGOTO program processing time: 0.184s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.120s (80 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (16 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.189s\nBMC program time: 0.587s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.8583083152771,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.116164207458496,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.549s\nGOTO program processing time: 0.158s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.002s (81 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.062s\nBMC program time: 0.312s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.500644207000732,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.447321891784668,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.306s\nGOTO program processing time: 0.255s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.067s (84 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 62 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.053s\nBMC program time: 0.578s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.440402507781982,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.227437019348145,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.361804008483887,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.455397367477417,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 11.405334234237671,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.407775640487671,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.245s\nGOTO program processing time: 0.272s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.001s (83 assignments)\nCaching time: 0.088s (removed 7 assertions)\nSlicing time: 0.000s (removed 61 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.077s\nBMC program time: 0.474s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.091362476348877,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.978s\nGOTO program processing time: 0.233s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.375883102416992,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.568s\nGOTO program processing time: 0.165s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.005s (87 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 62 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (18 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.048s\nBMC program time: 0.292s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.835936546325684,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.249s\nGOTO program processing time: 0.136s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nWARNING: no body for function printShortLine\nSymex completed in: 0.057s (103 assignments)\nCaching time: 0.000s (removed 13 assertions)\nSlicing time: 0.001s (removed 63 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (27 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.093s\nBMC program time: 0.292s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.29734992980957,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.98401427268982,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.651s\nGOTO program processing time: 0.151s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 6.249770164489746,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 3.744s\nGOTO program processing time: 0.103s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.094s (85 assignments)\nCaching time: 0.001s (removed 7 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (18 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.068s\nBMC program time: 0.482s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.254729270935059,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.326470613479614,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 11.120140790939331,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.570473432540894,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.813s\nGOTO program processing time: 0.135s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrueOrFalse\nWARNING: no body for function printHexCharLine\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.052s (103 assignments)\nCaching time: 0.001s (removed 9 assertions)\nSlicing time: 0.041s (removed 67 assignments)\nGenerated 37 VCC(s), 10 remaining after simplification (27 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.157s\nBMC program time: 0.502s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.299192667007446,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.698987245559692,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 7.074s\nGOTO program processing time: 0.146s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.048s (78 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (13 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.089s\nBMC program time: 0.413s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.474950313568115,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.778525590896606,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.018s\nGOTO program processing time: 0.298s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.062s (76 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (13 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.118s\nBMC program time: 0.469s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.919459819793701,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 7.569s\nGOTO program processing time: 0.195s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.075s (95 assignments)\nCaching time: 0.000s (removed 9 assertions)\nSlicing time: 0.000s (removed 63 assignments)\nGenerated 37 VCC(s), 10 remaining after simplification (23 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.146s\nBMC program time: 0.447s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.898960828781128,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.388s\nGOTO program processing time: 0.081s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.001s (76 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.001s (removed 58 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (13 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.071s\nBMC program time: 0.314s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.920165538787842,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 7.233s\nGOTO program processing time: 0.124s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrueOrFalse\nWARNING: no body for function printShortLine\nWARNING: no body for function printShortLine\nSymex completed in: 0.051s (111 assignments)\nCaching time: 0.000s (removed 13 assertions)\nSlicing time: 0.000s (removed 67 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (31 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.156s\nBMC program time: 0.444s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.629684686660767,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.076s\nGOTO program processing time: 0.169s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrueOrFalse\nWARNING: no body for function printShortLine\nWARNING: no body for function printShortLine\nSymex completed in: 0.003s (112 assignments)\nCaching time: 0.000s (removed 13 assertions)\nSlicing time: 0.000s (removed 68 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (31 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.140s\nBMC program time: 0.447s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.93811321258545,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.566s\nGOTO program processing time: 0.191s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nWARNING: no body for function printShortLine\nSymex completed in: 0.053s (105 assignments)\nCaching time: 0.001s (removed 13 assertions)\nSlicing time: 0.000s (removed 65 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (27 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.105s\nBMC program time: 0.546s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.698857069015503,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.360s\nGOTO program processing time: 0.178s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.067s (83 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 61 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.082s\nBMC program time: 0.388s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.293956279754639,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.169s\nGOTO program processing time: 0.166s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.057s (104 assignments)\nCaching time: 0.000s (removed 13 assertions)\nSlicing time: 0.000s (removed 64 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (27 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.159s\nBMC program time: 0.541s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.81988525390625,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.548s\nGOTO program processing time: 0.238s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.082s (84 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 62 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.090s\nBMC program time: 0.466s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.457417249679565,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.484s\nGOTO program processing time: 0.180s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.118s (97 assignments)\nCaching time: 0.000s (removed 9 assertions)\nSlicing time: 0.000s (removed 65 assignments)\nGenerated 37 VCC(s), 10 remaining after simplification (23 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.138s\nBMC program time: 0.492s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.847845077514648,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.230s\nGOTO program processing time: 0.125s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.041s (78 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (13 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.112s\nBMC program time: 0.360s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.272688150405884,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.100822687149048,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.114s\nGOTO program processing time: 0.081s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (87 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.001s (removed 62 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (18 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.101s\nBMC program time: 0.461s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.022276163101196,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 3.991s\nGOTO program processing time: 0.047s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.025s (96 assignments)\nCaching time: 0.000s (removed 9 assertions)\nSlicing time: 0.000s (removed 64 assignments)\nGenerated 37 VCC(s), 10 remaining after simplification (23 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.188s\nBMC program time: 0.370s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.471824169158936,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.414s\nGOTO program processing time: 0.249s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.081s (77 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (13 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.042s\nBMC program time: 0.294s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.719958782196045,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.650s\nGOTO program processing time: 0.154s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.066s (97 assignments)\nCaching time: 0.000s (removed 9 assertions)\nSlicing time: 0.000s (removed 65 assignments)\nGenerated 37 VCC(s), 10 remaining after simplification (23 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.072s\nBMC program time: 0.471s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.574004888534546,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.190s\nGOTO program processing time: 0.293s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.002s (77 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (13 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.085s\nBMC program time: 0.530s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.89513111114502,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.510s\nGOTO program processing time: 0.195s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.051s (80 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.076s\nBMC program time: 0.404s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 5.335794687271118,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 3.227s\nGOTO program processing time: 0.179s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (83 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 61 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.064s\nBMC program time: 0.348s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.759917736053467,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.377s\nGOTO program processing time: 0.215s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.067s (80 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.054s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.090s\nBMC program time: 0.402s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.851258993148804,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.019s\nGOTO program processing time: 0.082s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (83 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 61 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.124s\nBMC program time: 0.419s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.040285348892212,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 7.052s\nGOTO program processing time: 0.207s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.051s (80 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.062s\nBMC program time: 0.285s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.911546230316162,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.672s\nGOTO program processing time: 0.194s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.002s (81 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.075s\nBMC program time: 0.278s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.52272629737854,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.764s\nGOTO program processing time: 0.121s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.255344867706299,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.123281478881836,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.325s\nGOTO program processing time: 0.114s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nUnwinding loop 39 iteration 1   file tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c line 45 column 5 function good1\nSymex completed in: 0.054s (84 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.005s (removed 61 assignments)\nGenerated 21 VCC(s), 9 remaining after simplification (16 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.030s\nBMC program time: 0.265s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.437870502471924,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.094s\nGOTO program processing time: 0.144s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nUnwinding loop 39 iteration 1   file tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c line 23 column 5 function CWE467_Use_of_sizeof_on_Pointer_Type__int_17_bad\nSymex completed in: 0.035s (87 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 64 assignments)\nGenerated 21 VCC(s), 9 remaining after simplification (16 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.060s\nBMC program time: 0.310s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.27638578414917,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.228s\nGOTO program processing time: 0.223s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.047s (95 assignments)\nCaching time: 0.000s (removed 9 assertions)\nSlicing time: 0.000s (removed 63 assignments)\nGenerated 37 VCC(s), 10 remaining after simplification (23 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.054s\nBMC program time: 0.349s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.654818534851074,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.209s\nGOTO program processing time: 0.134s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.001s (76 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (13 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.028s\nBMC program time: 0.254s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.20201849937439,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.487991094589233,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.372s\nGOTO program processing time: 0.185s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrue\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.054s (81 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (16 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.043s\nBMC program time: 0.286s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.174541711807251,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.313501834869385,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.885s\nGOTO program processing time: 0.128s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.029s (85 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (18 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.054s\nBMC program time: 0.248s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.049078464508057,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.681s\nGOTO program processing time: 0.117s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nUnwinding loop 39 iteration 1   file tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c line 45 column 5 function good1\nSymex completed in: 0.002s (84 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 61 assignments)\nGenerated 21 VCC(s), 9 remaining after simplification (16 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.067s\nBMC program time: 0.314s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.194652795791626,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.922s\nGOTO program processing time: 0.056s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nUnwinding loop 39 iteration 1   file tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c line 23 column 5 function CWE467_Use_of_sizeof_on_Pointer_Type__short_17_bad\nSymex completed in: 0.005s (85 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 62 assignments)\nGenerated 21 VCC(s), 9 remaining after simplification (16 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.043s\nBMC program time: 0.110s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.194908380508423,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.448761224746704,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.046s\nGOTO program processing time: 0.150s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.050s (85 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (18 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.106s\nBMC program time: 0.373s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.1595139503479,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 6.508178472518921,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 3.729s\nGOTO program processing time: 0.154s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.066s (80 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (16 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.094s\nBMC program time: 0.450s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.273211479187012,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.017s\nGOTO program processing time: 0.156s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.042s (80 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.069s\nBMC program time: 0.352s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.519331216812134,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.976s\nGOTO program processing time: 0.148s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.046s (81 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.135s\nBMC program time: 0.471s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.526371717453003,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.984s\nGOTO program processing time: 0.240s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.081s (105 assignments)\nCaching time: 0.000s (removed 13 assertions)\nSlicing time: 0.000s (removed 65 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (27 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.148s\nBMC program time: 0.455s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.499443769454956,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.917s\nGOTO program processing time: 0.175s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.035s (85 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 63 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.054s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.089s\nBMC program time: 0.381s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.138476371765137,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.996s\nGOTO program processing time: 0.103s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.032s (103 assignments)\nCaching time: 0.000s (removed 13 assertions)\nSlicing time: 0.000s (removed 63 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (27 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.122s\nBMC program time: 0.495s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.726265668869019,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.827s\nGOTO program processing time: 0.139s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.001s (83 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.001s (removed 61 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.059s\nBMC program time: 0.301s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.059418678283691,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.898s\nGOTO program processing time: 0.202s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.054s (96 assignments)\nCaching time: 0.000s (removed 9 assertions)\nSlicing time: 0.000s (removed 64 assignments)\nGenerated 37 VCC(s), 10 remaining after simplification (23 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.062s\nBMC program time: 0.308s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.002944946289062,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.881s\nGOTO program processing time: 0.017s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.002s (77 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (13 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.037s\nBMC program time: 0.142s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.897145509719849,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.279s\nGOTO program processing time: 0.014s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.005s (76 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (13 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.012s\nBMC program time: 0.038s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.324631214141846,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.665s\nGOTO program processing time: 0.239s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.055s (76 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (13 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.049s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.079s\nBMC program time: 0.439s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.0633344650268555,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.758s\nGOTO program processing time: 0.110s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nWARNING: no body for function printShortLine\nSymex completed in: 0.003s (104 assignments)\nCaching time: 0.000s (removed 13 assertions)\nSlicing time: 0.000s (removed 64 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (27 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.137s\nBMC program time: 0.370s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 6.599367618560791,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.385s\nGOTO program processing time: 0.182s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.002s (82 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.020s\nBMC program time: 0.274s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.1561994552612305,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.239s\nGOTO program processing time: 0.086s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsFalse\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.282036542892456,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.115s\nGOTO program processing time: 0.156s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrue\nWARNING: no body for function printShortLine\nSymex completed in: 0.068s (86 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.001s (removed 61 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (18 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.079s\nBMC program time: 0.392s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.13875436782837,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.127s\nGOTO program processing time: 0.207s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.137s (80 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.059s\nBMC program time: 0.542s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.291422128677368,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.022s\nGOTO program processing time: 0.139s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.050s (81 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.122s\nBMC program time: 0.354s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.684651851654053,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.194s\nGOTO program processing time: 0.131s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.0210630893707275,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.625s\nGOTO program processing time: 0.009s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (87 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 62 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (18 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.007s\nBMC program time: 0.037s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.602358818054199,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.874s\nGOTO program processing time: 0.007s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.001s (76 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (13 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.055s\nBMC program time: 0.132s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 6.770753622055054,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.006s\nGOTO program processing time: 0.082s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.002s (76 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (13 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.048s\nBMC program time: 0.156s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.665265321731567,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.524s\nGOTO program processing time: 0.147s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrueOrFalse\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.043s (111 assignments)\nCaching time: 0.000s (removed 13 assertions)\nSlicing time: 0.001s (removed 67 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (31 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.157s\nBMC program time: 0.371s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.521391153335571,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.200s\nGOTO program processing time: 0.170s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrueOrFalse\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.080s (114 assignments)\nCaching time: 0.000s (removed 13 assertions)\nSlicing time: 0.000s (removed 70 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (31 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.108s\nBMC program time: 0.448s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.850239276885986,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.887s\nGOTO program processing time: 0.260s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.076s (95 assignments)\nCaching time: 0.000s (removed 9 assertions)\nSlicing time: 0.000s (removed 63 assignments)\nGenerated 37 VCC(s), 10 remaining after simplification (23 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.103s\nBMC program time: 0.477s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 5.783273935317993,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 3.909s\nGOTO program processing time: 0.109s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.002s (76 assignments)\nCaching time: 0.001s (removed 5 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (13 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.028s\nBMC program time: 0.206s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.037498474121094,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.361s\nGOTO program processing time: 0.132s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.048s (105 assignments)\nCaching time: 0.000s (removed 13 assertions)\nSlicing time: 0.000s (removed 65 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (27 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.131s\nBMC program time: 0.481s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 5.34513258934021,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.653s\nGOTO program processing time: 0.015s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.005s (84 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 62 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.034s\nBMC program time: 0.120s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.182631492614746,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.227s\nGOTO program processing time: 0.137s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.462269306182861,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.045s\nGOTO program processing time: 0.132s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.002s (80 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (16 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.040s\nBMC program time: 0.273s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 6.875810146331787,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.626s\nGOTO program processing time: 0.011s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.229719638824463,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.118s\nGOTO program processing time: 0.106s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.034s (85 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (18 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.094s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.060s\nBMC program time: 0.442s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.660038948059082,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.955s\nGOTO program processing time: 0.165s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nWARNING: no body for function printShortLine\nSymex completed in: 0.048s (103 assignments)\nCaching time: 0.000s (removed 13 assertions)\nSlicing time: 0.000s (removed 63 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (27 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.157s\nBMC program time: 0.572s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.969886302947998,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.698s\nGOTO program processing time: 0.161s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.002s (81 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.109s\nBMC program time: 0.309s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.78734278678894,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.236s\nGOTO program processing time: 0.151s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.119s (105 assignments)\nCaching time: 0.001s (removed 13 assertions)\nSlicing time: 0.000s (removed 65 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (27 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.086s\nBMC program time: 0.430s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.2766125202178955,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.894s\nGOTO program processing time: 0.178s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.075s (85 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.001s (removed 63 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.075s\nBMC program time: 0.402s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.391415596008301,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.300s\nGOTO program processing time: 0.097s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.021s (103 assignments)\nCaching time: 0.000s (removed 13 assertions)\nSlicing time: 0.000s (removed 63 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (27 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.117s\nBMC program time: 0.358s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 6.897642612457275,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.919s\nGOTO program processing time: 0.110s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.046s (83 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.001s (removed 61 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.022s\nBMC program time: 0.205s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.91369104385376,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.174s\nGOTO program processing time: 0.260s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 6.611275911331177,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.911s\nGOTO program processing time: 0.199s\nStarting Bounded Model Checking\nWARNING: no body for function printHexCharLine\nSymex completed in: 0.016s (80 assignments)\nCaching time: 0.000s (removed 5 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 20 VCC(s), 6 remaining after simplification (16 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.044s\nBMC program time: 0.218s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 4.5593085289001465,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 2.692s\nGOTO program processing time: 0.012s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nWARNING: no body for function printShortLine\nSymex completed in: 0.008s (104 assignments)\nCaching time: 0.001s (removed 13 assertions)\nSlicing time: 0.000s (removed 64 assignments)\nGenerated 37 VCC(s), 14 remaining after simplification (27 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.160s\nBMC program time: 0.235s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 6.338139295578003,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.672s\nGOTO program processing time: 0.116s\nStarting Bounded Model Checking\nWARNING: no body for function printShortLine\nSymex completed in: 0.006s (82 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.011s\nBMC program time: 0.042s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.3749167919158936,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.392s\nGOTO program processing time: 0.161s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.010s (80 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.016s\nBMC program time: 0.107s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 5.8134942054748535,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.491s\nGOTO program processing time: 0.085s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.025s (83 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 61 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (15 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.023s\nBMC program time: 0.162s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.44537878036499,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.249s\nGOTO program processing time: 0.087s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsFalse\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.673565864562988,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.501s\nGOTO program processing time: 0.108s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrue\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (88 assignments)\nCaching time: 0.000s (removed 7 assertions)\nSlicing time: 0.000s (removed 63 assignments)\nGenerated 20 VCC(s), 8 remaining after simplification (18 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.097s\nBMC program time: 0.271s\n\nVERIFICATION SUCCESSFUL"
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 0,
+        "all_positive_tests": 54,
+        "count_negative_tests": 54,
+        "all_negative_tests": 54
+    }
+}

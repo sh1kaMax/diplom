@@ -1,0 +1,766 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.8186266422271729,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_2a0naftq\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_13_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c DONE\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3109676837921143,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_ydnn7ep4\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_13_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.4640438556671143,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_jssa0q1k\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_03_good\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.2186787128448486,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_7ymbuqsb\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_03_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.7649779319763184,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_f7gh8fhb\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFive\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_07_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.8759310245513916,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_6mh26bci\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_07_bad\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFive\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.2499258518218994,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_kldwiwpp\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_17_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.404045581817627,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_00kb7r53\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_17_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.5627071857452393,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_mfviygwr\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with staticReturnsFalse\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c starting\nAnalysing block of 200 procs, starting with staticReturnsTrue\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_08_good\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_08_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.332991123199463,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_ipsl0d9n\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_08_bad\nAnalysing block of 200 procs, starting with staticReturnsFalse\nAnalysing block of 200 procs, starting with staticReturnsTrue\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.58491849899292,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_peoctchz\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_02_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.5243568420410156,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_z647w5at\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_02_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.2669200897216797,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_2wcg0n79\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c starting\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_10_good\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.055905818939209,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_txwuhl8m\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_10_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.605938196182251,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_zcnuwf4m\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_15_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.9992220401763916,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_l6vwlqm0\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_15_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.1334328651428223,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_y7vfw7sv\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_10_good\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1312580108642578,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_rmbfbz3j\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_10_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3257050514221191,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_qi6n1n4o\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_TRUE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_04_good\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FALSE\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c starting\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.0775926113128662,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_d150hwae\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_04_bad\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_TRUE\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FALSE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.4513599872589111,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_79n1yt3r\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_12_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.320099115371704,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_n5i1eco2\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_12_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.568943977355957,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_ulnjouqu\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_04_good\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_TRUE\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FALSE\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.515195608139038,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_0efh9wi8\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_TRUE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_04_bad\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FALSE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.4014530181884766,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_fc4pur6y\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_18_good\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.4680359363555908,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_4hpuu99o\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_18_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3438422679901123,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_t02l9fms\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_02_good\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.2332420349121094,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_j_ujap86\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_02_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.1975877285003662,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_8qfb1ci5\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_12_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c DONE\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3376400470733643,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_biab76bz\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_12_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.6158390045166016,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_p9a81x3p\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticTrue\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFalse\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_05_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.9400744438171387,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_zb88adx0\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFalse\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticTrue\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_05_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.2905573844909668,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_98k7iqt2\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_06_good\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FIVE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c DONE\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.8142123222351074,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_1zfss8jg\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_06_bad\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FIVE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.134852409362793,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_6jsb5so4\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFalse\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_05_good\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticTrue\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1862468719482422,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_6dy5fwrh\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticTrue\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFalse\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_05_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.0073349475860596,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_gfimwe73\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_14_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c DONE\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.4692234992980957,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_dnrint3e\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_14_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.2258949279785156,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_zq8x82vl\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_07_good\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFive\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c starting\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.2963569164276123,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_4igt7bla\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_07_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c DONE\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFive\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3414413928985596,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_gdh4a4fp\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c starting\nAnalysing block of 200 procs, starting with staticReturnsTrue\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c DONE\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_08_good\nAnalysing block of 200 procs, starting with staticReturnsFalse\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.5469391345977783,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_jard3kqt\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_08_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c DONE\nAnalysing block of 200 procs, starting with staticReturnsFalse\nAnalysing block of 200 procs, starting with staticReturnsTrue\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.8655509948730469,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_mrhjoso6\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_01_good\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3478155136108398,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_7lh5aax_\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_01_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.2514848709106445,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_97r0pqjt\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c DONE\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_18_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.2151150703430176,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_93_lsf8y\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_18_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.9878525733947754,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_xl8dxew0\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_01_good\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.2858216762542725,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_ixya3fsj\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_01_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.8299577236175537,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out__w81lcaq\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_13_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1617720127105713,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_ygpy7wvx\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_13_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3255445957183838,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_kc1dg4xv\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_17_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1282665729522705,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_v4cv4un4\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_17_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.011906385421753,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_n_gh57lz\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c starting\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_15_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.5320045948028564,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_kbhd1peb\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_15_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.5271568298339844,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_flzo1y9b\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_11_good\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.458845853805542,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_o0rtpywo\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_11_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.1714856624603271,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_t4_xeljm\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_09_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c DONE\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.9208283424377441,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_x9dshiuq\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_09_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.1792380809783936,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_lft5pope\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_17_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.8939125537872314,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_sciwb6r8\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_17_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.4877359867095947,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_pd_jkb76\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_13_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c starting\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.9296872615814209,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_75xsn1ki\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_13_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.301866054534912,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out__dvhmv0r\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_14_good\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1781156063079834,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_ptvzaeca\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_14_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.8698163032531738,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_268x2gix\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c starting\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_16_good\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.7906022071838379,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_7ha3wzde\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_16_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.7732641696929932,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_cvqliw1q\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_04_good\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FALSE\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_TRUE\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3739895820617676,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_j6b2quyk\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_TRUE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FALSE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_04_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.5790367126464844,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_4azcomal\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_03_good\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.7620213031768799,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_bvya7axu\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_03_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.8272714614868164,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_ismx3rt1\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c DONE\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FIVE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_06_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.9710450172424316,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_emuo3w7s\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FIVE\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_06_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.088613510131836,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_ajozts9j\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_16_good\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.0988035202026367,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_zbjxprw3\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_16_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.111238718032837,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_o5ag05yx\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_06_good\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c DONE\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FIVE\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.4456017017364502,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_lh9_q3nt\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FIVE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_06_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.0231237411499023,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_izo8wrh7\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_11_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.9442944526672363,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_0s18w1ww\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_11_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.446965217590332,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_i2n2_2tc\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_18_good\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.2886626720428467,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_15u2lt4f\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_18_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_18_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.21500563621521,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_42wb48u3\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_09_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.9234635829925537,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_nwhmzu8z\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_09_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3758797645568848,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_m8wb6pua\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_01_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c starting\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1219189167022705,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_sr75n2wj\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_01_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.8342881202697754,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_xs4cl_e5\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_12_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1150612831115723,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_2yr13a2h\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_12_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.5098881721496582,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_o703db9o\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_03_good\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.8893940448760986,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_d3u8i1_4\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_03_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.451179027557373,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_xsguay0z\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c starting\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with staticReturnsFalse\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_08_good\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with staticReturnsTrue\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.177156686782837,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_8ywmje3o\nAnalysing block of 200 procs, starting with staticReturnsFalse\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_08_bad\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with staticReturnsTrue\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.4235010147094727,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_wckj01dz\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_10_good\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.934661865234375,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_3fcb07ue\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_10_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.2685599327087402,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_63bkd1rs\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_14_good\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.8768620491027832,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_m5ca2me0\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_14_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.2213304042816162,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_48cn4lou\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_02_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.9796557426452637,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_2w0dqqfz\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_02_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.2792103290557861,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_d0tkjank\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFalse\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticTrue\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_05_good\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3199386596679688,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_3iquzqxd\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFalse\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticTrue\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_05_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.8845829963684082,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_bwwzlt65\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c DONE\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_15_good\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.9617002010345459,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_c35hgck6\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_15_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.0275616645812988,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_8ck0pt0x\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_09_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c DONE\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.194749355316162,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_43cf5mov\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__char_09_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.8881504535675049,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_9qwld8k6\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_07_good\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c starting\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFive\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.9916455745697021,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_t0g2eqq9\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFive\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__short_07_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.281742811203003,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_7r1tm94d\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c starting\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_16_good\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.5436005592346191,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_zqmmsqck\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_16_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.185232162475586,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_5__gd5h4\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_11_good\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c starting\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1237897872924805,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_luhw45_z\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE467_Use_of_sizeof_on_Pointer_Type__int_11_bad\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c DONE\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c starting\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c DONE"
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 0,
+        "all_positive_tests": 54,
+        "count_negative_tests": 54,
+        "all_negative_tests": 54
+    }
+}

@@ -1,0 +1,514 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.277587175369263,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.342s\nGOTO program processing time: 0.471s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.091s (67 assignments)\nCaching time: 0.000s (removed 2 assertions)\nSlicing time: 0.000s (removed 62 assignments)\nGenerated 9 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.579s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.355737686157227,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.215677499771118,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.340959310531616,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.078446626663208,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 7.523s\nGOTO program processing time: 0.193s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.442788362503052,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.473536491394043,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.137871265411377,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 7.563s\nGOTO program processing time: 0.055s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.001s (60 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 57 assignments)\nGenerated 6 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.240s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.24816107749939,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.297837257385254,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.274340152740479,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.42662525177002,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.117421388626099,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 6.3990256786346436,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.661s\nGOTO program processing time: 0.033s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.013s (60 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 57 assignments)\nGenerated 6 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.051s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.127356767654419,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.621789932250977,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.942s\nGOTO program processing time: 0.152s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.089s (61 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 57 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.282s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.756915092468262,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.299s\nGOTO program processing time: 0.110s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nUnwinding loop 39 iteration 1   file tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c line 44 column 5 function good1\nSymex completed in: 0.001s (65 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 7 VCC(s), 4 remaining after simplification (4 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.227s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.06400179862976,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.885s\nGOTO program processing time: 0.185s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nUnwinding loop 39 iteration 1   file tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c line 23 column 5 function CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17_bad\nSymex completed in: 0.002s (64 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 7 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.285s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.282177686691284,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.602677822113037,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.792s\nGOTO program processing time: 0.017s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.003s (63 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.032s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.382958173751831,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.336657762527466,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.988250970840454,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.185s\nGOTO program processing time: 0.180s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.001s (60 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 57 assignments)\nGenerated 5 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.216s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.40244197845459,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.889s\nGOTO program processing time: 0.306s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.061s (61 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 57 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.264s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.406830072402954,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.299914836883545,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.779s\nGOTO program processing time: 0.236s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.001s (63 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.288s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.578195571899414,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 7.094s\nGOTO program processing time: 0.146s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.020s (65 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 62 assignments)\nGenerated 7 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.255s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.617834568023682,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.953s\nGOTO program processing time: 0.162s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (62 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.341s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.084441900253296,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.499s\nGOTO program processing time: 0.143s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.050s (63 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 7 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.004s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.286s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.009723424911499,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.910s\nGOTO program processing time: 0.131s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.055s (61 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 57 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.304s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.822152376174927,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.682s\nGOTO program processing time: 0.020s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (63 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 7 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.086s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.783236742019653,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.623s\nGOTO program processing time: 0.117s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (61 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 57 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.217s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.899006366729736,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.848s\nGOTO program processing time: 0.132s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.395003080368042,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 7.612s\nGOTO program processing time: 0.137s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.038s (61 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 6 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.213s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.635538816452026,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.639312982559204,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.544s\nGOTO program processing time: 0.155s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.001s (60 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 57 assignments)\nGenerated 6 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.272s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.729997158050537,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.188s\nGOTO program processing time: 0.125s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.043s (63 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 7 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.316s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.823241710662842,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.386s\nGOTO program processing time: 0.109s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (61 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 57 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.241s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.310227155685425,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.603s\nGOTO program processing time: 0.175s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.073283672332764,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.515s\nGOTO program processing time: 0.186s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.062s (62 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 56 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (5 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.318s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 5.980370998382568,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 2.087s\nGOTO program processing time: 0.151s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsFalse\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.284094572067261,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.047s\nGOTO program processing time: 0.170s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrue\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (62 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 6 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.386s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.152543783187866,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.620s\nGOTO program processing time: 0.222s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrueOrFalse\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.045s (67 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 9 VCC(s), 4 remaining after simplification (6 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.288s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.178537607192993,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.124s\nGOTO program processing time: 0.211s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrueOrFalse\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.069s (66 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 9 VCC(s), 3 remaining after simplification (5 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.326s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.742698431015015,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.883s\nGOTO program processing time: 0.153s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (66 assignments)\nCaching time: 0.000s (removed 2 assertions)\nSlicing time: 0.000s (removed 61 assignments)\nGenerated 9 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.185s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.500540018081665,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 7.333s\nGOTO program processing time: 0.168s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.041s (61 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 6 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.195s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.793308734893799,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.220s\nGOTO program processing time: 0.203s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.069s (65 assignments)\nCaching time: 0.001s (removed 2 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 9 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.001s\nBMC program time: 0.341s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.95668911933899,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 7.174s\nGOTO program processing time: 0.154s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.037s (60 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 57 assignments)\nGenerated 6 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.223s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.601905584335327,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.525s\nGOTO program processing time: 0.283s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (60 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 57 assignments)\nGenerated 5 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.388s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.56025242805481,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.600s\nGOTO program processing time: 0.168s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.001s (61 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 57 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.233s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.570335865020752,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.540s\nGOTO program processing time: 0.215s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.292582988739014,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.161s\nGOTO program processing time: 0.224s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.064s (62 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 56 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (5 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.311s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.917206764221191,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.931s\nGOTO program processing time: 0.199s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrueOrFalse\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.001s (65 assignments)\nCaching time: 0.001s (removed 1 assertions)\nSlicing time: 0.069s (removed 62 assignments)\nGenerated 7 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.415s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.80261516571045,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.356s\nGOTO program processing time: 0.110s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrueOrFalse\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (66 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 60 assignments)\nGenerated 8 VCC(s), 3 remaining after simplification (5 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.293s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.97433876991272,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.951s\nGOTO program processing time: 0.155s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.165895223617554,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.276228427886963,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.415s\nGOTO program processing time: 0.087s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsFalse\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.211204290390015,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.144s\nGOTO program processing time: 0.107s\nStarting Bounded Model Checking\nWARNING: no body for function globalReturnsTrue\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (63 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 57 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (5 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.182s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.102602481842041,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.832s\nGOTO program processing time: 0.146s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (64 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 61 assignments)\nGenerated 7 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.001s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.012s\nBMC program time: 0.243s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.869953155517578,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.740s\nGOTO program processing time: 0.221s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.001s (62 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.238s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.084274768829346,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.049753189086914,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.368s\nGOTO program processing time: 0.163s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.045s (62 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.001s (removed 56 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (5 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.269s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.658912658691406,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.309s\nGOTO program processing time: 0.190s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.001s (67 assignments)\nCaching time: 0.000s (removed 2 assertions)\nSlicing time: 0.001s (removed 62 assignments)\nGenerated 9 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.276s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 8.831254005432129,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.891s\nGOTO program processing time: 0.208s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.001s (62 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 6 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.234s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.28027606010437,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.351s\nGOTO program processing time: 0.156s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.038s (64 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 61 assignments)\nGenerated 7 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.005s\nBMC program time: 0.258s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.0481791496276855,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.694s\nGOTO program processing time: 0.162s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.001s (62 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 6 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.041s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 9.090418338775635,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.344s\nGOTO program processing time: 0.157s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.046s (66 assignments)\nCaching time: 0.000s (removed 2 assertions)\nSlicing time: 0.002s (removed 61 assignments)\nGenerated 9 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.304s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 7.344613790512085,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.944s\nGOTO program processing time: 0.108s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.055s (61 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 6 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.264s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 8.184656620025635,
+            "output": "Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.602s\nGOTO program processing time: 0.169s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nERROR: assignment to address_of not handled"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 6.356584548950195,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 5.263s\nGOTO program processing time: 0.121s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (61 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 58 assignments)\nGenerated 6 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.001s\nBMC program time: 0.170s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 7.063257455825806,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.110s\nGOTO program processing time: 0.089s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nWARNING: no body for function printIntLine\nSymex completed in: 0.002s (67 assignments)\nCaching time: 0.000s (removed 2 assertions)\nSlicing time: 0.000s (removed 62 assignments)\nGenerated 9 VCC(s), 3 remaining after simplification (3 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.032s\n\nVERIFICATION SUCCESSFUL"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 6.345849990844727,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 4.042s\nGOTO program processing time: 0.172s\nStarting Bounded Model Checking\nWARNING: no body for function printIntLine\nSymex completed in: 0.038s (62 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 6 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.237s\n\nVERIFICATION SUCCESSFUL"
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 0,
+        "all_positive_tests": 36,
+        "count_negative_tests": 36,
+        "all_negative_tests": 36
+    }
+}

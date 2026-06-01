@@ -1,0 +1,38 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.05588364601135254,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.04654955863952637,
+            "output": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:17:5: warning: Address of stack memory associated with local variable 'charString' returned to caller [core.StackAddressEscape]\n   17 |     return charString; /* this may generate a warning -- it's on purpose */\n      |     ^\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:75:5: note: Calling 'CWE562_Return_of_Stack_Variable_Address__return_buf_01_bad'\n   75 |     CWE562_Return_of_Stack_Variable_Address__return_buf_01_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:22:15: note: Calling 'helperBad'\n   22 |     printLine(helperBad());\n      |               ^~~~~~~~~~~\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:17:5: note: Address of stack memory associated with local variable 'charString' returned to caller\n   14 |     char charString[] = \"helperBad string\";\n      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   15 | \n   16 |     /* FLAW: returning stack-allocated buffer */\n   17 |     return charString; /* this may generate a warning -- it's on purpose */\n      |     ^      ~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.05039334297180176,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.18671488761901855,
+            "output": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c:20:5: warning: Address of stack memory associated with local variable 'charString' returned to caller [core.StackAddressEscape]\n   20 |     return ptrCharString; /* this may generate a warning -- it's on purpose */\n      |     ^\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c:81:5: note: Calling 'CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01_bad'\n   81 |     CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c:25:15: note: Calling 'helperBad'\n   25 |     printLine(helperBad());\n      |               ^~~~~~~~~~~\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c:20:5: note: Address of stack memory associated with local variable 'charString' returned to caller\n   14 |     char charString[] = \"helperBad string\";\n      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   15 |     char *ptrCharString;\n   16 | \n   17 |     ptrCharString = &charString[1];\n   18 | \n   19 |     /* FLAW: returning stack-allocated buffer */\n   20 |     return ptrCharString; /* this may generate a warning -- it's on purpose */\n      |     ^      ~~~~~~~~~~~~~\n1 warning generated."
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 2,
+        "all_positive_tests": 2,
+        "count_negative_tests": 2,
+        "all_negative_tests": 2
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.01842522621154785,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:65: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 83\nTotal time 0.000068 seconds\n1220588 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.02051401138305664,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:65: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 83\nTotal time 0.000059 seconds\n1406779 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.0244295597076416,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c:71: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 89\nTotal time 0.000052 seconds\n1711538 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.024646282196044922,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c:71: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 89\nTotal time 0.000052 seconds\n1711538 lines per second"
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 0,
+        "all_positive_tests": 2,
+        "count_negative_tests": 2,
+        "all_negative_tests": 2
+    }
+}

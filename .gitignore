@@ -1,7 +1,7 @@
-results/
+# results/
 venv/
 myenv/
-plots/
+# plots/
 analyzers_runner_util/__pycache__
 analyzers_runner_util/analyzers/__pycache__
-plots
+some_waste

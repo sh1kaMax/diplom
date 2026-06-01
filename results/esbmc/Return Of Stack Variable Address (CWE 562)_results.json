@@ -1,0 +1,38 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.432435989379883,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 10.384294509887695,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 10.37181806564331,
+            "output": "TIMEOUT"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 9.085117101669312,
+            "output": "ESBMC version 8.2.0 64-bit x86_64 linuxTarget: 64-bit little-endian x86_64-unknown-linux with esbmclibc\nParsing tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c\nConverting\nGenerating GOTO Program\nGOTO program creation time: 6.018s\nGOTO program processing time: 0.215s\nStarting Bounded Model Checking\nWARNING: no body for function printLine\nSymex completed in: 0.066s (62 assignments)\nCaching time: 0.000s (removed 1 assertions)\nSlicing time: 0.000s (removed 59 assignments)\nGenerated 3 VCC(s), 2 remaining after simplification (2 assignments)\nNo solver specified; defaulting to z3\nEncoding remaining VCC(s) using bit-vector/floating-point arithmetic\nEncoding to solver time: 0.000s\nSolving with solver Z3 v4.8.12\nRuntime decision procedure: 0.000s\nBMC program time: 0.316s\n\nVERIFICATION SUCCESSFUL"
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 0,
+        "all_positive_tests": 2,
+        "count_negative_tests": 2,
+        "all_negative_tests": 2
+    }
+}

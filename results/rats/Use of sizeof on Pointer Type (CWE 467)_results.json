@@ -1,0 +1,766 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.013643264770507812,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000074 seconds\n1513513 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.02248358726501465,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000081 seconds\n1382716 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.029282331466674805,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000060 seconds\n1866666 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.027693986892700195,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000072 seconds\n1555555 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.044741153717041016,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c:102: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 117\nTotal time 0.000079 seconds\n1481012 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.07871437072753906,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c:102: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 117\nTotal time 0.000081 seconds\n1444444 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.06800627708435059,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c:76: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 91\nTotal time 0.000080 seconds\n1137500 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.02808833122253418,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c:76: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 91\nTotal time 0.000062 seconds\n1467742 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.04320478439331055,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c:110: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 125\nTotal time 0.000076 seconds\n1644736 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.0868082046508789,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c:110: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 125\nTotal time 0.000081 seconds\n1543209 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1091299057006836,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000073 seconds\n1534246 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.07201242446899414,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000078 seconds\n1435897 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1805267333984375,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000071 seconds\n1577464 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.08698630332946777,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000089 seconds\n1258427 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.15486812591552734,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c:110: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 125\nTotal time 0.000081 seconds\n1543209 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.3831324577331543,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c:110: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 125\nTotal time 0.000090 seconds\n1388888 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.37801098823547363,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000074 seconds\n1513513 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.217193603515625,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000173 seconds\n647398 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.5775861740112305,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c:103: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 118\nTotal time 0.000199 seconds\n592964 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.4371166229248047,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c:103: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 118\nTotal time 0.000209 seconds\n564593 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.5760245323181152,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c:98: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 113\nTotal time 0.000147 seconds\n768707 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.41270947456359863,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c:98: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 113\nTotal time 0.000117 seconds\n965811 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1487107276916504,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c:103: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 118\nTotal time 0.000104 seconds\n1134615 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.17569875717163086,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c:103: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 118\nTotal time 0.000092 seconds\n1282608 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.2792689800262451,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c:72: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 87\nTotal time 0.000086 seconds\n1011627 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.16056084632873535,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c:72: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 87\nTotal time 0.000081 seconds\n1074074 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.24497222900390625,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000150 seconds\n746666 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.21084356307983398,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000114 seconds\n982456 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1843717098236084,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c:98: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 113\nTotal time 0.058228 seconds\n1940 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.11801815032958984,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c:98: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 113\nTotal time 0.027617 seconds\n4091 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.31013989448547363,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c:103: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 118\nTotal time 0.000144 seconds\n819444 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.11692142486572266,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c:103: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 118\nTotal time 0.000101 seconds\n1168316 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.13967132568359375,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c:102: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 117\nTotal time 0.000072 seconds\n1625000 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.15054845809936523,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c:102: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 117\nTotal time 0.000083 seconds\n1409638 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.15786981582641602,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c:103: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 118\nTotal time 0.000121 seconds\n975206 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.299088716506958,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c:103: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 118\nTotal time 0.000098 seconds\n1204081 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08410239219665527,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000095 seconds\n1178947 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.2707815170288086,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000090 seconds\n1244444 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1673119068145752,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c:102: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 117\nTotal time 0.000135 seconds\n866666 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.22719573974609375,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c:102: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 117\nTotal time 0.000104 seconds\n1125000 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.11805224418640137,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c:110: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 125\nTotal time 0.000107 seconds\n1168224 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.13844680786132812,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c:110: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 125\nTotal time 0.000105 seconds\n1190476 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.12953662872314453,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c:67: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 82\nTotal time 0.000065 seconds\n1261538 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.2330763339996338,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c:67: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 82\nTotal time 0.000074 seconds\n1108108 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.15857529640197754,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c:72: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 87\nTotal time 0.073201 seconds\n1188 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.18683099746704102,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c:72: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 87\nTotal time 0.000080 seconds\n1087500 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.2748594284057617,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c:67: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 82\nTotal time 0.000118 seconds\n694915 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.20309996604919434,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c:67: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 82\nTotal time 0.000090 seconds\n911111 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1995563507080078,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000095 seconds\n1178947 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.0869138240814209,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000076 seconds\n1473684 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09518051147460938,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c:76: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 91\nTotal time 0.000065 seconds\n1400000 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.1913449764251709,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c:76: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 91\nTotal time 0.000094 seconds\n968085 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1088707447052002,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c:110: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 125\nTotal time 0.000112 seconds\n1116071 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.3683290481567383,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c:110: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 125\nTotal time 0.000135 seconds\n925925 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.2760436534881592,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000103 seconds\n1087378 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.19053983688354492,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000083 seconds\n1349397 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.18579387664794922,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000139 seconds\n805755 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.22051620483398438,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000110 seconds\n1018181 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.20693421363830566,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c:76: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 91\nTotal time 0.000088 seconds\n1034090 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.4233131408691406,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c:76: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 91\nTotal time 0.000071 seconds\n1281690 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1643228530883789,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000088 seconds\n1272727 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.07647204399108887,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000075 seconds\n1493333 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1948857307434082,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000090 seconds\n1244444 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.7771737575531006,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000140 seconds\n800000 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.0653994083404541,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c:76: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 91\nTotal time 0.000068 seconds\n1338235 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.14537882804870605,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c:76: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 91\nTotal time 0.000075 seconds\n1213333 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.4678685665130615,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c:103: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 118\nTotal time 0.000076 seconds\n1552631 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.11509490013122559,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c:103: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 118\nTotal time 0.000075 seconds\n1573333 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.0940699577331543,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000096 seconds\n1166666 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.17953014373779297,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000067 seconds\n1671641 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.05493450164794922,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c:102: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 117\nTotal time 0.000084 seconds\n1392857 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.09816884994506836,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c:102: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 117\nTotal time 0.000063 seconds\n1857142 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10780930519104004,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c:76: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 91\nTotal time 0.000068 seconds\n1338235 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.09827423095703125,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c:76: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 91\nTotal time 0.000074 seconds\n1229729 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.6357359886169434,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c:102: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 117\nTotal time 0.000081 seconds\n1444444 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.052701473236083984,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c:102: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 117\nTotal time 0.000085 seconds\n1376470 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.0839533805847168,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000098 seconds\n1142857 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.11305975914001465,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000089 seconds\n1258427 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.34018683433532715,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c:72: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 87\nTotal time 0.000089 seconds\n977528 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.11884140968322754,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c:72: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 87\nTotal time 0.000069 seconds\n1260869 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1559123992919922,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000079 seconds\n1417721 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.11666131019592285,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000073 seconds\n1534246 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10633516311645508,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c:67: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 82\nTotal time 0.000083 seconds\n987951 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.1259903907775879,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c:67: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 82\nTotal time 0.000066 seconds\n1242424 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1543138027191162,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c:98: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 113\nTotal time 0.000089 seconds\n1269662 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.0648655891418457,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c:98: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 113\nTotal time 0.000085 seconds\n1329411 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09178876876831055,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000091 seconds\n1230769 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.10737895965576172,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000082 seconds\n1365853 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.0649406909942627,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c:110: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 125\nTotal time 0.000074 seconds\n1689189 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.09195804595947266,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c:110: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 125\nTotal time 0.000084 seconds\n1488095 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.061908721923828125,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000078 seconds\n1435897 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.12952041625976562,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000067 seconds\n1671641 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.085235595703125,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000084 seconds\n1333333 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.12885785102844238,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000116 seconds\n965517 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1070101261138916,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000084 seconds\n1333333 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.0968317985534668,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000064 seconds\n1750000 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1264944076538086,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c:103: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 118\nTotal time 0.000100 seconds\n1180000 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.0656747817993164,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c:103: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 118\nTotal time 0.000073 seconds\n1616438 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.2601947784423828,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c:110: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 125\nTotal time 0.000089 seconds\n1404494 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.07034969329833984,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c:110: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 125\nTotal time 0.000095 seconds\n1315789 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08239436149597168,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000073 seconds\n1534246 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.08709979057312012,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000085 seconds\n1317647 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.12358403205871582,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c:102: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 117\nTotal time 0.000098 seconds\n1193877 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.11626386642456055,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c:102: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 117\nTotal time 0.000092 seconds\n1271739 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.13412141799926758,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c:76: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 91\nTotal time 0.000080 seconds\n1137500 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.07416105270385742,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c:76: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 91\nTotal time 0.000078 seconds\n1166666 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.07768559455871582,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.022141 seconds\n5058 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.10203289985656738,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c:97: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 112\nTotal time 0.000091 seconds\n1230769 lines per second"
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 0,
+        "all_positive_tests": 54,
+        "count_negative_tests": 54,
+        "all_negative_tests": 54
+    }
+}

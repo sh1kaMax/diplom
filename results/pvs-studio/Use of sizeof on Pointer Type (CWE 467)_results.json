@@ -1,0 +1,766 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.355661392211914,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3634421825408936,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3599846363067627,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3697857856750488,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3583316802978516,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3556921482086182,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c\t32\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.360168218612671,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c\t45\tnote\tV1008 Consider inspecting the 'for' operator. No more than one iteration of the loop will be performed.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.358337163925171,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c\t23\tnote\tV1008 Consider inspecting the 'for' operator. No more than one iteration of the loop will be performed.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3667361736297607,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3576271533966064,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c\t40\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3592889308929443,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3564260005950928,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3580443859100342,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3577585220336914,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3560643196105957,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.355987548828125,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c\t28\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3569972515106201,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.356044054031372,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3662109375,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3591156005859375,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c\t33\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3581066131591797,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c\t68\terr\tV523 The 'then' statement is equivalent to the 'else' statement.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3572688102722168,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3564229011535645,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3560492992401123,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3561789989471436,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3565137386322021,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.359875202178955,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3558943271636963,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3614141941070557,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c\t68\terr\tV523 The 'then' statement is equivalent to the 'else' statement.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3582191467285156,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3586995601654053,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3566734790802002,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c\t33\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.358626127243042,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3599469661712646,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c\t32\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3592875003814697,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3705863952636719,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.355586290359497,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3542799949645996,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3613557815551758,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3565764427185059,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3587629795074463,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.355591058731079,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3553543090820312,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3577656745910645,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c\t25\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3768463134765625,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3621985912322998,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3634331226348877,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3653194904327393,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c\t25\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.359837532043457,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3609035015106201,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3575947284698486,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c\t45\tnote\tV1008 Consider inspecting the 'for' operator. No more than one iteration of the loop will be performed.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3603713512420654,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c\t28\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c\t23\tnote\tV1008 Consider inspecting the 'for' operator. No more than one iteration of the loop will be performed.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 3\nFiltered messages: 2\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.360276699066162,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3560585975646973,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3585412502288818,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.354480266571045,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3633902072906494,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3573472499847412,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3570690155029297,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c\t45\tnote\tV1008 Consider inspecting the 'for' operator. No more than one iteration of the loop will be performed.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3595247268676758,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c\t28\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c\t23\tnote\tV1008 Consider inspecting the 'for' operator. No more than one iteration of the loop will be performed.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 3\nFiltered messages: 2\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3588120937347412,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.356564998626709,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3563079833984375,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3584578037261963,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3572466373443604,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3539791107177734,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.44157075881958,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3630177974700928,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c\t33\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.360546588897705,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3598318099975586,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3590812683105469,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.358640193939209,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3598177433013916,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.363997459411621,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.368131399154663,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3611865043640137,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c\t32\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.370387077331543,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3561406135559082,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3582971096038818,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3586671352386475,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3621156215667725,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3570830821990967,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.367321491241455,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3562092781066895,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3557252883911133,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c\t68\terr\tV523 The 'then' statement is equivalent to the 'else' statement.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.358644723892212,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3549458980560303,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.353630781173706,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.355656385421753,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3564255237579346,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c\t40\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3555879592895508,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3552734851837158,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3586094379425049,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3596136569976807,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3563270568847656,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3568873405456543,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3563153743743896,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3577673435211182,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c\t33\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3543541431427002,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.355161428451538,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c\t28\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.354393482208252,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3592357635498047,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3769752979278564,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3561129570007324,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c\t32\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badShort)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3548839092254639,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3581624031066895,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3594295978546143,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.358586311340332,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c\t27\terr\tV641 Memory for the buffer is allocated for pointers and not for elements of the actual type. Consider inspecting the 'sizeof (badInt)' expression.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 36,
+        "all_positive_tests": 54,
+        "count_negative_tests": 54,
+        "all_negative_tests": 54
+    }
+}

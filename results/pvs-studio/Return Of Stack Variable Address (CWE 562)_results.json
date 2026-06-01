@@ -1,0 +1,38 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.362663984298706,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3592920303344727,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c\t17\terr\tV558 Function returns the pointer to temporary local object: charString.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3602800369262695,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3654875755310059,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 1,
+        "all_positive_tests": 2,
+        "count_negative_tests": 2,
+        "all_negative_tests": 2
+    }
+}

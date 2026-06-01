@@ -1,0 +1,514 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 2.1673178672790527,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_kwfg41yv\nAnalysing block of 200 procs, starting with staticReturnsTrue\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08_good\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c starting\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with staticReturnsFalse\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.2719109058380127,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_byf1ifzp\nAnalysing block of 200 procs, starting with staticReturnsTrue\nAnalysing block of 200 procs, starting with staticReturnsFalse\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c DONE\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.2599074840545654,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_sot20juo\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_10_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.172849178314209,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_q642utjl\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_10_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.2590422630310059,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_6kfgbvw8\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c starting\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.4812092781066895,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_1xlvdftu\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c starting\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3950140476226807,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_6no5ec6m\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16_good\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.338545560836792,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_t9_4b9el\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c starting\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.729102611541748,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_ybn2wm3s\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c starting\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c DONE\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.8388991355895996,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_ifhl84zl\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c DONE\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.5072789192199707,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_4prfs7_e\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_17_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.0719051361083984,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_w5bxj6sl\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c starting\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_17_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.1464877128601074,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_mdkf1ry5\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c starting\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02_good\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3146653175354004,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_d_moamjq\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c DONE\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.2256078720092773,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_c458er4b\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_16_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.605539321899414,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_mdxqtb3w\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c DONE\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_16_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.945793867111206,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_jii5z88x\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c starting\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17_good\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.977630615234375,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_pk9dlzp0\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.5819294452667236,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_r3mx151l\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_05_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c starting\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFalse\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticTrue\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.4369876384735107,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_inht1qcx\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFalse\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c DONE\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticTrue\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_05_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.1515977382659912,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_f7apm033\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c DONE\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.112837791442871,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_4u1467h3\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c starting\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3310737609863281,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_5hoy3cek\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_01_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c starting\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.05509352684021,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_tzbq39om\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_01_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3577508926391602,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_1uea9pk7\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_TRUE\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c starting\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FALSE\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_04_good\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.0922119617462158,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_5j850bul\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c starting\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FALSE\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_TRUE\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_04_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.9431209564208984,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out__1pf36tx\nAnalysing block of 200 procs, starting with staticReturnsTrue\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c starting\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_08_good\nAnalysing block of 200 procs, starting with staticReturnsFalse\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1851301193237305,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_5u8w_1en\nAnalysing block of 200 procs, starting with staticReturnsTrue\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c starting\nAnalysing block of 200 procs, starting with staticReturnsFalse\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_08_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.0187697410583496,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_zub75c_s\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_03_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.5242996215820312,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_z0w64xge\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c starting\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_03_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.4163892269134521,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_0ww3kwji\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_15_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c starting\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1785876750946045,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_s9giij6p\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c starting\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_15_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.35003662109375,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_um26eo1u\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c starting\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10_good\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1243436336517334,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_mumkww8z\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.1918714046478271,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_7kaqdpd1\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01_good\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c DONE\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.2556676864624023,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_xbp4cajp\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.376607894897461,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_jy3bgnfy\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c starting\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_02_good\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1616528034210205,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_q8h5rvub\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c starting\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_02_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c DONE\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_02_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.4263200759887695,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_tjb56mfp\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_13_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.2312953472137451,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_v2i99xxr\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c starting\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_13_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.8982076644897461,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_aq7uyjf2\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11_good\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.5417852401733398,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_vqda3yoc\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3340799808502197,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_dtpxlhvb\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c starting\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.4390819072723389,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_zogf48p_\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.1377158164978027,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_2rhj40aj\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c starting\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFive\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.8797409534454346,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_mnao94bf\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c starting\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFive\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.7539677619934082,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_d07k843g\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c starting\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.0371224880218506,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_vgmexzc9\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c DONE\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3840417861938477,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_e5jesu28\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_18_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.9877297878265381,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_pmkzjin8\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c starting\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_18_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.193863868713379,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_ll__gf0n\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c starting\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_14_good\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.9383220672607422,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_sbsm_zni\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_14_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.666973352432251,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_kwrmuw_h\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_12_good\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.2484045028686523,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_rz6pnexa\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_12_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.6138370037078857,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_t70mb2f1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c starting\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c DONE\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3374173641204834,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_rultjx15\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c DONE\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.1865019798278809,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_8mg_d5wf\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_11_good\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c DONE\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.9791104793548584,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_vbhtaocx\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_11_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.9692580699920654,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_dfi9zmi2\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFive\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_07_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c starting\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.2200994491577148,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_l369ujvc\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFive\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_07_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.9864723682403564,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_5ofpj3on\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_09_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c starting\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c DONE\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_09_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.6830251216888428,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_fmn5jg9k\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_09_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.4659092426300049,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_gkaheje7\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05_good\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFalse\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticTrue\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.076585292816162,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_eb6t_kk0\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05_bad\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticFalse\nAnalysing block of 200 procs, starting with __infer_globals_initializer_staticTrue\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c starting\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.6127917766571045,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_soipxsw8\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_06_good\nAnalysing block of 200 procs, starting with good2\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c starting\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FIVE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3401434421539307,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_mvskhw2v\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FIVE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c starting\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__int_06_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.0700671672821045,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_rrpdtv8h\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FIVE\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06_good\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1786372661590576,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_zo0ea0n8\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FIVE\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.0123090744018555,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out__qpjkr1a\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c DONE\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09_good\nAnalysing block of 200 procs, starting with good1\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3014545440673828,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_lvr1b1s3\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c DONE\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09_bad\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.9187324047088623,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_ickplhuo\nAnalysing block of 200 procs, starting with good2\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04_good\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FALSE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c DONE\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_TRUE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.0666375160217285,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_est21q_3\nAnalysing block of 200 procs, starting with CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04_bad\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_TRUE\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with __infer_globals_initializer_STATIC_CONST_FALSE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c DONE\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c starting\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c DONE"
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 0,
+        "all_positive_tests": 36,
+        "count_negative_tests": 36,
+        "all_negative_tests": 36
+    }
+}

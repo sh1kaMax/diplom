@@ -1,0 +1,38 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 5.280186891555786,
+            "output": "[*] Compiling tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c\n[*] Running ikos preprocessor\n[*] Running ikos analyzer\n[*] Translating LLVM bitcode to AR\n[*] Running liveness analysis\n[*] Running widening hint analysis\n[*] Running interprocedural value analysis\n[*] Analyzing entry point 'CWE562_Return_of_Stack_Variable_Address__return_buf_01_good'\n[*] Checking properties for entry point 'CWE562_Return_of_Stack_Variable_Address__return_buf_01_good'\n\n# Time stats:\nclang        : 1.217 sec\nikos-analyzer: 0.311 sec\nikos-pp      : 0.215 sec\n\n# Summary:\nTotal number of checks                : 7\nTotal number of unreachable checks    : 0\nTotal number of safe checks           : 6\nTotal number of definite unsafe checks: 0\nTotal number of warnings              : 1\n\nThe program is potentially UNSAFE\n\n# Results\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c: In function 'good1':\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:44:5: warning: ignored side effect of call to extern function 'printLine'. Analysis might be unsound.\n    printLine(helperGood1());\n    ^"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 5.105327129364014,
+            "output": "[*] Compiling tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c\n[*] Running ikos preprocessor\n[*] Running ikos analyzer\n[*] Translating LLVM bitcode to AR\n[*] Running liveness analysis\n[*] Running widening hint analysis\n[*] Running interprocedural value analysis\n[*] Analyzing entry point 'CWE562_Return_of_Stack_Variable_Address__return_buf_01_bad'\n[*] Checking properties for entry point 'CWE562_Return_of_Stack_Variable_Address__return_buf_01_bad'\n\n# Time stats:\nclang        : 1.664 sec\nikos-analyzer: 0.010 sec\nikos-pp      : 0.064 sec\n\n# Summary:\nTotal number of checks                : 8\nTotal number of unreachable checks    : 0\nTotal number of safe checks           : 7\nTotal number of definite unsafe checks: 0\nTotal number of warnings              : 1\n\nThe program is potentially UNSAFE\n\n# Results\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c: In function 'CWE562_Return_of_Stack_Variable_Address__return_buf_01_bad':\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:22:5: warning: ignored side effect of call to extern function 'printLine'. Analysis might be unsound.\n    printLine(helperBad());\n    ^tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:17:12: warning: address of stack memory associated with local variable 'charString' returned [-Wreturn-stack-address]\n    return charString; /* this may generate a warning -- it's on purpose */\n           ^~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 4.107848882675171,
+            "output": "[*] Compiling tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c\n[*] Running ikos preprocessor\n[*] Running ikos analyzer\n[*] Translating LLVM bitcode to AR\n[*] Running liveness analysis\n[*] Running widening hint analysis\n[*] Running interprocedural value analysis\n[*] Analyzing entry point 'CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01_good'\n[*] Checking properties for entry point 'CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01_good'\n\n# Time stats:\nclang        : 1.271 sec\nikos-analyzer: 0.198 sec\nikos-pp      : 0.341 sec\n\n# Summary:\nTotal number of checks                : 7\nTotal number of unreachable checks    : 0\nTotal number of safe checks           : 6\nTotal number of definite unsafe checks: 0\nTotal number of warnings              : 1\n\nThe program is potentially UNSAFE\n\n# Results\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c: In function 'good1':\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c:50:5: warning: ignored side effect of call to extern function 'printLine'. Analysis might be unsound.\n    printLine(helperGood1());\n    ^"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 5.5485005378723145,
+            "output": "[*] Compiling tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c\n[*] Running ikos preprocessor\n[*] Running ikos analyzer\n[*] Translating LLVM bitcode to AR\n[*] Running liveness analysis\n[*] Running widening hint analysis\n[*] Running interprocedural value analysis\n[*] Analyzing entry point 'CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01_bad'\n[*] Checking properties for entry point 'CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01_bad'\n\n# Time stats:\nclang        : 1.647 sec\nikos-analyzer: 0.227 sec\nikos-pp      : 0.071 sec\n\n# Summary:\nTotal number of checks                : 8\nTotal number of unreachable checks    : 0\nTotal number of safe checks           : 7\nTotal number of definite unsafe checks: 0\nTotal number of warnings              : 1\n\nThe program is potentially UNSAFE\n\n# Results\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c: In function 'CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01_bad':\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c:25:5: warning: ignored side effect of call to extern function 'printLine'. Analysis might be unsound.\n    printLine(helperBad());\n    ^"
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 1,
+        "all_positive_tests": 2,
+        "count_negative_tests": 2,
+        "all_negative_tests": 2
+    }
+}

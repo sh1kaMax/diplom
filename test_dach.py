@@ -5,10 +5,17 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 import plotly.graph_objects as go
 import os
+import re
 
 analyzers = ["cppcheck", "frama-c", "splint", "infer", "flawfinder", "rats", "clang-static-analyzer", "pvs-studio", "sparse", "ikos", "esbmc"]
 results_path = "results"
 rows = []
+
+def extract_cwe_label(full_name):
+    match = re.search(r'\((CWE \d+)\)$', full_name)
+    if match:
+        return match.group(1)
+    return full_name
 
 for analyzer in analyzers:
     path = f"{results_path}/{analyzer}/{analyzer}_all_results.json"
@@ -43,79 +50,6 @@ df = pd.DataFrame(rows, columns=[
 ])
 df["total_tests"] = df["TP"] + df["FP"] + df["TN"] + df["FN"]
 
-print(f"Данные загружены: {len(df)} строк")
-
-# ========== РАСЧЕТ СРЕДНЕГО F1 ДЛЯ КАЖДОГО АНАЛИЗАТОРА ==========
-print("\n" + "="*60)
-print("АНАЛИЗ СРЕДНИХ ЗНАЧЕНИЙ F1-МЕРЫ ПО АНАЛИЗАТОРАМ")
-print("="*60)
-
-# Рассчитываем среднюю F1 для каждого анализатора
-avg_f1_by_analyzer = df.groupby('analyzer')['F1'].mean().sort_values(ascending=False)
-
-print("\n📊 Средняя F1-мера по всем CWE (от лучшего к худшему):")
-print("-" * 50)
-for i, (analyzer, avg_f1) in enumerate(avg_f1_by_analyzer.items(), 1):
-    # Определяем уровень качества
-    if avg_f1 >= 0.7:
-        rating = "🏆 Отлично"
-    elif avg_f1 >= 0.5:
-        rating = "👍 Хорошо"
-    elif avg_f1 >= 0.3:
-        rating = "⚠️ Удовлетворительно"
-    else:
-        rating = "❌ Плохо"
-    
-    print(f"{i:2}. {analyzer:25} | F1 = {avg_f1:.4f} | {rating}")
-
-print("-" * 50)
-print(f"\n📈 Средняя F1 по ВСЕМ анализаторам: {df['F1'].mean():.4f}")
-
-# Дополнительная статистика по каждому анализатору
-print("\n" + "="*60)
-print("ДЕТАЛЬНАЯ СТАТИСТИКА ПО КАЖДОМУ АНАЛИЗАТОРУ")
-print("="*60)
-
-for analyzer in analyzers:
-    analyzer_data = df[df['analyzer'] == analyzer]
-    if len(analyzer_data) > 0:
-        avg_f1 = analyzer_data['F1'].mean()
-        median_f1 = analyzer_data['F1'].median()
-        max_f1 = analyzer_data['F1'].max()
-        min_f1 = analyzer_data['F1'].min()
-        std_f1 = analyzer_data['F1'].std()
-        
-        # Какие CWE анализатор находит лучше всего
-        best_cwe = analyzer_data.nlargest(3, 'F1')[['cwe', 'F1']]
-        
-        print(f"\n📌 {analyzer}:")
-        print(f"   Средняя F1: {avg_f1:.4f}")
-        print(f"   Медианная F1: {median_f1:.4f}")
-        print(f"   Макс F1: {max_f1:.4f}")
-        print(f"   Мин F1: {min_f1:.4f}")
-        print(f"   Стандартное отклонение: {std_f1:.4f}")
-        print(f"   Лучшие CWE: {', '.join([f'{cwe} ({f1:.3f})' for cwe, f1 in best_cwe.values])}")
-    else:
-        print(f"\n📌 {analyzer}: НЕТ ДАННЫХ")
-
-print("\n" + "="*60)
-print("РЕКОМЕНДАЦИИ НА ОСНОВЕ АНАЛИЗА")
-print("="*60)
-
-# Рекомендации на основе среднего F1
-top_3 = avg_f1_by_analyzer.head(3).index.tolist()
-if len(df[df['F1'] > 0.8]) > 0:
-    excellent = avg_f1_by_analyzer[avg_f1_by_analyzer >= 0.7].index.tolist()
-    print(f"\n🏆 Лучшие анализаторы (F1 > 0.7): {', '.join(excellent)}")
-print(f"\n📋 Топ-3 по средней F1: {', '.join(top_3)}")
-
-# Находим анализатор с самой стабильной работой (наименьшее std)
-if len(df) > 0:
-    most_stable = df.groupby('analyzer')['F1'].std().dropna().idxmin()
-    print(f"\n🎯 Самый стабильный анализатор (наименьший разброс): {most_stable}")
-
-print("\n" + "="*60)
-
 # ========== ДАШБОРД DASH ==========
 app = Dash(__name__)
 
@@ -128,7 +62,7 @@ app.layout = html.Div([
         dcc.Checklist(
             id="analyzer-checklist",
             options=[{"label": a, "value": a} for a in analyzers],
-            value=["cppcheck"],  # default
+            value=["cppcheck"],
             inline=True
         )
     ], style={"width": "80%", "margin": "auto"}),
@@ -156,7 +90,7 @@ def update_graphs(selected_analyzers):
     selected_df['TPR_vis'] = selected_df['TPR'].apply(lambda x: 0.01 if x < 0.01 else x)
     selected_df['TNR_vis'] = selected_df['TNR'].apply(lambda x: 0.01 if x < 0.01 else x)
 
-    # --- TPR BAR (все выбранные) ---
+    # TPR BAR
     fig_tpr = px.bar(
         selected_df,
         x="cwe",
@@ -167,7 +101,7 @@ def update_graphs(selected_analyzers):
         labels={"TPR_vis": "TPR"}
     )
 
-    # --- TNR BAR ---
+    # TNR BAR
     fig_tnr = px.bar(
         selected_df,
         x="cwe",
@@ -178,7 +112,7 @@ def update_graphs(selected_analyzers):
         labels={"TNR_vis": "TNR"}
     )
 
-    # --- Bubble chart ---
+    # Bubble chart
     fig_bubble = px.scatter(
         selected_df,
         x="TPR",
@@ -190,13 +124,21 @@ def update_graphs(selected_analyzers):
         labels={"TPR": "TPR", "FPR": "FPR"}
     )
 
-    # --- Radar chart ---
+    # Radar chart
     fig_radar = go.Figure()
     for analyzer in selected_analyzers:
         sub = df[df["analyzer"] == analyzer]
+
+        sub['cwe_num'] = sub['cwe'].apply(
+            lambda x: int(re.search(r'CWE (\d+)', x).group(1)) if re.search(r'CWE (\d+)', x) else 0
+        )
+
+        sub = sub.sort_values('cwe_num')
+        cwe_labels = sub["cwe"].apply(extract_cwe_label)
+
         fig_radar.add_trace(go.Scatterpolar(
             r=sub["F1"],
-            theta=sub["cwe"],
+            theta=cwe_labels,
             fill='toself',
             name=analyzer
         ))
@@ -206,7 +148,7 @@ def update_graphs(selected_analyzers):
         title="Radar Chart F1-score (выбранные анализаторы)"
     )
 
-    # --- Heatmap ---
+    # Heatmap
     heat_df = df[df["analyzer"].isin(selected_analyzers)] \
         .pivot_table(index="cwe", columns="analyzer", values="F1")
 
@@ -218,8 +160,23 @@ def update_graphs(selected_analyzers):
         title="F1-score Heatmap (только выбранные анализаторы)"
     )
 
+    fig_heat.update_layout(
+        yaxis=dict(
+            tickfont=dict(size=8),
+            tickangle=0,
+            title="CWE",
+            automargin=True
+        ),
+        xaxis=dict(
+            tickfont=dict(size=10),
+            title="Анализаторы",
+            automargin=True
+        ),
+        height=max(400, len(heat_df.index) * 20)
+    )
+
     return fig_tpr, fig_tnr, fig_bubble, fig_radar, fig_heat
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=1335)
+    app.run(debug=True, host='0.0.0.0', port=1332)

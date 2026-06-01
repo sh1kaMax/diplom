@@ -1,0 +1,38 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.9337735176086426,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_0cqwa0l5\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with helperGood1\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c starting\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c DONE\nAnalysing block of 200 procs, starting with CWE562_Return_of_Stack_Variable_Address__return_buf_01_good\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c starting\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c DONE\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c starting\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c DONE\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c starting\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.1319990158081055,
+            "output": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:17: error: Stack Variable Address Escape\n  Address of stack variable `charString` is returned by the function. \n  15. \n  16.     /* FLAW: returning stack-allocated buffer */\n  17.     return charString; /* this may generate a warning -- it's on purpose */\n          ^\n  18. }\n  19. \n\n\nFound 1 issue\n                                    Issue Type(ISSUED_TYPE_ID): #\n  Stack Variable Address Escape(STACK_VARIABLE_ADDRESS_ESCAPE): 1Capturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_v6pvpz1c\nAnalysing block of 200 procs, starting with helperBad\nAnalysing block of 200 procs, starting with CWE562_Return_of_Stack_Variable_Address__return_buf_01_bad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c starting\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c DONE\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c starting\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c DONE\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c starting\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c DONE\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c starting\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.7758281230926514,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_a3uftd0w\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c starting\nAnalysing block of 200 procs, starting with good1\nAnalysing block of 200 procs, starting with main\nAnalysing block of 200 procs, starting with CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01_good\nAnalysing block of 200 procs, starting with helperGood1\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c DONE"
+        },
+        {
+            "file": "tests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.0279324054718018,
+            "output": "No issues foundCapturing in make/cc mode...\nFound 1 source file to analyze in /tmp/infer_out_i4sn9v_s\nAnalysing block of 200 procs, starting with CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01_bad\nAnalysing block of 200 procs, starting with helperBad\nAnalysing block of 200 procs, starting with main\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c starting\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c DONE\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c starting\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c DONE\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c starting\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c DONE\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c starting\ntests/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c DONE"
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 0,
+        "all_positive_tests": 2,
+        "count_negative_tests": 2,
+        "all_negative_tests": 2
+    }
+}

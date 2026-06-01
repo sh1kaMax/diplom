@@ -1,0 +1,514 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.00797414779663086,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c:107: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 122\nTotal time 0.000210 seconds\n580952 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.00959324836730957,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c:107: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 122\nTotal time 0.000070 seconds\n1742857 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.014859437942504883,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000076 seconds\n1434210 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.015877485275268555,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000064 seconds\n1703125 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.021081924438476562,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000067 seconds\n1626865 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.014147758483886719,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000061 seconds\n1786885 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.019351959228515625,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c:74: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 89\nTotal time 0.000082 seconds\n1085365 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.04118609428405762,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c:74: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 89\nTotal time 0.000074 seconds\n1202702 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.04346656799316406,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c:107: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 122\nTotal time 0.000083 seconds\n1469879 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.03921675682067871,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c:107: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 122\nTotal time 0.000074 seconds\n1648648 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.07323670387268066,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c:74: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 89\nTotal time 0.000123 seconds\n723577 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.08254766464233398,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c:74: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 89\nTotal time 0.000084 seconds\n1059523 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.04349231719970703,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000065 seconds\n1676923 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.08403730392456055,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000081 seconds\n1345679 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10498380661010742,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c:74: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 89\nTotal time 0.000073 seconds\n1219178 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.09316849708557129,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c:74: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 89\nTotal time 0.000076 seconds\n1171052 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.46893882751464844,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c:74: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 89\nTotal time 0.000094 seconds\n946808 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.4432797431945801,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c:74: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 89\nTotal time 0.000075 seconds\n1186666 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.2926023006439209,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c:100: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 115\nTotal time 0.000086 seconds\n1337209 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.2100203037261963,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c:100: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 115\nTotal time 0.000107 seconds\n1074766 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.6030142307281494,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c:70: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 85\nTotal time 0.000136 seconds\n625000 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.24941730499267578,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c:70: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 85\nTotal time 0.000085 seconds\n1000000 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.26899003982543945,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c:65: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 80\nTotal time 0.000100 seconds\n800000 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.3342447280883789,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c:65: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 80\nTotal time 0.000069 seconds\n1159420 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.003907203674316406,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c:100: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 115\nTotal time 0.000096 seconds\n1197916 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.09975695610046387,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c:100: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 115\nTotal time 0.000082 seconds\n1402439 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.26476001739501953,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c:107: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 122\nTotal time 0.000142 seconds\n859154 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.3228147029876709,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c:107: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 122\nTotal time 0.000105 seconds\n1161904 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.13033843040466309,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000134 seconds\n813432 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.05761885643005371,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000090 seconds\n1211111 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.5497267246246338,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c:107: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 122\nTotal time 0.000114 seconds\n1070175 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.1311964988708496,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c:107: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 122\nTotal time 0.000084 seconds\n1452381 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.14674663543701172,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000099 seconds\n1101010 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.18529677391052246,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000093 seconds\n1172043 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10813188552856445,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c:65: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 80\nTotal time 0.000102 seconds\n784313 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.13300585746765137,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c:65: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 80\nTotal time 0.000067 seconds\n1194029 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1293942928314209,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000070 seconds\n1557142 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.1051933765411377,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000135 seconds\n807407 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.157212495803833,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000068 seconds\n1602941 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.11150074005126953,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000086 seconds\n1267441 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.16175389289855957,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000137 seconds\n795620 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.2421283721923828,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000086 seconds\n1267441 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.43109583854675293,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000098 seconds\n1112244 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.24782133102416992,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000085 seconds\n1282353 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.33480334281921387,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c:99: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 114\nTotal time 0.000107 seconds\n1065420 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.0734853744506836,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c:99: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 114\nTotal time 0.000071 seconds\n1605633 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.19856834411621094,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000087 seconds\n1252873 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.08921098709106445,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000090 seconds\n1211111 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.17531275749206543,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c:70: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 85\nTotal time 0.000072 seconds\n1180555 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.09517359733581543,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c:70: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 85\nTotal time 0.000070 seconds\n1214285 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.11470937728881836,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000087 seconds\n1252873 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.31981730461120605,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000081 seconds\n1345679 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.17467832565307617,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000118 seconds\n923728 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.22678804397583008,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.025137 seconds\n4336 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.16950750350952148,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000095 seconds\n1147368 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.31258726119995117,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000118 seconds\n923728 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.2691211700439453,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000189 seconds\n576719 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.3002750873565674,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000107 seconds\n1018691 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.3551027774810791,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c:99: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 114\nTotal time 0.000089 seconds\n1280898 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.15327787399291992,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c:99: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 114\nTotal time 0.000091 seconds\n1252747 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.13334178924560547,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000100 seconds\n1090000 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.2387995719909668,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000099 seconds\n1101010 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.057341814041137695,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c:100: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 115\nTotal time 0.000090 seconds\n1277777 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.05759072303771973,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c:100: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 115\nTotal time 0.000082 seconds\n1402439 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.11536526679992676,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c:99: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 114\nTotal time 0.000066 seconds\n1727272 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.1432044506072998,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c:99: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 114\nTotal time 0.000103 seconds\n1106796 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08265256881713867,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c:99: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 114\nTotal time 0.000087 seconds\n1310344 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.07958054542541504,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c:99: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 114\nTotal time 0.000081 seconds\n1407407 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.13916397094726562,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000084 seconds\n1297619 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.12353801727294922,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c:94: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 109\nTotal time 0.000093 seconds\n1172043 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09558272361755371,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c:100: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 115\nTotal time 0.000143 seconds\n804195 lines per second"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.46788811683654785,
+            "output": "Entries in perl database: 33\nEntries in ruby database: 46\nEntries in python database: 62\nEntries in c database: 334\nEntries in php database: 55\nAnalyzing tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c:100: Medium: srand\nStandard random number generators should not be used to \ngenerate randomness used for security reasons.  For security sensitive \nrandomness a crytographic randomness generator that provides sufficient\nentropy should be used.\n\nTotal lines analyzed: 115\nTotal time 0.000076 seconds\n1513158 lines per second"
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 0,
+        "all_positive_tests": 36,
+        "count_negative_tests": 36,
+        "all_negative_tests": 36
+    }
+}

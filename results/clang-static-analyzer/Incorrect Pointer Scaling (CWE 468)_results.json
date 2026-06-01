@@ -1,0 +1,514 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.05040860176086426,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.04579353332519531,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c:42:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   42 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c:115:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08_bad'\n  115 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c:35:5: note: Taking true branch\n   35 |     if(staticReturnsTrue())\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c:42:13: note: Assigned value is garbage or undefined\n   42 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09251928329467773,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.1547229290008545,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09515690803527832,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.0803523063659668,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c:29:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c:102:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13_bad'\n  102 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c:22:8: note: Assuming 'GLOBAL_CONST_FIVE' is equal to 5\n   22 |     if(GLOBAL_CONST_FIVE==5)\n      |        ^~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c:22:5: note: Taking true branch\n   22 |     if(GLOBAL_CONST_FIVE==5)\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c:29:13: note: Assigned value is garbage or undefined\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08156490325927734,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.09700775146484375,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c:29:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c:82:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16_bad'\n   82 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c:22:5: note: Loop condition is true.  Entering loop body\n   22 |     while(1)\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c:29:13: note: Assigned value is garbage or undefined\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08397459983825684,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10196280479431152,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c:30:9: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   30 |         int toPrint = (int) (*(charPointer+2));\n      |         ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c:115:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15_bad'\n  115 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c:22:5: note: Control jumps to 'case 6:'  at line 24\n   22 |     switch(6)\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c:30:9: note: Assigned value is garbage or undefined\n   30 |         int toPrint = (int) (*(charPointer+2));\n      |         ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.0859684944152832,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.1129755973815918,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10676097869873047,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.0793309211730957,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c:29:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c:102:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02_bad'\n  102 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c:22:5: note: Taking true branch\n   22 |     if(1)\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c:29:13: note: Assigned value is garbage or undefined\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.11886906623840332,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.10099935531616211,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08077692985534668,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10323548316955566,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c:30:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   30 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c:82:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17_bad'\n   82 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c:23:5: note: Loop condition is true.  Entering loop body\n   23 |     for(j = 0; j < 1; j++)\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c:30:13: note: Assigned value is garbage or undefined\n   30 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10582542419433594,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.10771632194519043,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10452532768249512,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.13139748573303223,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c:29:9: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   29 |         int toPrint = (int) (*(charPointer+2));\n      |         ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c:78:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18_bad'\n   78 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c:22:5: note: Control jumps to line 25\n   22 |     goto sink;\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c:29:9: note: Assigned value is garbage or undefined\n   29 |         int toPrint = (int) (*(charPointer+2));\n      |         ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1095130443572998,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.1090993881225586,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1188509464263916,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.10843229293823242,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09155535697937012,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.09572291374206543,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1242365837097168,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c:42:9: warning: comparison of identical expressions always evaluates to false [alpha.core.IdenticalExpr]\n   42 |     if(5!=5)\n      |         ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c:42:9: note: comparison of identical expressions always evaluates to false\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c:63:9: warning: comparison of identical expressions always evaluates to true [alpha.core.IdenticalExpr]\n   63 |     if(5==5)\n      |         ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c:63:9: note: comparison of identical expressions always evaluates to true\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.10814452171325684,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c:22:9: warning: comparison of identical expressions always evaluates to true [alpha.core.IdenticalExpr]\n   22 |     if(5==5)\n      |         ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c:22:9: note: comparison of identical expressions always evaluates to true\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.12940144538879395,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.1112220287322998,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10793495178222656,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10517001152038574,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c:29:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c:102:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10_bad'\n  102 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c:22:8: note: Assuming 'globalTrue' is not equal to 0\n   22 |     if(globalTrue)\n      |        ^~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c:22:5: note: Taking true branch\n   22 |     if(globalTrue)\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c:29:13: note: Assigned value is garbage or undefined\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1039581298828125,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.11224031448364258,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c:27:9: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   27 |         int toPrint = (int) (*(charPointer+2));\n      |         ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c:73:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01_bad'\n   73 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c:27:9: note: Assigned value is garbage or undefined\n   27 |         int toPrint = (int) (*(charPointer+2));\n      |         ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.11924886703491211,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.12955760955810547,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10805392265319824,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.10692572593688965,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.07607197761535645,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10874676704406738,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c:29:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c:102:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11_bad'\n  102 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c:22:8: note: Assuming the condition is true\n   22 |     if(globalReturnsTrue())\n      |        ^~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c:22:5: note: Taking true branch\n   22 |     if(globalReturnsTrue())\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c:29:13: note: Assigned value is garbage or undefined\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09774017333984375,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10688138008117676,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c:29:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c:102:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12_bad'\n  102 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c:22:8: note: Assuming the condition is true\n   22 |     if(globalReturnsTrueOrFalse())\n      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c:22:5: note: Taking true branch\n   22 |     if(globalReturnsTrueOrFalse())\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c:29:13: note: Assigned value is garbage or undefined\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10363960266113281,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10445141792297363,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c:34:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   34 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c:107:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07_bad'\n  107 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c:27:8: note: 'staticFive' is equal to 5\n   27 |     if(staticFive==5)\n      |        ^~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c:27:5: note: Taking true branch\n   27 |     if(staticFive==5)\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c:34:13: note: Assigned value is garbage or undefined\n   34 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.11940431594848633,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:42:9: warning: comparison of identical expressions always evaluates to false [alpha.core.IdenticalExpr]\n   42 |     if(5!=5)\n      |         ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:42:9: note: comparison of identical expressions always evaluates to false\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:63:9: warning: comparison of identical expressions always evaluates to true [alpha.core.IdenticalExpr]\n   63 |     if(5==5)\n      |         ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:63:9: note: comparison of identical expressions always evaluates to true\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.11353278160095215,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:22:9: warning: comparison of identical expressions always evaluates to true [alpha.core.IdenticalExpr]\n   22 |     if(5==5)\n      |         ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:22:9: note: comparison of identical expressions always evaluates to true\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:29:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:102:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03_bad'\n  102 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:22:8: note: 5 is equal to 5\n   22 |     if(5==5)\n      |        ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:22:5: note: Taking true branch\n   22 |     if(5==5)\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:29:13: note: Assigned value is garbage or undefined\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09159064292907715,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.09522676467895508,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10664820671081543,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.08621716499328613,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09330320358276367,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.12048506736755371,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10498809814453125,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.0861809253692627,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c:29:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c:102:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14_bad'\n  102 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c:22:8: note: Assuming 'globalFive' is equal to 5\n   22 |     if(globalFive==5)\n      |        ^~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c:22:5: note: Taking true branch\n   22 |     if(globalFive==5)\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c:29:13: note: Assigned value is garbage or undefined\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08687329292297363,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.10390663146972656,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1086111068725586,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.11977100372314453,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.12346482276916504,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.08609795570373535,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.07706546783447266,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10101628303527832,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c:35:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   35 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c:108:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05_bad'\n  108 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c:28:8: note: 'staticTrue' is 1\n   28 |     if(staticTrue)\n      |        ^~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c:28:5: note: Taking true branch\n   28 |     if(staticTrue)\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c:35:13: note: Assigned value is garbage or undefined\n   35 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09543848037719727,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 0.10315322875976562,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09400534629821777,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10924482345581055,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c:34:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   34 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c:107:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06_bad'\n  107 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c:27:8: note: 'STATIC_CONST_FIVE' is equal to 5\n   27 |     if(STATIC_CONST_FIVE==5)\n      |        ^~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c:27:5: note: Taking true branch\n   27 |     if(STATIC_CONST_FIVE==5)\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c:34:13: note: Assigned value is garbage or undefined\n   34 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10155105590820312,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.08547067642211914,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c:29:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c:102:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09_bad'\n  102 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c:22:8: note: Assuming 'GLOBAL_CONST_TRUE' is not equal to 0\n   22 |     if(GLOBAL_CONST_TRUE)\n      |        ^~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c:22:5: note: Taking true branch\n   22 |     if(GLOBAL_CONST_TRUE)\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c:29:13: note: Assigned value is garbage or undefined\n   29 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09779000282287598,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.12200689315795898,
+            "output": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c:35:13: warning: Assigned value is garbage or undefined [core.uninitialized.Assign]\n   35 |             int toPrint = (int) (*(charPointer+2));\n      |             ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c:108:5: note: Calling 'CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04_bad'\n  108 |     CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04_bad();\n      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c:28:8: note: 'STATIC_CONST_TRUE' is 1\n   28 |     if(STATIC_CONST_TRUE)\n      |        ^~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c:28:5: note: Taking true branch\n   28 |     if(STATIC_CONST_TRUE)\n      |     ^\ntests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c:35:13: note: Assigned value is garbage or undefined\n   35 |             int toPrint = (int) (*(charPointer+2));\n      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~\n1 warning generated."
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 18,
+        "all_positive_tests": 36,
+        "count_negative_tests": 36,
+        "all_negative_tests": 36
+    }
+}

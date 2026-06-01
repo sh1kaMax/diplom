@@ -1,0 +1,131 @@
+{
+    "analyzer": "frama-c",
+    "tests_result": {
+        "Buffer Overflow (CWE 120)": {
+            "correct_positive_tests": 815,
+            "all_positive_tests": 1274,
+            "count_negative_tests": 1170,
+            "all_negative_tests": 1342
+        },
+        "Tainted (CWE 1284)": {
+            "correct_positive_tests": 485,
+            "all_positive_tests": 700,
+            "count_negative_tests": 368,
+            "all_negative_tests": 495
+        },
+        "Integer Overflow (CWE 190)": {
+            "correct_positive_tests": 535,
+            "all_positive_tests": 650,
+            "count_negative_tests": 486,
+            "all_negative_tests": 585
+        },
+        "NULL Dereference (CWE 476)": {
+            "correct_positive_tests": 402,
+            "all_positive_tests": 494,
+            "count_negative_tests": 547,
+            "all_negative_tests": 630
+        },
+        "Divide by Zero (CWE 369)": {
+            "correct_positive_tests": 756,
+            "all_positive_tests": 817,
+            "count_negative_tests": 1090,
+            "all_negative_tests": 1249
+        },
+        "Invalid Free or Memory Management (CWE 763)": {
+            "correct_positive_tests": 350,
+            "all_positive_tests": 490,
+            "count_negative_tests": 303,
+            "all_negative_tests": 437
+        },
+        "Format String Vulnerability (CWE 134)": {
+            "correct_positive_tests": 29,
+            "all_positive_tests": 50,
+            "count_negative_tests": 17,
+            "all_negative_tests": 45
+        },
+        "Uninitialized Memory Use (CWE 908)": {
+            "correct_positive_tests": 369,
+            "all_positive_tests": 372,
+            "count_negative_tests": 676,
+            "all_negative_tests": 708
+        },
+        "Missing Release of Resource (CWE 772)": {
+            "correct_positive_tests": 4,
+            "all_positive_tests": 448,
+            "count_negative_tests": 702,
+            "all_negative_tests": 712
+        },
+        "Stack Based Buffer OverflowMissing (CWE 121)": {
+            "correct_positive_tests": 1057,
+            "all_positive_tests": 5906,
+            "count_negative_tests": 5218,
+            "all_negative_tests": 5906
+        },
+        "Heap Based Buffer Overflow (CWE 122)": {
+            "correct_positive_tests": 430,
+            "all_positive_tests": 3656,
+            "count_negative_tests": 3536,
+            "all_negative_tests": 3656
+        },
+        "Double Free (CWE 415)": {
+            "correct_positive_tests": 140,
+            "all_positive_tests": 336,
+            "count_negative_tests": 286,
+            "all_negative_tests": 336
+        },
+        "Use After Free (CWE 416)": {
+            "correct_positive_tests": 30,
+            "all_positive_tests": 150,
+            "count_negative_tests": 118,
+            "all_negative_tests": 150
+        },
+        "OS Command Injection (CWE 78)": {
+            "correct_positive_tests": 556,
+            "all_positive_tests": 5600,
+            "count_negative_tests": 5044,
+            "all_negative_tests": 5600
+        },
+        "Buffer Underwrite (CWE 124)": {
+            "correct_positive_tests": 223,
+            "all_positive_tests": 1840,
+            "count_negative_tests": 1830,
+            "all_negative_tests": 1896
+        },
+        "Buffer Over-read (CWE 126)": {
+            "correct_positive_tests": 251,
+            "all_positive_tests": 1380,
+            "count_negative_tests": 1368,
+            "all_negative_tests": 1380
+        },
+        "Buffer Under-read (CWE 127)": {
+            "correct_positive_tests": 225,
+            "all_positive_tests": 1840,
+            "count_negative_tests": 1854,
+            "all_negative_tests": 1896
+        },
+        "Incorrect Pointer Scaling (CWE 468)": {
+            "correct_positive_tests": 0,
+            "all_positive_tests": 36,
+            "count_negative_tests": 36,
+            "all_negative_tests": 36
+        },
+        "Return Of Stack Variable Address (CWE 562)": {
+            "correct_positive_tests": 1,
+            "all_positive_tests": 2,
+            "count_negative_tests": 2,
+            "all_negative_tests": 2
+        },
+        "Use of sizeof on Pointer Type (CWE 467)": {
+            "correct_positive_tests": 0,
+            "all_positive_tests": 54,
+            "count_negative_tests": 54,
+            "all_negative_tests": 54
+        },
+        "Free Memory Not on Heap (CWE 590)": {
+            "correct_positive_tests": 123,
+            "all_positive_tests": 900,
+            "count_negative_tests": 852,
+            "all_negative_tests": 900
+        }
+    }
+}

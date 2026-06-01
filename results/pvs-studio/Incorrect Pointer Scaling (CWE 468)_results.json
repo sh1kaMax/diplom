@@ -1,0 +1,514 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.366448163986206,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.356677532196045,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3574457168579102,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.366225004196167,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c\t29\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3572511672973633,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3585560321807861,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3612277507781982,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3590235710144043,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3620247840881348,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3545563220977783,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3563518524169922,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c\t44\tnote\tV1008 Consider inspecting the 'for' operator. No more than one iteration of the loop will be performed.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3575878143310547,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c\t30\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c\t23\tnote\tV1008 Consider inspecting the 'for' operator. No more than one iteration of the loop will be performed.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 3\nFiltered messages: 2\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3566019535064697,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3552920818328857,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3586552143096924,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3647196292877197,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c\t29\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3637514114379883,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c\t44\tnote\tV1008 Consider inspecting the 'for' operator. No more than one iteration of the loop will be performed.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3576898574829102,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c\t23\tnote\tV1008 Consider inspecting the 'for' operator. No more than one iteration of the loop will be performed.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.358814001083374,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3622159957885742,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c\t35\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3609426021575928,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.35577392578125,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3537085056304932,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3576152324676514,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c\t27\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3563706874847412,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.352773904800415,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c\t35\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3583705425262451,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3579602241516113,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c\t42\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.355121374130249,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.35888671875,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c\t29\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3566935062408447,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3559527397155762,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c\t30\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3590126037597656,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3602073192596436,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.354445219039917,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3605906963348389,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3616108894348145,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3597841262817383,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c\t29\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.359764814376831,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3563473224639893,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c\t29\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3674750328063965,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3559939861297607,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3660213947296143,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c\t65\terr\tV523 The 'then' statement is equivalent to the 'else' statement.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3582444190979004,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3609657287597656,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3682913780212402,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3641571998596191,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.355008840560913,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3591978549957275,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3650932312011719,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c\t29\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3580799102783203,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3613698482513428,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c\t29\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3531901836395264,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c\t65\terr\tV523 The 'then' statement is equivalent to the 'else' statement.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.355825662612915,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c\t29\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.356619119644165,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3529410362243652,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3548429012298584,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3586170673370361,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c\t29\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3580167293548584,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3693253993988037,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c\t34\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.357875108718872,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3567163944244385,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c\t29\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3565425872802734,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3551762104034424,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3550093173980713,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 1.3576958179473877,
+            "output": "pvs-studio.com/en/docs/warnings/\t1\terr\tHelp: The documentation for all analyzer warnings is available here: https://pvs-studio.com/en/docs/warnings/.\n/home/shika/diplom/tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c\t34\terr\tV620 It's unusual that the expression of sizeof(T)*N kind is being summed with the pointer to T type.\n\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 2\nFiltered messages: 1\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.4589557647705078,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3724770545959473,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3617663383483887,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.359663963317871,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 1.3557655811309814,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        },
+        {
+            "file": "tests/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c",
+            "test_completed_right": false,
+            "is_positive_test": true,
+            "runtime_sec": 1.3623745441436768,
+            "output": "\nCONVERTER OUTPUT: Analyzer log conversion tool.\nCopyright (c) 2026 PVS-Studio LLC\n\nPVS-Studio is a static code analyzer and SAST (static application security\ntesting) tool that is available for C and C++ desktop and embedded development,\nC# and Java under Windows, Linux and macOS.\n\nTotal messages: 1\nFiltered messages: 0\n"
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 18,
+        "all_positive_tests": 36,
+        "count_negative_tests": 36,
+        "all_negative_tests": 36
+    }
+}

@@ -1,0 +1,766 @@
+{
+    "results": [
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.04569721221923828,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.06418800354003906,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c:27:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c:27:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09986305236816406,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:43:9: warning: comparison of identical expressions always evaluates to false [alpha.core.IdenticalExpr]\n   43 |     if(5!=5)\n      |         ^\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:43:9: note: comparison of identical expressions always evaluates to false\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:65:9: warning: comparison of identical expressions always evaluates to true [alpha.core.IdenticalExpr]\n   65 |     if(5==5)\n      |         ^\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:65:9: note: comparison of identical expressions always evaluates to true\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.1484990119934082,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:22:9: warning: comparison of identical expressions always evaluates to true [alpha.core.IdenticalExpr]\n   22 |     if(5==5)\n      |         ^\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:22:9: note: comparison of identical expressions always evaluates to true\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:27:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:27:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n3 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10596489906311035,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.11308050155639648,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c:32:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   32 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c:32:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   32 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c:32:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   32 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c:32:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   32 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.13097381591796875,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10807657241821289,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c:28:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   28 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c:28:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   28 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c:28:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   28 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c:28:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   28 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10354399681091309,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.09440732002258301,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c:40:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   40 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c:40:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   40 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c:40:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   40 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c:40:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   40 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09039545059204102,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.08488965034484863,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c:27:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c:27:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10494041442871094,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.08508014678955078,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c:27:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c:27:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.11902499198913574,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.0836954116821289,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c:28:29: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   28 |         badShort = (short *)malloc(sizeof(badShort));\n      |                     ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c:28:29: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   28 |         badShort = (short *)malloc(sizeof(badShort));\n      |                     ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c:28:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   28 |         badShort = (short *)malloc(sizeof(badShort));\n      |                                    ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c:28:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   28 |         badShort = (short *)malloc(sizeof(badShort));\n      |                                    ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09848976135253906,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.08597826957702637,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c:27:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c:27:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1117410659790039,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.1075887680053711,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c:33:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   33 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c:33:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   33 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c:33:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   33 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c:33:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   33 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.12031435966491699,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.11550641059875488,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c:27:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c:27:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.11843132972717285,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10574221611022949,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c:33:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   33 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c:33:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   33 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c:33:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   33 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c:33:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   33 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09973788261413574,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.08804726600646973,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c:27:27: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   27 |         badChar = (char *)malloc(sizeof(badChar));\n      |                    ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c:27:27: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   27 |         badChar = (char *)malloc(sizeof(badChar));\n      |                    ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c:27:34: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |         badChar = (char *)malloc(sizeof(badChar));\n      |                                  ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c:27:34: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |         badChar = (char *)malloc(sizeof(badChar));\n      |                                  ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.12362289428710938,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.11426448822021484,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c:27:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c:27:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10741710662841797,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10522675514221191,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c:27:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c:27:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10632514953613281,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.09895586967468262,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c:33:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   33 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c:33:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   33 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c:33:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   33 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c:33:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   33 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10284781455993652,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10101151466369629,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c:32:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   32 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c:32:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   32 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c:32:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   32 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c:32:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   32 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08533287048339844,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10627460479736328,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c:33:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   33 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c:33:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   33 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c:33:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   33 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c:33:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   33 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.11210012435913086,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10155749320983887,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c:27:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c:27:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08466506004333496,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.08699941635131836,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c:32:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   32 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c:32:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   32 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c:32:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   32 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c:32:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   32 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08866286277770996,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.09549331665039062,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c:40:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   40 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c:40:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   40 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c:40:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   40 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c:40:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   40 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.0725851058959961,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10930132865905762,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c:25:25: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   25 |         badInt = (int *)malloc(sizeof(badInt));\n      |                   ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c:25:25: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   25 |         badInt = (int *)malloc(sizeof(badInt));\n      |                   ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c:25:32: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   25 |         badInt = (int *)malloc(sizeof(badInt));\n      |                                ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c:25:32: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   25 |         badInt = (int *)malloc(sizeof(badInt));\n      |                                ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10581254959106445,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.09988117218017578,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c:27:25: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   27 |         badInt = (int *)malloc(sizeof(badInt));\n      |                   ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c:27:25: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   27 |         badInt = (int *)malloc(sizeof(badInt));\n      |                   ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c:27:32: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |         badInt = (int *)malloc(sizeof(badInt));\n      |                                ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c:27:32: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |         badInt = (int *)malloc(sizeof(badInt));\n      |                                ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1049356460571289,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.09231162071228027,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c:25:29: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   25 |         badShort = (short *)malloc(sizeof(badShort));\n      |                     ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c:25:29: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   25 |         badShort = (short *)malloc(sizeof(badShort));\n      |                     ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c:25:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   25 |         badShort = (short *)malloc(sizeof(badShort));\n      |                                    ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c:25:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   25 |         badShort = (short *)malloc(sizeof(badShort));\n      |                                    ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1107630729675293,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.09450674057006836,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c:27:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c:27:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10447120666503906,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.07292723655700684,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c:28:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   28 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c:28:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   28 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c:28:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   28 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c:28:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   28 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10795211791992188,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.0904078483581543,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c:28:27: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   28 |         badChar = (char *)malloc(sizeof(badChar));\n      |                    ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c:28:27: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   28 |         badChar = (char *)malloc(sizeof(badChar));\n      |                    ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c:28:34: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   28 |         badChar = (char *)malloc(sizeof(badChar));\n      |                                  ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c:28:34: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   28 |         badChar = (char *)malloc(sizeof(badChar));\n      |                                  ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1015634536743164,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10709047317504883,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c:27:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c:27:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10124325752258301,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.12371158599853516,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c:27:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c:27:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08506178855895996,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.11058998107910156,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c:28:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   28 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c:28:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   28 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c:28:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   28 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c:28:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   28 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.11841940879821777,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.11138534545898438,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c:27:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c:27:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.1280956268310547,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10341000556945801,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c:27:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c:27:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.13402032852172852,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.1326305866241455,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c:27:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c:27:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10328102111816406,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.09965944290161133,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c:33:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   33 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c:33:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   33 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c:33:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   33 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c:33:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   33 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.11026167869567871,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:43:9: warning: comparison of identical expressions always evaluates to false [alpha.core.IdenticalExpr]\n   43 |     if(5!=5)\n      |         ^\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:43:9: note: comparison of identical expressions always evaluates to false\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:65:9: warning: comparison of identical expressions always evaluates to true [alpha.core.IdenticalExpr]\n   65 |     if(5==5)\n      |         ^\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:65:9: note: comparison of identical expressions always evaluates to true\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.08710050582885742,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:22:9: warning: comparison of identical expressions always evaluates to true [alpha.core.IdenticalExpr]\n   22 |     if(5==5)\n      |         ^\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:22:9: note: comparison of identical expressions always evaluates to true\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:27:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:27:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n3 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.0919804573059082,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.08140134811401367,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c:32:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   32 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c:32:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   32 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c:32:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   32 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c:32:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   32 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10391926765441895,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.14986467361450195,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c:27:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c:27:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.15027213096618652,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.07649540901184082,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c:32:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   32 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c:32:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   32 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c:32:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   32 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c:32:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   32 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.11686062812805176,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.11106753349304199,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c:27:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c:27:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10570168495178223,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10673975944519043,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   27 |         badShort = (short *)malloc(sizeof(badShort));\n      |                     ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   27 |         badShort = (short *)malloc(sizeof(badShort));\n      |                     ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c:27:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |         badShort = (short *)malloc(sizeof(badShort));\n      |                                    ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c:27:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |         badShort = (short *)malloc(sizeof(badShort));\n      |                                    ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09310603141784668,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.11348843574523926,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c:27:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c:27:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10700726509094238,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.08691811561584473,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c:25:27: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   25 |         badChar = (char *)malloc(sizeof(badChar));\n      |                    ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c:25:27: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   25 |         badChar = (char *)malloc(sizeof(badChar));\n      |                    ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c:25:34: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   25 |         badChar = (char *)malloc(sizeof(badChar));\n      |                                  ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c:25:34: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   25 |         badChar = (char *)malloc(sizeof(badChar));\n      |                                  ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09194493293762207,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10166668891906738,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c:27:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c:27:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.07805824279785156,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:43:9: warning: comparison of identical expressions always evaluates to false [alpha.core.IdenticalExpr]\n   43 |     if(5!=5)\n      |         ^\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:43:9: note: comparison of identical expressions always evaluates to false\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:65:9: warning: comparison of identical expressions always evaluates to true [alpha.core.IdenticalExpr]\n   65 |     if(5==5)\n      |         ^\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:65:9: note: comparison of identical expressions always evaluates to true\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.08413553237915039,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:22:9: warning: comparison of identical expressions always evaluates to true [alpha.core.IdenticalExpr]\n   22 |     if(5==5)\n      |         ^\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:22:9: note: comparison of identical expressions always evaluates to true\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:27:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:27:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n3 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08520627021789551,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.1018366813659668,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c:40:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   40 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c:40:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   40 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c:40:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   40 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c:40:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   40 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10563969612121582,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.09532952308654785,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c:27:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c:27:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09106802940368652,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.14890050888061523,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c:27:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c:27:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.12148165702819824,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.07837748527526855,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c:27:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c:27:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08449411392211914,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10916876792907715,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c:33:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   33 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c:33:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   33 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c:33:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   33 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c:33:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   33 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.10692620277404785,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.0888829231262207,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c:28:25: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   28 |         badInt = (int *)malloc(sizeof(badInt));\n      |                   ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c:28:25: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   28 |         badInt = (int *)malloc(sizeof(badInt));\n      |                   ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c:28:32: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   28 |         badInt = (int *)malloc(sizeof(badInt));\n      |                                ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c:28:32: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   28 |         badInt = (int *)malloc(sizeof(badInt));\n      |                                ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09666085243225098,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.08692574501037598,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [unix.MallocSizeof]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c:27:38: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c:27:38: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badChar = (char *)malloc(sizeof(badChar));\n      |                                      ^     ~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.08902573585510254,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.10242581367492676,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c:32:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [unix.MallocSizeof]\n   32 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c:32:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'\n   32 |             badShort = (short *)malloc(sizeof(badShort));\n      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c:32:40: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   32 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c:32:40: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   32 |             badShort = (short *)malloc(sizeof(badShort));\n      |                                        ^     ~~~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.09809446334838867,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.11947941780090332,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c:27:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c:27:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": false,
+            "runtime_sec": 0.11440348625183105,
+            "output": ""
+        },
+        {
+            "file": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c",
+            "test_completed_right": true,
+            "is_positive_test": true,
+            "runtime_sec": 0.0925452709197998,
+            "output": "tests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [unix.MallocSizeof]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c:27:36: warning: The code calls sizeof() on a pointer type. This can produce an unexpected result [alpha.core.SizeofPtr]\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\ntests/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c:27:36: note: The code calls sizeof() on a pointer type. This can produce an unexpected result\n   27 |             badInt = (int *)malloc(sizeof(badInt));\n      |                                    ^     ~~~~~~~~\n2 warnings generated."
+        }
+    ],
+    "summary": {
+        "correct_positive_tests": 54,
+        "all_positive_tests": 54,
+        "count_negative_tests": 54,
+        "all_negative_tests": 54
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "analyzer": "splint",
+    "tests_result": {
+        "Buffer Overflow (CWE 120)": {
+            "correct_positive_tests": 506,
+            "all_positive_tests": 1274,
+            "count_negative_tests": 825,
+            "all_negative_tests": 1342
+        },
+        "Tainted (CWE 1284)": {
+            "correct_positive_tests": 0,
+            "all_positive_tests": 700,
+            "count_negative_tests": 495,
+            "all_negative_tests": 495
+        },
+        "Integer Overflow (CWE 190)": {
+            "correct_positive_tests": 0,
+            "all_positive_tests": 650,
+            "count_negative_tests": 585,
+            "all_negative_tests": 585
+        },
+        "NULL Dereference (CWE 476)": {
+            "correct_positive_tests": 468,
+            "all_positive_tests": 494,
+            "count_negative_tests": 58,
+            "all_negative_tests": 630
+        },
+        "Divide by Zero (CWE 369)": {
+            "correct_positive_tests": 0,
+            "all_positive_tests": 817,
+            "count_negative_tests": 1249,
+            "all_negative_tests": 1249
+        },
+        "Invalid Free or Memory Management (CWE 763)": {
+            "correct_positive_tests": 382,
+            "all_positive_tests": 490,
+            "count_negative_tests": 94,
+            "all_negative_tests": 437
+        },
+        "Format String Vulnerability (CWE 134)": {
+            "correct_positive_tests": 44,
+            "all_positive_tests": 50,
+            "count_negative_tests": 1,
+            "all_negative_tests": 45
+        },
+        "Uninitialized Memory Use (CWE 908)": {
+            "correct_positive_tests": 334,
+            "all_positive_tests": 372,
+            "count_negative_tests": 373,
+            "all_negative_tests": 708
+        },
+        "Missing Release of Resource (CWE 772)": {
+            "correct_positive_tests": 171,
+            "all_positive_tests": 448,
+            "count_negative_tests": 546,
+            "all_negative_tests": 712
+        },
+        "Stack Based Buffer OverflowMissing (CWE 121)": {
+            "correct_positive_tests": 4069,
+            "all_positive_tests": 5906,
+            "count_negative_tests": 1845,
+            "all_negative_tests": 5906
+        },
+        "Heap Based Buffer Overflow (CWE 122)": {
+            "correct_positive_tests": 2039,
+            "all_positive_tests": 3656,
+            "count_negative_tests": 1664,
+            "all_negative_tests": 3656
+        },
+        "Double Free (CWE 415)": {
+            "correct_positive_tests": 229,
+            "all_positive_tests": 336,
+            "count_negative_tests": 194,
+            "all_negative_tests": 336
+        },
+        "Use After Free (CWE 416)": {
+            "correct_positive_tests": 18,
+            "all_positive_tests": 150,
+            "count_negative_tests": 132,
+            "all_negative_tests": 150
+        },
+        "OS Command Injection (CWE 78)": {
+            "correct_positive_tests": 1927,
+            "all_positive_tests": 5600,
+            "count_negative_tests": 5040,
+            "all_negative_tests": 5600
+        },
+        "Buffer Underwrite (CWE 124)": {
+            "correct_positive_tests": 1119,
+            "all_positive_tests": 1840,
+            "count_negative_tests": 793,
+            "all_negative_tests": 1896
+        },
+        "Buffer Over-read (CWE 126)": {
+            "correct_positive_tests": 844,
+            "all_positive_tests": 1380,
+            "count_negative_tests": 536,
+            "all_negative_tests": 1380
+        },
+        "Buffer Under-read (CWE 127)": {
+            "correct_positive_tests": 935,
+            "all_positive_tests": 1840,
+            "count_negative_tests": 959,
+            "all_negative_tests": 1896
+        },
+        "Incorrect Pointer Scaling (CWE 468)": {
+            "correct_positive_tests": 0,
+            "all_positive_tests": 36,
+            "count_negative_tests": 36,
+            "all_negative_tests": 36
+        },
+        "Return Of Stack Variable Address (CWE 562)": {
+            "correct_positive_tests": 1,
+            "all_positive_tests": 2,
+            "count_negative_tests": 2,
+            "all_negative_tests": 2
+        },
+        "Use of sizeof on Pointer Type (CWE 467)": {
+            "correct_positive_tests": 0,
+            "all_positive_tests": 54,
+            "count_negative_tests": 54,
+            "all_negative_tests": 54
+        },
+        "Free Memory Not on Heap (CWE 590)": {
+            "correct_positive_tests": 0,
+            "all_positive_tests": 900,
+            "count_negative_tests": 900,
+            "all_negative_tests": 900
+        }
+    }
+}
